@@ -1,0 +1,224 @@
+[
+  {
+    "id": "acc_badami_caves",
+    "destination_id": "dest_badami",
+    "name": "Badami Cave Temples Accessibility Profile",
+    "category": "Heritage / Rock-cut Caves",
+    "location": "Badami Cave Complex, Badami, Bagalkote District",
+    "wheelchair_accessible": false,
+    "elderly_friendly": "Difficult",
+    "walking_requirements": "High (Steep ascents across multiple tiers)",
+    "stairs_details": {
+      "has_stairs": true,
+      "total_steps_estimate": 250,
+      "step_character": "Uneven red sandstone carved steps with varying rise and run; metal handrails installed along primary flight between Cave 1 and Cave 2; steep open flights to Cave 3 and Cave 4",
+      "handrails": "Present along primary staircase flights, absent in some rock-cut landing zones"
+    },
+    "terrain": "Solid sandstone rock slope, stone stairs, uneven stone landings",
+    "accessible_entrances": "Level entrance plaza up to the ASI ticket gate and garden; caves themselves are accessible only via stairs",
+    "rest_areas": "Stone and wooden benches installed in the landscaped garden near the entrance; shaded rock niches at cave verandas",
+    "toilets": {
+      "available": true,
+      "accessible": "Semi-accessible toilet block at entrance plaza; no toilets on upper cave tiers",
+      "distance_from_monument": "Approx. 100m from Cave 1 base"
+    },
+    "parking": {
+      "available": true,
+      "type": "Designated vehicle parking outside outer security perimeter",
+      "distance_to_entrance": "Approx. 150m walk on flat paved street"
+    },
+    "transport": "Auto-rickshaws, taxis, and town buses reach within 150m of entrance",
+    "medical_facilities": "First-aid kit available at ASI ticket counter; Taluk General Hospital Badami is 2 km away",
+    "accessibility_facilities": "Tactile pathways: Not available; Wheelchair loan: Available for garden area only; Braille signage: Partial ASI Braille inscription plaque at entrance",
+    "accessibility_status": "SOURCE_VERIFIED",
+    "source": "Archaeological Survey of India & Field Assessment Guidelines",
+    "source_url": "https://karnatakatourism.org/tour-item/badami/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "acc_pattadakal_complex",
+    "destination_id": "dest_pattadakal",
+    "name": "Pattadakal UNESCO Monument Complex Accessibility Profile",
+    "category": "UNESCO World Heritage Site",
+    "location": "Pattadakal, Badami Taluk, Bagalkote District",
+    "wheelchair_accessible": true,
+    "elderly_friendly": "Good",
+    "walking_requirements": "Moderate (Flat stroll across landscaped grounds)",
+    "stairs_details": {
+      "has_stairs": true,
+      "total_steps_estimate": 30,
+      "step_character": "Low stone plinth steps (2 to 5 steps) to enter temple mandapas; ground pathways around monuments are level",
+      "handrails": "Installed at select temple entrances"
+    },
+    "terrain": "Smooth stone-paved walkways, manicured flat lawns, low stone thresholds",
+    "accessible_entrances": "Dedicated ramp provided at the main ASI entrance gate and ticket office",
+    "rest_areas": "Numerous park benches placed under mature shade trees across the lawns",
+    "toilets": {
+      "available": true,
+      "accessible": "Dedicated wheelchair-accessible toilet cubicle in the modern ASI sanitation block",
+      "distance_from_monument": "Adjacent to entrance ticket counter"
+    },
+    "parking": {
+      "available": true,
+      "type": "Spacious paved parking ground with dedicated accessible parking spots close to ticket gate",
+      "distance_to_entrance": "50 meters"
+    },
+    "transport": "Tour buses and private vehicles can drop passengers directly at the ticketing plaza",
+    "medical_facilities": "First-aid station at ASI administrative office; Badami General Hospital 22 km away",
+    "accessibility_facilities": "Wheelchair available on request at ticket counter; smooth paved perimeter pathway connects all 10 major temples",
+    "accessibility_status": "SOURCE_VERIFIED",
+    "source": "UNESCO World Heritage Centre & Archaeological Survey of India",
+    "source_url": "https://whc.unesco.org/en/list/383",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "acc_aihole_durga",
+    "destination_id": "dest_aihole",
+    "name": "Aihole Durga Temple & Museum Complex Accessibility Profile",
+    "category": "Heritage / Monument Complex",
+    "location": "Aihole, Hunagund Taluk, Bagalkote District",
+    "wheelchair_accessible": "Partial",
+    "elderly_friendly": "Moderate",
+    "walking_requirements": "Moderate (Main complex is compact; other temples in village require road walking)",
+    "stairs_details": {
+      "has_stairs": true,
+      "total_steps_estimate": 25,
+      "step_character": "Main complex grounds are flat; temple plinths have 4 to 8 stone steps",
+      "handrails": "Ramps with handrails into the ASI Archaeological Museum"
+    },
+    "terrain": "Stone-flagged pathways, packed earthen paths, grass lawns",
+    "accessible_entrances": "Main entrance gate has level flagstone access; ASI museum has ramp access",
+    "rest_areas": "Garden benches available in the Durga temple enclosure",
+    "toilets": {
+      "available": true,
+      "accessible": "Clean toilet block on campus with basic grab bars",
+      "distance_from_monument": "80 meters from Durga temple"
+    },
+    "parking": {
+      "available": true,
+      "type": "Paved parking area opposite Durga temple main gate",
+      "distance_to_entrance": "30 meters"
+    },
+    "transport": "Buses and taxis drop directly outside entrance gate",
+    "medical_facilities": "Primary Health Centre (PHC) Aihole within 1 km",
+    "accessibility_facilities": "Wheelchair available at ASI ticket desk for museum and garden pathways",
+    "accessibility_status": "SOURCE_VERIFIED",
+    "source": "Archaeological Survey of India & Karnataka Tourism",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "acc_kudala_sangama",
+    "destination_id": "dest_kudala_sangama",
+    "name": "Kudala Sangama Pilgrim Complex Accessibility Profile",
+    "category": "Spiritual Pilgrim Complex & River Front",
+    "location": "Kudala Sangama, Hunagund Taluk, Bagalkote District",
+    "wheelchair_accessible": true,
+    "elderly_friendly": "Excellent",
+    "walking_requirements": "Low to Moderate (Battery-operated buggy service available on campus)",
+    "stairs_details": {
+      "has_stairs": true,
+      "total_steps_estimate": 40,
+      "step_character": "Wide, gently sloping ramps bypass all primary staircases; subterranean passage to river Aikya Mantapa is equipped with elevator / ramp access",
+      "handrails": "Continuous stainless-steel handrails on all ramps and staircases"
+    },
+    "terrain": "Polished granite and concrete paved walkways, level riverfront promenades",
+    "accessible_entrances": "Step-free ramped entrances to Sangameshwara Temple, Auditorium, Museum, and Dasoha Bhavan",
+    "rest_areas": "Hundreds of covered resting gazebos, pergolas, and stone benches throughout the riverfront campus",
+    "toilets": {
+      "available": true,
+      "accessible": "Fully accessible modern disabled-friendly washrooms in multiple blocks",
+      "distance_from_monument": "Within 50m of all major public facilities"
+    },
+    "parking": {
+      "available": true,
+      "type": "Vast paved parking with designated disabled priority parking bays",
+      "distance_to_entrance": "Direct access to reception concourse"
+    },
+    "transport": "Campus battery vehicles ferry seniors and persons with disabilities between parking and temples",
+    "medical_facilities": "On-site 24x7 Government Primary Health Centre / Dispensary with ambulance",
+    "accessibility_facilities": "Wheelchair fleet available free of cost; braille signage in museum; audio aids available",
+    "accessibility_status": "SOURCE_VERIFIED",
+    "source": "Kudalasangama Development Board",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "acc_almatti_dam_gardens",
+    "destination_id": "dest_almatti_dam",
+    "name": "Almatti Dam Gardens Accessibility Profile",
+    "category": "Recreation & Public Gardens",
+    "location": "Almatti, Bagalkote District",
+    "wheelchair_accessible": true,
+    "elderly_friendly": "Good",
+    "walking_requirements": "Moderate (Expansive garden areas)",
+    "stairs_details": {
+      "has_stairs": true,
+      "total_steps_estimate": 50,
+      "step_character": "Garden terraces have low flights of steps complemented by wide concrete ramps",
+      "handrails": "Installed along terraced pathways and musical fountain amphitheater"
+    },
+    "terrain": "Smooth asphalt and concrete pathways suitable for prams and wheelchairs",
+    "accessible_entrances": "Wide level entrance gates with ramped turnstiles",
+    "rest_areas": "Generous garden seating, gazebos, and grassy lawns",
+    "toilets": {
+      "available": true,
+      "accessible": "Public sanitation blocks with ramp access",
+      "distance_from_monument": "Evenly distributed every 200m"
+    },
+    "parking": {
+      "available": true,
+      "type": "Expansive parking lot with designated spots for disabled vehicles",
+      "distance_to_entrance": "100 meters"
+    },
+    "transport": "Electric sightseeing golf carts available during peak tourist hours",
+    "medical_facilities": "First-aid room on site; Almatti Project Hospital within 2 km",
+    "accessibility_facilities": "Wheelchair friendly promenade overlooking dam and musical fountain",
+    "accessibility_status": "SOURCE_VERIFIED",
+    "source": "Karnataka Tourism & Dam Authority",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "acc_mahakuta_temple",
+    "destination_id": "dest_mahakuta",
+    "name": "Mahakuta Temple & Springs Accessibility Profile",
+    "category": "Religious & Spring Shrines",
+    "location": "Mahakuta, Badami Taluk, Bagalkote District",
+    "wheelchair_accessible": false,
+    "elderly_friendly": "Moderate",
+    "walking_requirements": "Low to Moderate",
+    "stairs_details": {
+      "has_stairs": true,
+      "total_steps_estimate": 15,
+      "step_character": "Uneven ancient stone thresholds and steps; wet and mossy steps surrounding the Pushkarini spring pool",
+      "handrails": "Not available around natural pool"
+    },
+    "terrain": "Ancient flagstone paving, tree root undulations, wet stone surfaces near water tank",
+    "accessible_entrances": "Stepped stone entrance",
+    "rest_areas": "Shaded stone platforms around banyan trees",
+    "toilets": {
+      "available": true,
+      "accessible": "Basic public toilets outside; NOT wheelchair accessible",
+      "distance_from_monument": "150 meters"
+    },
+    "parking": {
+      "available": true,
+      "type": "Unpaved dirt parking outside outer gateway",
+      "distance_to_entrance": "100 meters"
+    },
+    "transport": "Taxis and autos can drop at outer gateway",
+    "medical_facilities": "Badami Hospital 14 km away",
+    "accessibility_facilities": "NOT_VERIFIED for specialized disability equipment",
+    "accessibility_status": "NOT_VERIFIED",
+    "source": "Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  }
+]

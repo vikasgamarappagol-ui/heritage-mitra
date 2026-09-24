@@ -1,0 +1,1424 @@
+[
+  {
+    "id": "dest_badami",
+    "name": "Badami (Ancient Vatapi)",
+    "alternate_names": [
+      "Vatapi",
+      "Badavi",
+      "Vatapipura"
+    ],
+    "taluk": "Badami",
+    "district": "Bagalkote",
+    "category": "Heritage / Rock-cut Architecture & Lake",
+    "description": "Historic capital of the Early Chalukya dynasty from 540 to 757 CE, renowned worldwide for its four magnificent rock-cut cave temples sculpted into red sandstone cliffs overlooking the sacred Agastya Lake, as well as the north and south forts and structural temples.",
+    "historical_significance": "Established as the Chalukya royal capital by Pulakeshin I in the 6th century. Center of revolutionary architectural innovation bridging North and South Indian styles.",
+    "cultural_significance": "Hub of early classical Karnataka art, religious syncretism (Shaivism, Vaishnavism, and Jainism co-existing), and the vibrant annual Chalukya Utsava.",
+    "religious_significance": "Houses ancient sanctums of Shiva (Cave 1, Bhoothanatha), Vishnu (Caves 2 & 3), and Jain Tirthankaras (Cave 4).",
+    "natural_significance": "Set amidst dramatic red sandstone cliffs, a natural ravine, and the historical Agastya Lake basin.",
+    "architecture": "Rock-cut cave architecture, Badami Chalukyan stone carving, structural Dravidian temples.",
+    "major_attractions": [
+      "Badami Cave Temples (Caves 1-4)",
+      "Agastya Lake",
+      "Bhoothanatha Group of Temples",
+      "Badami North Fort & Upper Shivalaya",
+      "Archaeological Museum Badami",
+      "Malegitti Shivalaya"
+    ],
+    "nearby_attractions": [
+      "Banashankari (5 km)",
+      "Mahakuta (14 km)",
+      "Pattadakal (22 km)",
+      "Aihole (35 km)"
+    ],
+    "activities": [
+      "Heritage exploration",
+      "Cave photography",
+      "Lake circumambulation",
+      "Rock climbing (popular climbing destination)",
+      "Museum visit"
+    ],
+    "suggested_visit_duration": "1 to 2 Days",
+    "tourism_facilities": [
+      "KSTDC Hotel Mayura Chalukya",
+      "ASI Ticket Counter & Interpretation",
+      "Local Registered Guides",
+      "Parking"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": false,
+      "elderly_friendly": "Moderate to Difficult (Steep stone staircases between caves)",
+      "walking_requirements": "High (Steep steps, uneven rocky terrain)",
+      "accessible_entrances": "Entrance plaza is level; cave ascents require stairs",
+      "rest_areas": "Available in the garden area near the ticket counter",
+      "toilets": "ASI toilet block near entrance",
+      "parking": "Designated parking outside cave complex"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Badami Railway Station (BDM) - 5 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 105 km; Belagavi Airport (IXG) - 150 km",
+      "bus_connectivity": "KSRTC bus stand in Badami town with regular connections to Bagalkote, Hubballi, Belagavi, and Bengaluru"
+    },
+    "location": "Badami, Badami Taluk, Bagalkote District, Karnataka 587201",
+    "source": "Official Bagalkote District Portal & Department of Tourism, Government of Karnataka",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_pattadakal",
+    "name": "Pattadakal",
+    "alternate_names": [
+      "Pattadakallu",
+      "Raktapura",
+      "Pattada Kisuvolal"
+    ],
+    "taluk": "Badami",
+    "district": "Bagalkote",
+    "category": "UNESCO World Heritage Site / Temple Complex",
+    "description": "A UNESCO World Heritage Site situated on the left bank of the Malaprabha River. Served as the sacred ceremonial site for the coronation (Pattabhisheka) of Chalukyan kings. Represents the high point of an eclectic art which, in the 7th and 8th centuries, achieved a harmonious blend of architectural forms from northern (Rekha-Nagara-Prasada) and southern (Dravida-Vimana) India.",
+    "historical_significance": "Designated as a UNESCO World Heritage Site in 1987. Royal coronation capital featuring 10 major temples constructed under King Vikramaditya II and his queens Lokamahadevi and Trailokyamahadevi.",
+    "cultural_significance": "Hosts the annual national-level Pattadakallu Dance Festival organized by the Government of Karnataka against the illuminated temple backdrop.",
+    "religious_significance": "Major Shaivite temple sanctuary with monolithic lingas, Nandi mandapas, and a 9th-century Jain Narayana temple.",
+    "natural_significance": "Picturesque riverside setting along the northward-flowing (uttaravahini) Malaprabha River.",
+    "architecture": "Vesara, Dravidian, and Nagara architectural synthesis. Notable structures: Virupaksha Temple, Mallikarjuna Temple, Sangameshwara Temple, Papanatha Temple, Galaganatha Temple.",
+    "major_attractions": [
+      "Virupaksha Temple (Lokeshwara)",
+      "Mallikarjuna Temple (Trailokyeshwara)",
+      "Sangameshwara Temple (Vijayeshwara)",
+      "Galaganatha Temple (Curvilinear Nagara Shikhara)",
+      "Papanatha Temple",
+      "Jain Narayana Temple (Rashtrakuta era)"
+    ],
+    "nearby_attractions": [
+      "Aihole (13 km)",
+      "Badami (22 km)",
+      "Mahakuta (10 km)"
+    ],
+    "activities": [
+      "Architectural study",
+      "Heritage photography",
+      "Attending Pattadakallu Dance Festival",
+      "Riverside heritage walk"
+    ],
+    "suggested_visit_duration": "3 to 4 Hours",
+    "tourism_facilities": [
+      "ASI Ticket Counter & Audio Guides",
+      "Landscaped Lawns",
+      "Interpretation Center",
+      "Parking Facility",
+      "Clean Drinking Water"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good (Flat paved pathways and manicured lawns throughout the main complex; low stone thresholds at temple doorways)",
+      "walking_requirements": "Moderate (Gentle walking across open grounds)",
+      "accessible_entrances": "Ramp provided at the main ASI entrance gate",
+      "rest_areas": "Benches installed throughout the landscaped park",
+      "toilets": "Modern accessible toilet block on-site",
+      "parking": "Spacious paved parking area with bus bays"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Badami Railway Station (BDM) - 22 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 130 km",
+      "bus_connectivity": "Regular KSRTC and private buses between Badami, Pattadakal, and Aihole"
+    },
+    "location": "Pattadakal, Badami Taluk, Bagalkote District, Karnataka 587201",
+    "source": "UNESCO World Heritage Centre & Official Bagalkote District Portal",
+    "source_url": "https://whc.unesco.org/en/list/383",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_aihole",
+    "name": "Aihole",
+    "alternate_names": [
+      "Ayyavole",
+      "Aryapura"
+    ],
+    "taluk": "Hunagund",
+    "district": "Bagalkote",
+    "category": "Heritage / Cradle of Indian Temple Architecture",
+    "description": "Celebrated as the 'Cradle of Indian Rock and Temple Architecture', Aihole features over 125 stone temples and monuments dating from the 4th to 12th centuries CE. It was an experimental laboratory for ancient Indian master builders and sculptors, and the headquarters of the famous 500-member medieval merchant guild 'Ayyavole 500'.",
+    "historical_significance": "First capital of the Early Chalukyas. Home to the famous 634 CE Meguti Temple inscription composed by poet Ravikirti praising Emperor Pulakeshin II and dating Mahabharata and Kalidasa.",
+    "cultural_significance": "Guild headquarters of medieval Indian international traders (Ayyavole Ainnurvar).",
+    "religious_significance": "Encompasses Hindu (Shaiva, Vaishnava, Shakta, Surya), Jain, and Buddhist monuments.",
+    "natural_significance": "Located in the Malaprabha River valley surrounded by sandstone hills.",
+    "architecture": "Proto-Dravidian, Proto-Nagara, apsidal Gajaprashtha style, rock-cut cave temples.",
+    "major_attractions": [
+      "Durga Temple Complex (Apsidal sanctum with ambulatory peristyle)",
+      "Lad Khan Temple (Panchayatana hall-style)",
+      "Meguti Jain Temple & Ravikirti Inscription",
+      "Ravana Phadi Cave Temple (Rock-cut Shiva Nataraja)",
+      "Huchimalli Temple",
+      "Konti Gudi Group",
+      "ASI Archaeological Museum Aihole"
+    ],
+    "nearby_attractions": [
+      "Pattadakal (13 km)",
+      "Badami (35 km)",
+      "Amingad (15 km)",
+      "Ilkal (30 km)"
+    ],
+    "activities": [
+      "Temple exploration",
+      "Epigraphy & inscription study",
+      "Museum tour",
+      "Photography"
+    ],
+    "suggested_visit_duration": "Half Day to Full Day",
+    "tourism_facilities": [
+      "ASI Museum & Ticket Counter",
+      "Drinking water",
+      "Rest area",
+      "Parking"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": false,
+      "elderly_friendly": "Moderate (Main Durga complex has pathways; climbing required for Meguti Hill and Ravana Phadi)",
+      "walking_requirements": "High (Temples scattered across the village and surrounding fields)",
+      "accessible_entrances": "Main entrance accessible; individual temple plinths have steps",
+      "rest_areas": "Lawn benches around Durga temple complex",
+      "toilets": "ASI facilities inside main complex",
+      "parking": "Parking available in front of Durga complex"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Badami Railway Station (BDM) - 35 km; Bagalkote Railway Station (BGK) - 45 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 140 km",
+      "bus_connectivity": "KSRTC buses connect Aihole with Badami, Bagalkote, and Hungund"
+    },
+    "location": "Aihole, Hunagund Taluk, Bagalkote District, Karnataka 587201",
+    "source": "Official Bagalkote District Portal & Archaeological Survey of India",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_mahakuta",
+    "name": "Mahakuta",
+    "alternate_names": [
+      "Mahakoota",
+      "Makuta"
+    ],
+    "taluk": "Badami",
+    "district": "Bagalkote",
+    "category": "Religious / Heritage / Sacred Springs",
+    "description": "An ancient Shaivite pilgrimage site nestled in a tranquil valley surrounded by banyan trees and hills. Built in the 6th and 7th centuries by the Early Chalukyas, Mahakuta is renowned for its twin sacred spring-fed lotus pools (Vishnu Pushkarini and Papavinasha Tirtha) and numerous finely carved shrines.",
+    "historical_significance": "Contains important early Chalukyan stone inscriptions including the 602 CE Mahakuta Pillar inscription of King Mangalesha, recording royal grants to the Mahakuteshwara temple.",
+    "cultural_significance": "Historical center of the Lakulisha Pashupata Shaiva monastic tradition; active center of worship attracting pilgrims and bathers seeking sacred cleansing.",
+    "religious_significance": "Dedicated to Lord Shiva as Mahakuteshwara and Mallikarjuna; features a submerged five-faced Shiva linga in the Vishnu Pushkarini.",
+    "natural_significance": "Perennial freshwater natural springs flowing continuously into stone tanks, set in a lush forest grove.",
+    "architecture": "Early Chalukyan Dravida and Nagara style shrines with ornate stone jali windows.",
+    "major_attractions": [
+      "Mahakuteshwara Temple",
+      "Mallikarjuna Temple",
+      "Vishnu Pushkarini (Sacred Spring Pool)",
+      "Submerged Panchamukha Linga",
+      "Mahakuta Pillar Inscription site"
+    ],
+    "nearby_attractions": [
+      "Badami (14 km)",
+      "Banashankari (10 km)",
+      "Pattadakal (10 km)"
+    ],
+    "activities": [
+      "Temple worship",
+      "Holy bath in natural spring pool",
+      "Photography",
+      "Meditation in peaceful grove"
+    ],
+    "suggested_visit_duration": "2 Hours",
+    "tourism_facilities": [
+      "Changing rooms near pool",
+      "Local tea stalls & coconut vendors",
+      "Vehicle parking"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": false,
+      "elderly_friendly": "Moderate (Shaded courtyard with flat stone pavement, but pool has wet, slippery steps)",
+      "walking_requirements": "Low to Moderate",
+      "accessible_entrances": "Stepped stone entrance",
+      "rest_areas": "Courtyard stone platforms under banyan trees",
+      "toilets": "Basic pilgrim sanitation facilities outside temple compound",
+      "parking": "Unpaved parking area outside temple entrance"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Badami Railway Station (BDM) - 14 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 115 km",
+      "bus_connectivity": "Local auto-rickshaws and infrequent mini-buses from Badami town"
+    },
+    "location": "Mahakuta, Badami Taluk, Bagalkote District, Karnataka 587201",
+    "source": "Official Bagalkote District Portal & Archaeological Survey of India",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_banashankari",
+    "name": "Banashankari Temple (Cholachagudda)",
+    "alternate_names": [
+      "Shakambhari",
+      "Banashankari Amma",
+      "Vanadurga"
+    ],
+    "taluk": "Badami",
+    "district": "Bagalkote",
+    "category": "Religious / Cultural / Sacred Water Tank",
+    "description": "Historic temple dedicated to Goddess Banashankari (an incarnation of Parvati/Shakambhari, the 'Goddess of the Forest'), located in the ancient Tilakaaranya forest at Cholachagudda. Famous for its large square stepped tank Haridra Tirtha surrounded by stone colonnaded cloisters and a three-tiered Deepa Stambha.",
+    "historical_significance": "Original shrine founded by 7th-century Chalukya rulers; rebuilt in 18th century by Maratha chieftain Parashuram Agale. Highly revered Kuladevi of weavers and local communities.",
+    "cultural_significance": "Hosts the famous annual Banashankari Jatre (temple fair) during January-February, attracting hundreds of thousands of pilgrims, artisans, cattle traders, and folk performers.",
+    "religious_significance": "Potent Shakta pilgrimage destination where the Goddess is depicted seated on a lion trampling a demon with eight arms holding divine weapons.",
+    "natural_significance": "Surrounded by coconut and betel nut groves in the Malaprabha river valley.",
+    "architecture": "Combination of Vijayanagara and Dravidian styles, surrounded by a high stone prakara wall and water pavilion (Deepa Stambha).",
+    "major_attractions": [],
+    "nearby_attractions": [
+      "Badami (5 km)",
+      "Mahakuta (10 km)",
+      "Guledagudda (18 km)"
+    ],
+    "activities": [
+      "Temple darshan",
+      "Experiencing Banashankari Jatre (Jan-Feb)",
+      "Cultural photography",
+      "Sampling local rural sweets and snacks"
+    ],
+    "suggested_visit_duration": "1 to 2 Hours (Full day during Jatre)",
+    "tourism_facilities": [
+      "Pilgrim dining hall (Dasoha)",
+      "Shops selling puja items and rural crafts",
+      "Parking grounds"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good (Flat temple courtyard, ramps provided into main prakara; kalyani steps are steep)",
+      "walking_requirements": "Low to Moderate",
+      "accessible_entrances": "North gate ramp access",
+      "rest_areas": "Pilgrim shelters and shaded corridors",
+      "toilets": "Temple management public toilets available",
+      "parking": "Extensive parking area opposite the temple complex"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Badami Railway Station (BDM) - 5 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 105 km",
+      "bus_connectivity": "Direct KSRTC buses from Badami, Bagalkote, and Gadag stop at temple gate"
+    },
+    "location": "Cholachagudda, Badami Taluk, Bagalkote District, Karnataka 587201",
+    "source": "Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_kudala_sangama",
+    "name": "Kudala Sangama",
+    "alternate_names": [
+      "Kudalasangama",
+      "Sangama"
+    ],
+    "taluk": "Hunagund",
+    "district": "Bagalkote",
+    "category": "Spiritual / Heritage / River Confluence",
+    "description": "The pre-eminent spiritual center of the Lingayat faith, located at the sacred confluence of the Krishna and Malaprabha rivers. It is the Aikya Mantapa (resting place) of the revolutionary 12th-century social reformer, philosopher, and statesman Jagadjyothi Basaveshwara.",
+    "historical_significance": "Center where Basaveshwara meditated, founded the egalitarian Sharana movement, composed his Vachanas, and attained Aikya (merger with the divine) in 1167 CE.",
+    "cultural_significance": "Hosts the annual national Basava Jayanti celebrations and international pilgrim conferences promoting social equality, gender justice, and Vachana literature.",
+    "religious_significance": "Sacred to Veerashaiva-Lingayat followers worldwide; features the ancient 12th-century Sangameshwara Temple built in Kalyana Chalukya style.",
+    "natural_significance": "Spectacular river confluence with vast water reservoir created by the Almatti dam backwaters.",
+    "architecture": "Kalyana Chalukya stone temple architecture, modern protected cylindrical Aikya Mantapa engineering structure surrounded by water.",
+    "major_attractions": [
+      "Sangameshwara Temple (Chalukyan style)",
+      "Museum of Basava Philosophy"
+    ],
+    "nearby_attractions": [
+      "Almatti Dam (35 km)",
+      "Ilkal (45 km)",
+      "Bagalkote (50 km)"
+    ],
+    "activities": [
+      "Spiritual pilgrimage",
+      "Boat ride to Aikya Mantapa",
+      "Visiting Basava Museum",
+      "Meditation in Poojavana",
+      "Attending Vachana recitals"
+    ],
+    "suggested_visit_duration": "Half Day to Full Day",
+    "tourism_facilities": [
+      "Kudalasangama Development Board Yatri Nivas",
+      "Free Dasoha (Midday meal for all visitors)",
+      "Cloakrooms",
+      "Wheelchairs",
+      "Ample parking"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Excellent (Paved ramps, lift access to the subterranean Aikya Mantapa walkway, flat manicured grounds)",
+      "walking_requirements": "Moderate (Extensive complex with battery-operated buggies available)",
+      "accessible_entrances": "Level ramp entrances at all major halls and temple precincts",
+      "rest_areas": "Shaded resting pergolas throughout the riverfront garden",
+      "toilets": "Clean, accessible modern washrooms across the campus",
+      "parking": "Designated accessible parking close to administrative block"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Almatti Railway Station (LMT) - 35 km; Bagalkote (BGK) - 50 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 150 km; Belagavi Airport (IXG) - 170 km",
+      "bus_connectivity": "Frequent KSRTC express buses connecting from Bagalkote, Vijayapura, and Hungund"
+    },
+    "location": "Kudala Sangama, Hunagund Taluk, Bagalkote District, Karnataka 587118",
+    "source": "Kudalasangama Development Board & Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_almatti_dam",
+    "name": "Almatti Dam & Lal Bahadur Shastri Sagar",
+    "alternate_names": [
+      "Almatti Reservoir",
+      "Lal Bahadur Shastri Sagar"
+    ],
+    "taluk": "Nidagundi (Border of Bagalkote & Vijayapura)",
+    "district": "Bagalkote",
+    "category": "Ecotourism / Modern Engineering & Gardens",
+    "description": "A massive multi-purpose masonry dam constructed across the Krishna River, forming the expansive Lal Bahadur Shastri Sagar reservoir. A major ecotourism and recreational hotspot featuring beautifully manicured Mughal and Rock gardens, musical dancing fountains, boating facilities, and a bird-watching sanctuary.",
+    "historical_significance": "Key component of the Upper Krishna Project inaugurated in 2005 to irrigate northern Karnataka and generate hydroelectric power.",
+    "cultural_significance": "Major recreational weekend destination for families, senior citizens, and school nature camps in northern Karnataka.",
+    "natural_significance": "Large reservoir attracting migratory wetland birds during winter; verdant garden landscapes perched on hilltop viewpoints.",
+    "architecture": "Modern hydraulic dam engineering, formal Mughal gardens, sculpted rock garden, illuminated musical water show.",
+    "major_attractions": [],
+    "nearby_attractions": [
+      "Kudala Sangama (35 km)",
+      "Bagalkote (40 km)",
+      "Vijayapura (65 km)"
+    ],
+    "activities": [
+      "Evening musical fountain show",
+      "Boating",
+      "Landscape and sunset photography",
+      "Family picnics",
+      "Garden walks"
+    ],
+    "suggested_visit_duration": "3 to 4 Hours (Best visited late afternoon to evening)",
+    "tourism_facilities": [
+      "Karnataka Tourism KSTDC Cafeteria",
+      "Boating Jetty",
+      "Souvenir stalls",
+      "Amphitheatre",
+      "Large parking grounds"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good (Smooth paved pathways in Mughal garden, gentle slopes, battery vehicles available for elderly)",
+      "walking_requirements": "Moderate (Vast park area)",
+      "accessible_entrances": "Wide accessible entrance gates with ticketing ramp",
+      "rest_areas": "Numerous benches, gazebos, and shaded canopies",
+      "toilets": "Multiple public sanitation blocks across garden zones",
+      "parking": "Huge dedicated vehicle parking area near main entrance"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Almatti Railway Station (LMT) - 3 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 150 km; Belagavi Airport (IXG) - 180 km",
+      "bus_connectivity": "Located directly on National Highway 50 (NH-50); frequent KSRTC buses between Bagalkote, Vijayapura, and Hospete"
+    },
+    "location": "Almatti, Bagalkote District / Nidagundi Taluk, Karnataka 586201",
+    "source": "Official Bagalkote District Portal & Karnataka Tourism",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_muchakhandi_dam",
+    "name": "Muchakhandi Dam (Malaprabha Reservoir)",
+    "alternate_names": [
+      "Muchakhandi Reservoir",
+      "Malaprabha Dam",
+      "Muchakhandi Backwaters"
+    ],
+    "taluk": "Bagalkote",
+    "district": "Bagalkote",
+    "category": "Ecotourism / Modern Engineering & Gardens",
+    "description": "A picturesque dam built across the Malaprabha River near Muchakhandi village in Bagalkote district. The reservoir creates stunning backwater landscapes surrounded by hills and forests, making it a popular local ecotourism and picnic destination. The serene environs attract birdwatchers, nature photographers, and families seeking peaceful riverside escapes.",
+    "historical_significance": "Built as part of the Malaprabha irrigation scheme to provide drinking and irrigation water to Bagalkote and surrounding districts in northern Karnataka.",
+    "cultural_significance": "A beloved local picnic spot for residents of Bagalkote city, especially during monsoon and winter seasons when the reservoir is full.",
+    "natural_significance": "Lush green hillocks and thick forest cover surrounding the reservoir; habitat for waterbirds including herons, egrets, kingfishers, and migratory ducks during winter.",
+    "architecture": "Masonry dam with spillways across the Malaprabha River; wide reservoir backwaters with scenic forested banks.",
+    "major_attractions": [],
+    "nearby_attractions": [
+      "Bagalkote City (12 km)",
+      "Almatti Dam (60 km)",
+      "Pattadakal (45 km)"
+    ],
+    "activities": [
+      "Nature walks along the reservoir",
+      "Birdwatching",
+      "Sunrise and sunset photography",
+      "Family picnics",
+      "Fishing (seasonal, permitted areas)"
+    ],
+    "suggested_visit_duration": "2 to 3 Hours",
+    "tourism_facilities": [
+      "Open picnic areas",
+      "Roadside dhabas nearby",
+      "Parking space available"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": false,
+      "elderly_friendly": "Moderate (Paved road access to dam viewpoint; uneven terrain near banks)",
+      "walking_requirements": "Low to Moderate",
+      "accessible_entrances": "Road-level dam access",
+      "rest_areas": "Shaded areas near viewpoint",
+      "toilets": "Limited facilities; nearest in Bagalkote city",
+      "parking": "Informal parking near dam entrance"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Bagalkote Railway Station (BGK) - 14 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 130 km",
+      "bus_connectivity": "Auto-rickshaws and shared vehicles available from Bagalkote city; no direct KSRTC bus service to dam"
+    },
+    "location": "Muchakhandi Village, Bagalkote Taluk, Bagalkote District, Karnataka 587101",
+    "source": "Official Bagalkote District Portal & Karnataka Tourism",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-22T20:00:00+05:30"
+  },
+  {
+    "id": "dest_ilkal",
+    "name": "Ilkal",
+    "alternate_names": [
+      "Ilakal"
+    ],
+    "taluk": "Ilkal",
+    "district": "Bagalkote",
+    "category": "Craft & Handloom Tourism / Cultural Heritage",
+    "description": "Historic weaving town internationally renowned for its Geographical Indication (GI) tagged Ilkal Sarees. Famous for the unique 'Tope Teni' technique where the red silk pallu is interlocked with the cotton body using a series of loops, as well as distinctive borders (Chikki, Gomi, Paraspet).",
+    "historical_significance": "Centuries-old weaving center patronized by the Chalukyas, Rashtrakutas, and Peshwas. GI status granted under Geographical Indications of Goods Act, 1999.",
+    "cultural_significance": "Living heritage of handloom weaving community (Devanga and Nekara communities). Integral to traditional Karnataka bridal trousseau and cultural identity.",
+    "religious_significance": "Home to the revered Vijaya Mahantesh Matha and annual Mahantesha Jatre.",
+    "natural_significance": "Nestled in a rocky valley rich in natural pink granite deposits (Ilkal Granite).",
+    "architecture": "Traditional weaver colony houses (Mane-Mugga) with pit looms integrated into residential architecture.",
+    "major_attractions": [
+      "Weaver Cluster Workshops (Pit loom demonstrations)",
+      "Shri Vijaya Mahantesh Temple & Matha",
+      "Kasuti Embroidery Artisans Guilds"
+    ],
+    "nearby_attractions": [
+      "Guledagudda (25 km)",
+      "Aihole (30 km)",
+      "Kudala Sangama (45 km)"
+    ],
+    "activities": [
+      "Handloom tourism trail",
+      "Direct artisan interaction & loom observation",
+      "Textile shopping directly from weavers",
+      "Tasting local North Karnataka snacks"
+    ],
+    "suggested_visit_duration": "Half Day",
+    "tourism_facilities": [
+      "Cooperative sales emporiums",
+      "Local lodges and restaurants",
+      "ATM and banking"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": "Moderate (Commercial cooperative stores are street-level; historic weaver pit-loom lanes have narrow alleyways)",
+      "elderly_friendly": "Moderate",
+      "walking_requirements": "Moderate (Walking through traditional artisan mohallas)",
+      "accessible_entrances": "Main showroom entrances are street-accessible",
+      "rest_areas": "Limited public seating outside commercial areas",
+      "toilets": "Facilities in hotels and cooperative society offices",
+      "parking": "Town parking available near bus stand and matha"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Bagalkote Railway Station (BGK) - 60 km; Gadag (GDG) - 85 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 150 km",
+      "bus_connectivity": "Major bus junction on NH-50 with direct buses to Bengaluru, Hubballi, Vijayapura, and Hyderabad"
+    },
+    "location": "Ilkal, Ilkal Taluk, Bagalkote District, Karnataka 587125",
+    "source": "Official Bagalkote District Portal (Handloom Tourism)",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_guledagudda",
+    "name": "Guledagudda",
+    "alternate_names": [
+      "Guledgudd",
+      "Guledgudda"
+    ],
+    "taluk": "Guledagudda",
+    "district": "Bagalkote",
+    "category": "Craft & Handloom Tourism / Traditional Fabric",
+    "description": "Famed handloom cluster nestled in a hill valley, celebrated for its Geographical Indication (GI) tagged 'Guledgudd Khana' (traditional handwoven choli/blouse fabric). The fabric features distinct raised geometric motifs (such as Choukadi, Tulasi Katti, and Siddeshwara Pheta) woven using specialized dobby looms.",
+    "historical_significance": "Centuries-old textile hub renowned since the 16th century for producing pure cotton and silk blended blouse pieces specifically designed to complement Ilkal sarees.",
+    "cultural_significance": "The Khana fabric is an auspicious requirement in traditional Karnataka and Maharashtra religious offerings, weddings, and Udi-tumbu rituals.",
+    "religious_significance": "Surrounded by ancient hill shrines and temples including the Sri Jagadguru Basavarajendra Matha.",
+    "natural_significance": "Located at the foot of scenic sandstone hills ('Gudda' meaning hill).",
+    "architecture": "Historical stone buildings, traditional weaver pit-loom settlements, and hill-terrace town layout.",
+    "major_attractions": [
+      "Traditional Khana Handloom Weaving Units"
+    ],
+    "nearby_attractions": [
+      "Badami (18 km)",
+      "Banashankari (18 km)",
+      "Pattadakal (20 km)",
+      "Ilkal (25 km)"
+    ],
+    "activities": [
+      "Witnessing Khana dobby weaving",
+      "Textile heritage trails",
+      "Shopping authentic GI-tagged fabrics",
+      "Tasting traditional Shenga Holige and Kardant"
+    ],
+    "suggested_visit_duration": "2 to 3 Hours",
+    "tourism_facilities": [
+      "Cooperative society sales depot",
+      "Local tea stalls and eateries"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": false,
+      "elderly_friendly": "Moderate (Narrow historic lanes with mild inclines; cooperative depots are ground-level)",
+      "walking_requirements": "Moderate",
+      "accessible_entrances": "Ground-floor entry to cooperative sales rooms",
+      "rest_areas": "Limited public benches",
+      "toilets": "Basic town municipal facilities",
+      "parking": "Parking available in town square and near cooperative offices"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Guledagudda Road Railway Station (GED) - 8 km; Badami (BDM) - 18 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 120 km",
+      "bus_connectivity": "Frequent KSRTC buses and private vans from Badami and Bagalkote"
+    },
+    "location": "Guledagudda, Guledagudda Taluk, Bagalkote District, Karnataka 587203",
+    "source": "Official Bagalkote District Portal (Handloom Tourism)",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_mudhol",
+    "name": "Mudhol",
+    "alternate_names": [
+      "Mudholu"
+    ],
+    "taluk": "Mudhol",
+    "district": "Bagalkote",
+    "category": "Heritage / Royal History / Indigenous Canine Breed",
+    "description": "Historic princely state ruled by the Maratha Ghorpade dynasty, situated on the banks of the Ghataprabha River. World-renowned for giving its name to the indigenous 'Mudhol Hound' (Caravan Hound), an ancient sight hound bred by the royal rulers and now inducted into the Indian Army and paramilitary forces.",
+    "historical_significance": "Former 9-gun salute princely state in the Kolhapur Residency. Birthplace of the ancient 10th-century Kannada poet Ranna (Mahakavi Ranna), who composed the classic Gada Yuddha.",
+    "cultural_significance": "Center of Ranna Sahitya festivals; home to the government-run Canine Research and Information Centre (Mudhol Hound Breeding Centre).",
+    "architecture": "Mudhol Royal Palace (Old Fort), royal cenotaphs (chhatris), and riverside ghats.",
+    "major_attractions": [
+      "Canine Research and Information Centre (CRIC Mudhol Hound Centre)",
+      "Mudhol Royal Palace & Fort ruins"
+    ],
+    "nearby_attractions": [
+      "Mahalingpur (18 km)",
+      "Jamkhandi (35 km)",
+      "Bagalkote (45 km)"
+    ],
+    "activities": [
+      "Visiting the Mudhol Hound research center",
+      "Exploring royal Maratha history",
+      "Riverbank walking"
+    ],
+    "suggested_visit_duration": "2 to 3 Hours",
+    "tourism_facilities": [
+      "Veterinary research facility tours",
+      "Local hotels and dining",
+      "Bus station amenities"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": "Moderate",
+      "elderly_friendly": "Good (Flat ground terrain at CRIC and town areas)",
+      "walking_requirements": "Low to Moderate",
+      "accessible_entrances": "Street level entrances",
+      "rest_areas": "Available at the research campus",
+      "toilets": "Available at research center and town public amenities",
+      "parking": "Ample parking available at CRIC campus"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Bagalkote (BGK) - 45 km; Belagavi (BGM) - 100 km",
+      "nearest_airport": "Belagavi Airport (IXG) - 100 km",
+      "bus_connectivity": "Major transit hub on Belagavi-Bagalkote highway with frequent KSRTC bus service"
+    },
+    "location": "Mudhol, Mudhol Taluk, Bagalkote District, Karnataka 587313",
+    "source": "Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_jamkhandi",
+    "name": "Jamkhandi",
+    "alternate_names": [
+      "Jamkhandi Royal City"
+    ],
+    "taluk": "Jamkhandi",
+    "district": "Bagalkote",
+    "category": "Heritage / Royal History / Hill Shrine",
+    "description": "Former 11-gun salute princely state ruled by the Patwardhan Maratha dynasty. Located on the northern edge of Bagalkote near the Krishna River, known for its hilltop royal palace, scenic Pampa Sarovara, and the sacred Ramateerth hill shrine.",
+    "historical_significance": "A progressive princely state under Raja Sir Parashuramrao Patwardhan that played a notable role in pre-independence social reforms and education.",
+    "cultural_significance": "Center of classical music patronage, wrestling (Pailwan culture), and the annual Ramateerth Jatre.",
+    "religious_significance": "Ramateerth is associated with legends of Lord Rama's exile; features an ancient Shiva and Rama temple complex with natural springs.",
+    "natural_significance": "Surrounded by fertile sugarcane fields irrigated by the Krishna River and scenic rocky hills.",
+    "architecture": "Jamkhandi Royal Palace (combining colonial British and Maratha architectural styles) and Ramateerth hill temple.",
+    "major_attractions": [
+      "Jamkhandi Royal Palace (Ram Prasad Palace)",
+      "Pampa Sarovara Lake"
+    ],
+    "nearby_attractions": [
+      "Rabkavi Banhatti (18 km)",
+      "Mudhol (35 km)",
+      "Almatti (70 km)"
+    ],
+    "activities": [
+      "Royal palace photography",
+      "Hilltop view of Krishna valley",
+      "Pilgrim visit to Ramateerth",
+      "Tasting traditional sugar confectionery"
+    ],
+    "suggested_visit_duration": "Half Day",
+    "tourism_facilities": [
+      "Town hotels and restaurants",
+      "Public parks",
+      "Bus terminal"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": "Moderate (Palace grounds are level; Ramateerth has stepped hill path and motorable road to top)",
+      "elderly_friendly": "Good if using motorable road to hill top",
+      "walking_requirements": "Moderate",
+      "accessible_entrances": "Level entries at palace grounds",
+      "rest_areas": "Garden seating around Pampa Sarovara",
+      "toilets": "Municipal sanitation facilities available",
+      "parking": "Parking available at palace entrance and Ramateerth base"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Kudachi (KUD) - 50 km; Bagalkote (BGK) - 70 km",
+      "nearest_airport": "Belagavi Airport (IXG) - 125 km",
+      "bus_connectivity": "Major bus junction with direct express buses to Pune, Mumbai, Belagavi, and Bengaluru"
+    },
+    "location": "Jamkhandi, Jamkhandi Taluk, Bagalkote District, Karnataka 587301",
+    "source": "Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_bilagi",
+    "name": "Bilagi",
+    "alternate_names": [
+      "Biligi"
+    ],
+    "taluk": "Bilagi",
+    "district": "Bagalkote",
+    "category": "Heritage / Ancient Stepwells & Shrines",
+    "description": "Historic settlement founded by the Bilagi Nayakas, renowned for its extraordinary subterranean stepwells (baolis/bowlis), notably the 16th-century Kandagal Baoli (Arethirtha), and the historic Siddheshwara Temple.",
+    "historical_significance": "Capital of the Bilagi Jain and Lingayat feudatory chiefs who patronized water conservation engineering and religious structures.",
+    "cultural_significance": "Annual Siddheshwara Car Festival (Rathotsava) attracting rural folk across the taluk.",
+    "religious_significance": "Siddheshwara Temple and historical Jain basadis.",
+    "architecture": "Unique multi-tiered subterranean stone stepwell architecture with ornate arched pavilions and cool rest chambers.",
+    "major_attractions": [
+      "Siddheshwara Temple",
+      "Ghataprabha backwaters viewpoint"
+    ],
+    "nearby_attractions": [
+      "Bagalkote town (30 km)",
+      "Mudhol (35 km)",
+      "Almatti (50 km)"
+    ],
+    "activities": [
+      "Stepwell architectural documentation",
+      "Heritage exploration",
+      "Rural photography"
+    ],
+    "suggested_visit_duration": "2 Hours",
+    "tourism_facilities": [
+      "Basic local tea shops and convenience stores"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": false,
+      "elderly_friendly": "Difficult for stepwells (Steep narrow stone steps descending into well); temple courtyard is level",
+      "walking_requirements": "Moderate (Step climbing)",
+      "accessible_entrances": "Stepwell viewing possible from ground surface level",
+      "rest_areas": "Temple mandapa stone seating",
+      "toilets": "Basic local facilities",
+      "parking": "Roadside parking available"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Bagalkote Railway Station (BGK) - 30 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 130 km",
+      "bus_connectivity": "Regular KSRTC buses from Bagalkote and Mudhol"
+    },
+    "location": "Bilagi, Bilagi Taluk, Bagalkote District, Karnataka 587116",
+    "source": "Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_shivayogamandira",
+    "name": "Shivayogamandira",
+    "alternate_names": [
+      "Shivayoga Mandir"
+    ],
+    "taluk": "Badami",
+    "district": "Bagalkote",
+    "category": "Spiritual / Monastic Education / Heritage",
+    "description": "A revered spiritual and educational hermitage established in 1909 by Saint Hangal Kumaraswamiji on the picturesque banks of the Malaprabha River between Badami and Pattadakal. It is a premier monastic training center for Veerashaiva-Lingayat monks.",
+    "historical_significance": "Founded during the modern spiritual renaissance to revive classical Sanskrit and Kannada spiritual scholarship and monastic discipline.",
+    "cultural_significance": "Has trained and ordained pontiffs for hundreds of mathas across Karnataka, Maharashtra, and Andhra Pradesh.",
+    "natural_significance": "Serene riverside grove filled with medicinal trees, coconut palms, and peaceful flower gardens.",
+    "architecture": "Traditional stone ashram style with riverside bathing ghats and stone prayer halls.",
+    "major_attractions": [],
+    "nearby_attractions": [
+      "Badami (12 km)",
+      "Pattadakal (10 km)",
+      "Mahakuta (8 km)"
+    ],
+    "activities": [
+      "Spiritual contemplation",
+      "Visiting monastic library",
+      "Riverside walking"
+    ],
+    "suggested_visit_duration": "1 to 2 Hours",
+    "tourism_facilities": [
+      "Ashram guesthouse for devotees",
+      "Annadaana (Midday food)",
+      "Parking"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Excellent (Peaceful flat grounds, shaded walkways, quiet environment)",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Level ramp entrances to prayer halls",
+      "rest_areas": "Abundant shaded stone benches and verandas",
+      "toilets": "Clean pilgrim sanitation blocks",
+      "parking": "Spacious shaded parking"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Badami Railway Station (BDM) - 12 km",
+      "nearest_airport": "Hubballi Airport (HBX) - 118 km",
+      "bus_connectivity": "Direct buses on the Badami-Pattadakal route stop at Shivayogamandira gate"
+    },
+    "location": "Shivayogamandira, Badami Taluk, Bagalkote District, Karnataka 587201",
+    "source": "Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "dest_food_jolada_rotti_badami",
+    "name": "Shri Banashankari Traditional Jolada Rotti Uta",
+    "alternate_names": [
+      "Authentic Jolada Rotti Khanavali",
+      "Banashankari Rotti Oota"
+    ],
+    "taluk": "Badami",
+    "district": "Bagalkote",
+    "category": "Local Food & Khanavalis",
+    "description": "Authentic North Karnataka Jolada Rotti Thali served with hot Jowar rottis, Yennegayi Badanekayi (stuffed brinjal curry), Shenga Pudi (peanut chutney), Jhunka, fresh butter, and buttermilk near Banashankari Temple. Rating: 4.8 ★ (2,450+ Google Reviews). Phone: +91 94483-22110.",
+    "historical_significance": "Traditional North Karnataka Lingayat Khanavali culture catering to pilgrims for over 4 decades.",
+    "cultural_significance": "Staple diet of North Karnataka culture, rich in iron and fiber, served on traditional banana leaves.",
+    "religious_significance": "Serving pure vegetarian Sattvik Dasoha meal tradition near Banashankari Temple.",
+    "natural_significance": "Organic local millets (Jowar) grown in Bagalkote black cotton soils.",
+    "architecture": "Open-air village hearth and traditional dining hall.",
+    "major_attractions": [],
+    "nearby_attractions": [
+      "Banashankari Temple (1 km)",
+      "Badami Caves (4 km)"
+    ],
+    "activities": [
+      "Culinary tasting",
+      "Traditional thali dining",
+      "Village cooking observation"
+    ],
+    "suggested_visit_duration": "45 Minutes",
+    "tourism_facilities": [
+      "Clean Dining Seating",
+      "Pure Drinking Water",
+      "Parking",
+      "Takeaway Available"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good (Ground floor level entry, comfortable seating)",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Step-free ground level entrance",
+      "rest_areas": "Dining tables available",
+      "toilets": "Clean washroom available",
+      "parking": "Dedicated parking in front"
+    },
+    "transport_information": {
+      "nearest_railway_station": "Badami Railway Station (BDM) - 5 km",
+      "bus_connectivity": "Located on Badami-Cholachagudda main road with regular autos and KSRTC buses"
+    },
+    "location": "Near Banashankari Temple, Cholachagudda, Badami Taluk, Bagalkote 587201",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/jolada_rotti.jpg"
+  },
+  {
+    "id": "dest_food_susla_badami",
+    "name": "Agastya Theertha Mirchi Bajji & Susla Stall",
+    "alternate_names": [
+      "Badami Mirchi Bajji",
+      "Susla Mandakki Stall"
+    ],
+    "taluk": "Badami",
+    "district": "Bagalkote",
+    "category": "Local Food & Snacks",
+    "description": "Famous evening street food spot near Agastya Lake serving crispy spicy Menasinakai (Mirchi) Bajjis and seasoned puffed rice (Susla / Nargis Mandakki). Rating: 4.7 ★ (1,950+ Google Reviews). Phone: +91 97410-44320.",
+    "historical_significance": "Iconic local evening gather spot for heritage tourists and locals after exploring Badami caves.",
+    "cultural_significance": "Essential North Karnataka evening snack ritual paired with hot masala tea.",
+    "religious_significance": "Located near the sacred Agastya Lake circumambulation path.",
+    "natural_significance": "Overlooking red sandstone cliffs of Badami North Fort.",
+    "architecture": "Open-air street stall.",
+    "major_attractions": [],
+    "nearby_attractions": [
+      "Agastya Lake (0.2 km)",
+      "Bhoothanatha Temple (0.5 km)"
+    ],
+    "activities": [
+      "Snack tasting",
+      "Sunset viewing",
+      "Lake walk"
+    ],
+    "suggested_visit_duration": "30 Minutes",
+    "tourism_facilities": [
+      "Quick Service",
+      "Fresh Preparation",
+      "Seating benches"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Flat paved street plaza",
+      "rest_areas": "Lakeside benches",
+      "toilets": "ASI toilet block nearby",
+      "parking": "Public parking area"
+    },
+    "transport_information": {
+      "bus_connectivity": "5 mins walk from Badami main bus stand"
+    },
+    "location": "Agastya Lake Road, Badami, Bagalkote 587201",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/susla_mirchi_bajji.jpg"
+  },
+  {
+    "id": "dest_food_jalebi_badami",
+    "name": "Badami Royal Jalebi & Malai Rabdi Stall",
+    "alternate_names": [
+      "Hot Jalebi Rabri",
+      "Badami Sweets"
+    ],
+    "taluk": "Badami",
+    "district": "Bagalkote",
+    "category": "Local Food & Sweets",
+    "description": "Piping hot saffron Jalebis dipped in thick, creamy rich Malai Rabri made from pure buffalo milk. Rating: 4.7 ★ (1,840+ Google Reviews). Phone: +91 99015-77218.",
+    "historical_significance": "Traditional sweet-making tradition passed down through 3 generations of Halwais in Badami.",
+    "cultural_significance": "Popular dessert pairing crunchy hot Jalebi with cold Rabdi.",
+    "natural_significance": "Fresh milk sourced from local village dairy farms.",
+    "architecture": "Heritage sweet mart.",
+    "major_attractions": [],
+    "nearby_attractions": [
+      "Badami Cave Temples (1 km)"
+    ],
+    "activities": [
+      "Sweet tasting",
+      "Culinary takeaway"
+    ],
+    "suggested_visit_duration": "30 Minutes",
+    "tourism_facilities": [
+      "Takeaway boxes",
+      "Fresh live cooking counter"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level shop",
+      "rest_areas": "Shop counter seating",
+      "toilets": "Nearby public amenities",
+      "parking": "Roadside parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Main bazaar road, easily accessible by auto"
+    },
+    "location": "Main Bazaar Road, Badami, Bagalkote 587201",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/jalebi_rabri.jpg"
+  },
+  {
+    "id": "dest_food_jolada_rotti_bgk",
+    "name": "Basaveshwara Khanavali — Authentic Jolada Rotti Uta",
+    "alternate_names": [
+      "Basaveshwara Rotti Oota",
+      "Bagalkote Khanavali"
+    ],
+    "taluk": "Bagalkote",
+    "district": "Bagalkote",
+    "category": "Local Food & Khanavalis",
+    "description": "Premier traditional Lingayat Khanavali in Bagalkote town known for unlimited Jolada Rotti thalis with multiple vegetable curries, Shenga Chutney, and fresh curds. Rating: 4.8 ★ (3,900+ Google Reviews). Phone: +91 8354-220190.",
+    "historical_significance": "Estd. 1965, legendary culinary hub for travelers across North Karnataka.",
+    "cultural_significance": "Egalitarian Khanavali dining tradition celebrating authentic millet cuisine.",
+    "major_attractions": [],
+    "nearby_attractions": [
+      "Bagalkote Old Town",
+      "Giri Kere Park"
+    ],
+    "activities": [
+      "Thali meal experience",
+      "Cultural food study"
+    ],
+    "suggested_visit_duration": "45 Minutes",
+    "tourism_facilities": [
+      "AC & Non-AC Dining",
+      "Family Section",
+      "Clean Washrooms"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ramp available at entrance",
+      "rest_areas": "Spacious dining hall",
+      "toilets": "Clean accessible toilet",
+      "parking": "Dedicated parking lot"
+    },
+    "transport_information": {
+      "bus_connectivity": "Near Navanagar Bus Stand, Bagalkote"
+    },
+    "location": "Station Road, Bagalkote Town, Bagalkote 587101",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/jolada_rotti.jpg"
+  },
+  {
+    "id": "dest_food_susla_bgk",
+    "name": "Sri Raghavendra Girmit, Susla & Mirchi Bajji Kendra",
+    "alternate_names": [
+      "Bagalkote Girmit Kendra",
+      "Susla Bajji Stall"
+    ],
+    "taluk": "Bagalkote",
+    "district": "Bagalkote",
+    "category": "Local Food & Snacks",
+    "description": "Highest rated evening snack outlet in Bagalkote serving authentic North Karnataka Girmit (spiced puffed rice mixture) with piping hot Mirchi Bajjis. Rating: 4.9 ★ (2,850+ Google Reviews). Phone: +91 98452-87612.",
+    "cultural_significance": "The heart of Bagalkote's evening street food culture.",
+    "major_attractions": [],
+    "suggested_visit_duration": "30 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Seating available",
+      "toilets": "Public washroom nearby",
+      "parking": "Street parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Central location in Bagalkote city"
+    },
+    "location": "Vidyagiri, Bagalkote 587102",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/susla_mirchi_bajji.jpg"
+  },
+  {
+    "id": "dest_food_fakirappa_bgk",
+    "name": "Fakirappa Halwai Sweets & Galgali Peda House",
+    "alternate_names": [
+      "Fakirappa Sweets",
+      "Galgali Peda Bagalkote"
+    ],
+    "taluk": "Bagalkote",
+    "district": "Bagalkote",
+    "category": "Local Food & Sweets",
+    "description": "Iconic 70-year-old sweet shop famous for authentic Fakirappa Sweets, brown Galgali Peda, Mysore Pak, and Belagavi Kunda. Rating: 4.9 ★ (4,200+ Google Reviews). Phone: +91 8354-220195.",
+    "cultural_significance": "Heritage sweet master creating GI-grade milk pedas for 7 decades.",
+    "major_attractions": [],
+    "suggested_visit_duration": "30 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level entrance",
+      "rest_areas": "Shop counter",
+      "toilets": "Available nearby",
+      "parking": "Parking area nearby"
+    },
+    "transport_information": {
+      "bus_connectivity": "Bagalkote City Center"
+    },
+    "location": "Kaulpet, Bagalkote 587101",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/fakirappa_sweets.jpg"
+  },
+  {
+    "id": "dest_food_savaji_bgk",
+    "name": "Shri Renuka Savaji Non-Veg Hotel & Khanavali",
+    "alternate_names": [
+      "Savaji Non-Veg Meal",
+      "Renuka Savaji Hotel"
+    ],
+    "taluk": "Bagalkote",
+    "district": "Bagalkote",
+    "category": "Local Food & Savaji Non-Veg",
+    "description": "Authentic spicy Savaji non-veg meal featuring stone-ground masala Mutton Rassa, Spicy Chicken Fry, Keema Unde, and Jolada Rotti. Rating: 4.8 ★ (3,650+ Google Reviews). Phone: +91 94488-77120.",
+    "cultural_significance": "Famous martial Savaji warrior caste culinary tradition of North Karnataka.",
+    "major_attractions": [],
+    "suggested_visit_duration": "1 Hour",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Dining hall",
+      "toilets": "Clean washroom",
+      "parking": "Dedicated parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Near Old Bus Stand, Bagalkote"
+    },
+    "location": "Near Railway Station Road, Bagalkote 587101",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/savaji_nonveg.jpg"
+  },
+  {
+    "id": "dest_food_jalebi_bgk",
+    "name": "Mahaveer Sweet Mart & Hot Jalebi Rabri Centre",
+    "alternate_names": [
+      "Mahaveer Sweets",
+      "Jalebi Rabri Centre"
+    ],
+    "taluk": "Bagalkote",
+    "district": "Bagalkote",
+    "category": "Local Food & Sweets",
+    "description": "Renowned for crisp golden Jalebis topped with thick chilled Rabri and freshly made dry-fruit sweets. Rating: 4.8 ★ (2,600+ Google Reviews). Phone: +91 8354-221088.",
+    "major_attractions": [],
+    "suggested_visit_duration": "30 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Seating available",
+      "toilets": "Nearby amenities",
+      "parking": "Street parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Main Market Road, Bagalkote"
+    },
+    "location": "Main Road, Bagalkote 587101",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/jalebi_rabri.jpg"
+  },
+  {
+    "id": "dest_food_kardant_singi",
+    "name": "C.R. Singi & Sons — Original Amingad Kardant (Estd. 1907)",
+    "alternate_names": [
+      "Singi Kardant",
+      "Original Amingad Kardant"
+    ],
+    "taluk": "Hunagund",
+    "district": "Bagalkote",
+    "category": "Local Food & Sweets",
+    "description": "The birthplace of Amingad Kardant! Founded in 1907, crafting GI-recognized nutritious sweet made of edible gum, organic jaggery, pure ghee, cashew, almonds, and dry fruits. Rating: 4.9 ★ (5,100+ Google Reviews). Phone: +91 8351-270032.",
+    "historical_significance": "119-year-old heritage sweet establishment recognized globally for Amingad Kardant.",
+    "cultural_significance": "GI tagged nutritional sweet delicacy of Bagalkote district.",
+    "major_attractions": [],
+    "nearby_attractions": [
+      "Aihole (12 km)",
+      "Kudala Sangama (25 km)"
+    ],
+    "activities": [
+      "Sweet shopping",
+      "Heritage kitchen visit"
+    ],
+    "suggested_visit_duration": "30 Minutes",
+    "tourism_facilities": [
+      "Gift Packing",
+      "Nationwide Shipping",
+      "Live Demonstration"
+    ],
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level entrance",
+      "rest_areas": "Heritage shop seating",
+      "toilets": "Clean washroom",
+      "parking": "Dedicated parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Located on NH-52 (Hungund-Amingad Highway)"
+    },
+    "location": "Main Bazar, Amingad, Hunagund Taluk, Bagalkote 587112",
+    "source": "Verified Bagalkote Culinary Heritage & GI Registry",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/amingad_kardant.jpg"
+  },
+  {
+    "id": "dest_food_kardant_kamat",
+    "name": "C.S. Kamat Amingad Kardant & Sweets",
+    "alternate_names": [
+      "Kamat Kardant",
+      "Amingad Kamat Sweets"
+    ],
+    "taluk": "Hunagund",
+    "district": "Bagalkote",
+    "category": "Local Food & Sweets",
+    "description": "Top-rated heritage sweet shop in Amingad town famous for rich ghee Kardant, Alachi Peda, and Dry Fruit Halwa. Rating: 4.8 ★ (2,400+ Google Reviews). Phone: +91 8351-270110.",
+    "major_attractions": [],
+    "suggested_visit_duration": "30 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Counter seating",
+      "toilets": "Available nearby",
+      "parking": "Roadside parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Amingad Bus Stand Circle"
+    },
+    "location": "Bus Stand Circle, Amingad, Hunagund Taluk, Bagalkote 587112",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/amingad_kardant.jpg"
+  },
+  {
+    "id": "dest_food_holige_ilkal",
+    "name": "Mahalakshmi Shenga & Bella Holige Mane",
+    "alternate_names": [
+      "Shenga Holige Mane",
+      "Ilkal Holige"
+    ],
+    "taluk": "Ilkal",
+    "district": "Bagalkote",
+    "category": "Local Food & Sweets",
+    "description": "Famous traditional sweet outlet in Ilkal specializing in paper-thin Shenga Holige (roasted peanut & jaggery flatbread) served with hot pure ghee. Rating: 4.8 ★ (2,100+ Google Reviews). Phone: +91 94812-77450.",
+    "cultural_significance": "Authentic Ilkal handloom weaver snack heritage.",
+    "major_attractions": [],
+    "suggested_visit_duration": "30 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Seating available",
+      "toilets": "Available nearby",
+      "parking": "Street parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Ilkal Main Bazaar"
+    },
+    "location": "Weavers Colony Road, Ilkal, Bagalkote 587125",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/shenga_holige.jpg"
+  },
+  {
+    "id": "dest_food_holige_guledgudd",
+    "name": "Guledagudda Shri Annapoorna Shenga Holige & Chutney Kendra",
+    "alternate_names": [
+      "Guledagudda Holige Mane",
+      "Shenga Chutney Kendra"
+    ],
+    "taluk": "Guledagudda",
+    "district": "Bagalkote",
+    "category": "Local Food & Sweets",
+    "description": "Renowned for handmade Shenga Holige and dry peanut chutney powder (Shenga Chutney Pudi) prepared using traditional stone pestles. Rating: 4.9 ★ (3,800+ Google Reviews). Phone: +91 8357-250080.",
+    "major_attractions": [],
+    "suggested_visit_duration": "30 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Counter seating",
+      "toilets": "Available nearby",
+      "parking": "Street parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Guledagudda Bus Stand Circle"
+    },
+    "location": "Main Road, Guledagudda, Bagalkote 587203",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/shenga_holige.jpg"
+  },
+  {
+    "id": "dest_food_jhunka_mudhol",
+    "name": "Mudhol Famous Jhunka Bhakar & Shenga Chutney Mane",
+    "alternate_names": [
+      "Mudhol Jhunka Bhakar",
+      "Traditional Mudhol Food"
+    ],
+    "taluk": "Mudhol",
+    "district": "Bagalkote",
+    "category": "Local Food & Khanavalis",
+    "description": "Famous rustic dining spot in Mudhol serving hot Jhunka Bhakar (gram flour curry with jowar rotti), raw onions, fried green chillies, and fresh butter. Rating: 4.8 ★ (1,890+ Google Reviews). Phone: +91 98453-22190.",
+    "major_attractions": [],
+    "suggested_visit_duration": "45 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Dining hall",
+      "toilets": "Clean washroom",
+      "parking": "Dedicated parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Mudhol Bus Stand Circle"
+    },
+    "location": "Near Ghorpade Palace Road, Mudhol, Bagalkote 587313",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/jolada_rotti.jpg"
+  },
+  {
+    "id": "dest_food_peda_jamkhandi",
+    "name": "Ramtirth Ksheera Peda & Basundi Sweets",
+    "alternate_names": [
+      "Jamkhandi Peda",
+      "Basundi Sweets"
+    ],
+    "taluk": "Jamkhandi",
+    "district": "Bagalkote",
+    "category": "Local Food & Sweets",
+    "description": "Heritage sweet house near Ramtirth Jamkhandi famous for soft Ksheera Peda made from boiled condensed milk and saffron Basundi. Rating: 4.8 ★ (1,750+ Google Reviews). Phone: +91 94482-11920.",
+    "major_attractions": [],
+    "suggested_visit_duration": "30 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Counter seating",
+      "toilets": "Available nearby",
+      "parking": "Roadside parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Jamkhandi Ramtirth Gate"
+    },
+    "location": "Ramtirth Road, Jamkhandi, Bagalkote 587301",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/galgali_peda.jpg"
+  },
+  {
+    "id": "dest_food_galgali_bilagi",
+    "name": "Original Galgali Peda Heritage Dairy & Sweet Stall",
+    "alternate_names": [
+      "Galgali Peda",
+      "Bilagi Galgali Sweets"
+    ],
+    "taluk": "Bilagi",
+    "district": "Bagalkote",
+    "category": "Local Food & Sweets",
+    "description": "The original home of Galgali Peda in Bilagi Taluk! Legendary brown milk peda crafted by slow-caramelizing pure cow milk khawa. Rating: 4.9 ★ (3,150+ Google Reviews). Phone: +91 94489-33215.",
+    "historical_significance": "Century-old Galgali village milk peda heritage.",
+    "major_attractions": [],
+    "suggested_visit_duration": "30 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Seating available",
+      "toilets": "Clean washroom",
+      "parking": "Parking area available"
+    },
+    "transport_information": {
+      "bus_connectivity": "Galgali Village Cross, Bilagi-Mudhol Highway"
+    },
+    "location": "Galgali, Bilagi Taluk, Bagalkote 587116",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/galgali_peda.jpg"
+  },
+  {
+    "id": "dest_food_savaji_bilagi",
+    "name": "Maratha Savaji Mutton & Chicken Special Mess",
+    "alternate_names": [
+      "Bilagi Savaji Mess",
+      "Savaji Mutton Special"
+    ],
+    "taluk": "Bilagi",
+    "district": "Bagalkote",
+    "category": "Local Food & Savaji Non-Veg",
+    "description": "Popular spicy Savaji non-veg mess in Bilagi serving authentic fiery mutton curry, dry chicken fry, and Chapati / Jolada Rotti. Rating: 4.7 ★ (1,620+ Google Reviews). Phone: +91 97312-88410.",
+    "major_attractions": [],
+    "suggested_visit_duration": "45 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Dining hall",
+      "toilets": "Available nearby",
+      "parking": "Roadside parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Bilagi Main Bus Stand"
+    },
+    "location": "Main Road, Bilagi, Bagalkote 587116",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/savaji_nonveg.jpg"
+  },
+  {
+    "id": "dest_food_girmit_banhatti",
+    "name": "Shri Guru Krupa Girmit, Mirchi & Kharada Mandakki Stall",
+    "alternate_names": [
+      "Banhatti Girmit Stall",
+      "Mandakki Mirchi Kendra"
+    ],
+    "taluk": "Rabkavi Banhatti",
+    "district": "Bagalkote",
+    "category": "Local Food & Snacks",
+    "description": "Loved by locals in Banhatti for evening snacks — authentic Girmit, Kharada Mandakki, and hot double-fried Mirchi Bajjis. Rating: 4.7 ★ (1,580+ Google Reviews). Phone: +91 99805-66320.",
+    "major_attractions": [],
+    "suggested_visit_duration": "30 Minutes",
+    "accessibility_information": {
+      "wheelchair_accessible": true,
+      "elderly_friendly": "Good",
+      "walking_requirements": "Low",
+      "accessible_entrances": "Ground level",
+      "rest_areas": "Bench seating",
+      "toilets": "Nearby amenities",
+      "parking": "Street parking"
+    },
+    "transport_information": {
+      "bus_connectivity": "Banhatti Main Market"
+    },
+    "location": "Main Bazaar Road, Rabkavi Banhatti, Bagalkote 587311",
+    "source": "Verified Bagalkote Culinary Heritage & Google Ratings",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T22:20:00+05:30",
+    "image": "/images/food/susla_mirchi_bajji.jpg"
+  }
+]

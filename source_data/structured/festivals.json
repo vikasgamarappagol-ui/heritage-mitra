@@ -1,0 +1,128 @@
+[
+  {
+    "id": "fest_chalukya_utsava",
+    "name": "Chalukya Utsava",
+    "alternate_names": ["Badami Chalukya Utsav"],
+    "category": "Cultural & Heritage Festival",
+    "description": "The flagship annual state festival organized by the Government of Karnataka to commemorate the heritage of the Chalukya dynasty. Held over three days in February across Badami, Pattadakal, and Aihole, featuring classical music recitals, dance dramas against floodlit red sandstone caves, traditional wrestling (Kusti), sports, and handloom exhibitions.",
+    "location": "Badami (Main Stage), Pattadakal, and Aihole, Bagalkote District",
+    "timing_month": "February (Annual)",
+    "duration_days": "3 Days",
+    "key_events": [
+      "Classical dance and music performances by national and local artists",
+      "Sound and light projections on Badami rock cliffs",
+      "Traditional North Karnataka wrestling competitions (Garadi wrestling)",
+      "Bagalkote Handloom & Handicraft Exhibition",
+      "Heritage procession with folk troupes (Dollu Kunitha, Veeragase, Jagghalige)"
+    ],
+    "inclusive_growth_impact": "Generates peak seasonal earnings for local homestays, auto-drivers, guides, handicraft stalls, and street vendors",
+    "source": "Department of Tourism, Government of Karnataka & Official Bagalkote District Portal",
+    "source_url": "https://karnatakatourism.org/tour-item/badami/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "fest_pattadakallu_dance",
+    "name": "Pattadakallu Dance Festival",
+    "alternate_names": ["Pattadakal Nrutya Utsava"],
+    "category": "Classical Arts & Dance Festival",
+    "description": "A premier national-level classical dance festival organized annually in January by the Department of Kannada and Culture, Government of Karnataka. Renowned exponents of Bharatanatyam, Kathak, Odissi, Kuchipudi, and Mohiniyattam perform against the illuminated 8th-century Virupaksha and Mallikarjuna temples.",
+    "location": "Pattadakal UNESCO World Heritage Complex, Badami Taluk, Bagalkote District",
+    "timing_month": "January (Annual)",
+    "duration_days": "2 to 3 Days",
+    "key_events": [
+      "National classical dance recitals against temple backdrop",
+      "Instrumental jugalbandis and Carnatic/Hindustani vocal concerts",
+      "Artisan display stalls for GI handlooms",
+      "Special heritage illumination of UNESCO monuments"
+    ],
+    "inclusive_growth_impact": "Brings national and international cultural tourists directly to rural heritage villages, stimulating local rural hospitality",
+    "source": "Department of Tourism, Government of Karnataka",
+    "source_url": "https://karnatakatourism.org/tour-item/pattadakal/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "fest_banashankari_jatre",
+    "name": "Banashankari Temple Jatre (Fair)",
+    "alternate_names": ["Banashankari Fair", "Cholachagudda Jatre"],
+    "category": "Religious Fair / Rural Trade Exhibition",
+    "description": "One of the largest and most historic rural temple fairs in North Karnataka, held in the holy month of Pushya (January-February) on the full moon day (Banada Hunnime). Spanning nearly a month, it combines intense religious devotion with massive rural trade: handloom sarees, agricultural implements, kitchenware, livestock, and traditional entertainment.",
+    "location": "Banashankari Temple, Cholachagudda, Badami Taluk, Bagalkote District",
+    "timing_month": "January - February (Pushya Poornima, 3 to 4 Weeks)",
+    "duration_days": "25 to 30 Days",
+    "key_events": [
+      "Grand Car Festival (Rathotsava) of Goddess Banashankari",
+      "Sacred holy bath in Haridra Tirtha kalyani",
+      "Vast rural trade fair: thousands of temporary stalls selling Ilkal sarees, Khana cloth, wooden toys, sweets, and utensils",
+      "Traditional folk theater (Bayalata / Sannata) and drama company performances",
+      "Cattle and agricultural equipment fair"
+    ],
+    "inclusive_growth_impact": "Critical economic lifeline for rural artisans, street food vendors, local farmers, transport operators, and folk artists",
+    "source": "Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "fest_basava_jayanti",
+    "name": "Basava Jayanti Celebrations at Kudala Sangama",
+    "alternate_names": ["Kudalasangama Basava Utsava"],
+    "category": "Spiritual & Philosophical Pilgrimage Festival",
+    "description": "The auspicious birth anniversary festival of 12th-century philosopher and social reformer Jagadjyothi Basaveshwara, celebrated with immense fervor in April-May (Rohini Nakshatra). Hundreds of thousands of devotees and scholars gather at the river confluence for seminars on social justice, Vachana singing, and mass community dining (Dasoha).",
+    "location": "Kudala Sangama, Hunagund Taluk, Bagalkote District",
+    "timing_month": "April - May (Vaishakha Shuddha Tritiya)",
+    "duration_days": "3 Days",
+    "key_events": [
+      "Special prayers and floral offerings at Aikya Mantapa in the river",
+      "National Vachana Gayana concerts and discourses by eminent scholars",
+      "Inter-caste mass marriage ceremonies adhering to Sharana principles",
+      "Universal community meal (Maha Dasoha) served to all pilgrims without distinction of caste, creed, or gender"
+    ],
+    "inclusive_growth_impact": "Fosters community inclusion, supports local rural transport, and promotes social harmony principles",
+    "source": "Kudalasangama Development Board & Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "fest_virupaksha_rathotsava",
+    "name": "Pattadakal Virupaksha Car Festival",
+    "alternate_names": ["Virupaksha Rathotsava"],
+    "category": "Religious & Community Fair",
+    "description": "Annual temple chariot festival celebrated at the historic Virupaksha Temple in Pattadakal during March-April. The beautifully decorated wooden ratha (chariot) carrying the deity is pulled by thousands of village devotees along the ancient temple street.",
+    "location": "Pattadakal, Badami Taluk, Bagalkote District",
+    "timing_month": "March - April (Chaitra)",
+    "duration_days": "2 Days",
+    "key_events": [
+      "Procession of the sacred wooden chariot",
+      "Traditional folk drum ensembles (Dollu, Halagi)",
+      "Rural bazaar of traditional sweets and toys"
+    ],
+    "inclusive_growth_impact": "Direct income generation for local village vendors and service providers",
+    "source": "Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "fest_ilkal_mahantesha_jatre",
+    "name": "Ilkal Vijaya Mahantesha Jatre",
+    "alternate_names": ["Ilkal Matha Jatre"],
+    "category": "Spiritual & Commercial Fair",
+    "description": "Massive annual festival of the Shri Vijaya Mahantesha Matha in Ilkal. Combines religious ceremonies with the largest regional handloom exhibition, drawing textile traders and families from Karnataka, Maharashtra, Andhra Pradesh, and Telangana.",
+    "location": "Ilkal, Ilkal Taluk, Bagalkote District",
+    "timing_month": "August - September (Shravana month)",
+    "duration_days": "5 to 7 Days",
+    "key_events": [
+      "Rathotsava of Vijaya Mahantesha Swamiji",
+      "Mega Handloom Saree Exhibition and direct-to-consumer sales",
+      "Public lectures on handloom revival and spiritual values"
+    ],
+    "inclusive_growth_impact": "Direct multi-million rupee revenue injection into local handloom weaver societies and individual artisans",
+    "source": "Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  }
+]

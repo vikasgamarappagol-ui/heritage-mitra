@@ -1,0 +1,25 @@
+{
+  "dataset_name": "heritage_cleaned",
+  "cleaning_steps_applied": [
+    "Epigraphical verification of Sanskrit/Kannada foundation dates (e.g. Cave 3 Saka 500 / 578 CE; Meguti 634 CE)",
+    "Cross-referencing UNESCO World Heritage criteria for Pattadakal (Criteria iii, iv)",
+    "Categorization of rock-cut vs. structural architectural phases",
+    "Removal of conflicting folk etymologies in favor of epigraphically attested facts",
+    "Normalization of dynastic terminology (Early Chalukyas of Vatapi)"
+  ],
+  "records_count": 11,
+  "data_retrieval_date": "2026-09-20T00:26:35+05:30",
+  "verified_heritage_monuments": [
+    "her_badami_cave_1",
+    "her_badami_cave_2",
+    "her_badami_cave_3",
+    "her_badami_cave_4",
+    "her_bhoothanatha_temples",
+    "her_pattadakal_virupaksha",
+    "her_pattadakal_mallikarjuna",
+    "her_pattadakal_galaganatha",
+    "her_aihole_durga_temple",
+    "her_aihole_lad_khan",
+    "her_aihole_meguti_jain"
+  ]
+}

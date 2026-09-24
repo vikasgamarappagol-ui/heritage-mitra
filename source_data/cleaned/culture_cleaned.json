@@ -1,0 +1,19 @@
+{
+  "dataset_name": "culture_cleaned",
+  "cleaning_steps_applied": [
+    "Verification of Geographical Indication (GI) registration numbers with Controller General of Patents, Designs and Trade Marks (India)",
+    "Classification of textile technical specifications (warp-weft yarn counts, Kondi technique, Dobby attachments)",
+    "Culinary verification of traditional North Karnataka ingredients and nutritional characteristics",
+    "Philosophical normalization of 12th-century Sharana Vachana principles (Kayaka, Dasoha)"
+  ],
+  "records_count": 6,
+  "data_retrieval_date": "2026-09-20T00:26:35+05:30",
+  "verified_cultural_elements": [
+    "cul_ilkal_saree",
+    "cul_guledgudd_khana",
+    "cul_kasuti_embroidery",
+    "cul_north_karnataka_cuisine",
+    "cul_amingad_kardant",
+    "cul_vachana_tradition"
+  ]
+}

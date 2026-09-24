@@ -1,0 +1,399 @@
+{
+  "wheelchair_friendly_attractions": [
+    {
+      "id": "wfa_pattadakal",
+      "name": "Pattadakal UNESCO World Heritage Complex",
+      "taluk": "Badami Taluk",
+      "category": "UNESCO World Heritage Site",
+      "rating": "100% Step-Free Perimeter Access",
+      "badge": "Wheelchair Certified ✓",
+      "facilities": [
+        "Dedicated concrete entrance ramp at main ASI ticket gate",
+        "Smooth stone-flagged perimeter walkways connecting all 10 major temples",
+        "Free wheelchair loan service at ASI administrative desk",
+        "Wide accessible turnstile and security access"
+      ],
+      "parking": "Dedicated accessible parking bays 40m from main entrance ticket counter",
+      "terrain": "Smooth stone paving, manicured flat lawns, gentle slopes (< 1:15 gradient)",
+      "image": "/images/destinations/Pattadakal.png",
+      "monument_ref": "dest_pattadakal"
+    },
+    {
+      "id": "wfa_kudala_sangama",
+      "name": "Kudala Sangama Pilgrim & Heritage Complex",
+      "taluk": "Hunagund Taluk",
+      "category": "Pilgrim Confluence & Memorial",
+      "rating": "Universal Accessibility Standard",
+      "badge": "Universal Access ✓",
+      "facilities": [
+        "Wide gentle ramps bypass all temple staircases",
+        "Subterranean passage to river Aikya Mantapa equipped with ramp and elevator access",
+        "Continuous stainless-steel safety handrails on all concourses",
+        "Complimentary fleet of 10+ wheelchairs available at Pilgrims Reception",
+        "Electric battery buggy transfer from parking to temple & Dasoha dining hall"
+      ],
+      "parking": "Expansive paved parking with dedicated accessible drop-off concourse directly at temple entrance",
+      "terrain": "Polished granite and concrete paved walkways, level riverfront promenades",
+      "image": "/images/destinations/Kudala_Sangama.png",
+      "monument_ref": "dest_kudala_sangama"
+    },
+    {
+      "id": "wfa_almatti_dam",
+      "name": "Almatti Dam Gardens & Promenade",
+      "taluk": "Nidagundi / Bagalkote",
+      "category": "Recreational Gardens & Riverfront",
+      "rating": "Pram & Wheelchair Friendly",
+      "badge": "Ramped Promenades ✓",
+      "facilities": [
+        "Smooth asphalt and concrete lanes across all garden terraces",
+        "Ramped access into Musical Dancing Fountain amphitheater viewing tiers",
+        "Step-free garden promenade overlooking Krishna River reservoir",
+        "Electric sightseeing golf carts available during peak tourist hours"
+      ],
+      "parking": "Level asphalt parking with designated disabled priority parking spots 50m from entrance",
+      "terrain": "Smooth asphalt and concrete pathways, wide gentle ramps",
+      "image": "/images/destinations/Almatti.png",
+      "monument_ref": "dest_almatti_dam"
+    },
+    {
+      "id": "wfa_aihole_museum",
+      "name": "ASI Archaeological Museum Aihole & Durga Enclosure",
+      "taluk": "Hunagund Taluk",
+      "category": "Museum & Heritage Complex",
+      "rating": "Museum Ramp Access",
+      "badge": "Museum Accessible ✓",
+      "facilities": [
+        "Entrance ramp with sturdy handrails into the ASI Archaeological Museum",
+        "Wide doorways and smooth interior museum flooring",
+        "Level flagstone pathway leading up to the Durga Temple enclosure",
+        "Wheelchairs available upon request at museum ticket window"
+      ],
+      "parking": "Paved vehicle parking area directly opposite main entrance gate (30m)",
+      "terrain": "Stone-flagged paths and compact earthen trails",
+      "image": "/images/destinations/Aihole.png",
+      "monument_ref": "dest_aihole"
+    },
+    {
+      "id": "wfa_ilkal_cooperative",
+      "name": "Ilkal Saree Weavers' Co-operative Society",
+      "taluk": "Ilkal Taluk",
+      "category": "GI Handloom Heritage Hub",
+      "rating": "Ground Floor Step-Free",
+      "badge": "Ground Floor Access ✓",
+      "facilities": [
+        "Direct ground-level step-free entrance from parking area",
+        "Wide aisles allowing easy wheelchair and walker navigation between pit-loom areas",
+        "Seated live demonstration of the famous GI-tagged Kondi weaving technique",
+        "Artisan interaction zone with accessible seating"
+      ],
+      "parking": "Direct vehicle pull-up at society entrance door",
+      "terrain": "Smooth indoor tiled and polished cement floors",
+      "image": "/images/destinations/Ilkal.png",
+      "monument_ref": "dest_ilkal"
+    }
+  ],
+  "low_walking_itinerary": {
+    "title": "The Gentle Heritage Tour (Senior & Low-Mobility Edition)",
+    "subtitle": "Curated for travelers who prefer minimal walking, zero steep climbs, and maximum comfort.",
+    "total_walking_distance": "Under 900 meters for entire day",
+    "step_count_estimate": "< 1,200 total steps (compared to 8,500+ for hiking caves)",
+    "vehicle_drop_offs": "All drop-offs within 30 to 50 meters of attractions",
+    "timeline": [
+      {
+        "time": "09:00 AM - 11:15 AM",
+        "destination": "Pattadakal UNESCO World Heritage Complex",
+        "walking_distance": "250 meters total (flat loop)",
+        "step_count": "0 to 15 plinth steps (optional ramp available)",
+        "highlights": "Explore the 8th-century royal coronation temples along a smooth, level flagstone loop. Shaded benches every 40 meters under mature neem trees.",
+        "comfort_tip": "Ask ASI staff at ticket counter for the complimentary wheelchair if you prefer to be pushed through the gardens.",
+        "accessible_washroom": "Yes, modern accessible sanitation block at entrance"
+      },
+      {
+        "time": "11:45 AM - 01:00 PM",
+        "destination": "Ilkal Weavers' Cooperative Society Showroom",
+        "walking_distance": "50 meters (indoor)",
+        "step_count": "Zero steps (completely level ground floor)",
+        "highlights": "Pull up directly to the door. Sit comfortably in chairs while master artisans demonstrate the UNESCO/GI-tagged Ilkal saree weaving on wooden pit looms.",
+        "comfort_tip": "Artisans bring handloom samples directly to your seating area.",
+        "accessible_washroom": "Yes, ground floor clean restroom"
+      },
+      {
+        "time": "01:15 PM - 02:30 PM",
+        "destination": "Relaxed Traditional Lunch at KSTDC Mayura / Verified Khanavali",
+        "walking_distance": "30 meters",
+        "step_count": "Zero steps (ground floor)",
+        "highlights": "Authentic North Karnataka dining in comfortable air-cooled surroundings. Soft Jolada Rotti, stuffed brinjal (Ennegayi), Shenga chutney, curd, and mild dal.",
+        "comfort_tip": "High-back dining chairs with armrests available; non-spicy customized options for seniors.",
+        "accessible_washroom": "Yes, accessible ground floor washrooms"
+      },
+      {
+        "time": "03:00 PM - 04:00 PM",
+        "destination": "Badami Agastya Lake & Cave Scenic Viewpoint (Drive-Up)",
+        "walking_distance": "60 meters",
+        "step_count": "Zero steps",
+        "highlights": "Instead of climbing 250 steep rock-cut stairs, your car drives directly to the scenic North Lake Bund near Bhootanatha Temple. Enjoy the panoramic cliff and cave views from level stone platforms.",
+        "comfort_tip": "Excellent photo opportunities without climbing a single stair.",
+        "accessible_washroom": "Yes, at Badami Tourist Information Plaza"
+      },
+      {
+        "time": "04:30 PM - 06:30 PM",
+        "destination": "Kudala Sangama River Confluence & Promenade",
+        "walking_distance": "150 meters (supplemented by campus electric buggy)",
+        "step_count": "Zero steps (elevator and gentle ramps)",
+        "highlights": "Board the campus electric battery buggy from the parking lot. Disembark at the Sangameshwara Temple and take the ramp or lift to the Aikya Mantapa riverside promenade.",
+        "comfort_tip": "Enjoy the cool evening river breeze from covered stone pavilions with drinking water kiosks.",
+        "accessible_washroom": "Yes, 3 fully accessible disabled washroom complexes"
+      }
+    ]
+  },
+  "accessible_toilets": [
+    {
+      "id": "toilet_pattadakal",
+      "location_name": "Pattadakal ASI Heritage Complex Sanitation Block",
+      "site": "Pattadakal UNESCO Site",
+      "distance": "40m from main ASI ticket booth",
+      "features": [
+        "Dedicated wheelchair-accessible cubicle with wide 95cm door clearance",
+        "Dual sturdy wall-mounted stainless-steel grab bars on both sides of commode",
+        "Western European Water Closet (EWC) at 48cm wheelchair transfer height",
+        "Anti-skid textured ceramic flooring",
+        "Low-height washbasin with lever-action faucet",
+        "Emergency assistance pull-cord bell"
+      ],
+      "cleanliness_rating": "5.0 / 5.0 (ASI Maintained)",
+      "operating_hours": "06:00 AM - 06:30 PM Daily",
+      "badge": "Fully Accessible ♿"
+    },
+    {
+      "id": "toilet_kudala_sangama",
+      "location_name": "Kudala Sangama Pilgrims Concourse Sanitation Complex",
+      "site": "Kudala Sangama Complex",
+      "distance": "Within 50m of Reception, Temple, and Dasoha Hall (3 Blocks)",
+      "features": [
+        "100% step-free ramped entry with bilateral safety rails",
+        "Spacious cubicles allowing full 360-degree wheelchair rotation",
+        "Sensor-activated hands-free faucets and soap dispensers",
+        "Clean, continuously running chlorinated water",
+        "Dedicated janitorial team on 24x7 duty",
+        "Separate accessible cubicles for male and female visitors"
+      ],
+      "cleanliness_rating": "4.9 / 5.0 (Development Board)",
+      "operating_hours": "24 Hours Open",
+      "badge": "Fully Accessible ♿"
+    },
+    {
+      "id": "toilet_almatti",
+      "location_name": "Almatti Dam Garden Public Amenities Block",
+      "site": "Almatti Dam Gardens",
+      "distance": "Adjacent to Main Entrance Plaza & Musical Fountain",
+      "features": [
+        "Gentle paved concrete ramp up to entrance doorway",
+        "Raised western toilet seats with fold-down grab bars",
+        "Anti-slip textured paving stones",
+        "Spacious interior accommodating personal caregiver assistance"
+      ],
+      "cleanliness_rating": "4.6 / 5.0 (Dam Authority)",
+      "operating_hours": "08:00 AM - 08:30 PM Daily",
+      "badge": "Ramped Access ♿"
+    },
+    {
+      "id": "toilet_aihole",
+      "location_name": "Aihole ASI Museum & Garden Restroom Annex",
+      "site": "Aihole Durga Temple Complex",
+      "distance": "80m from Durga temple, inside ASI campus",
+      "features": [
+        "Flagstone level access into toilet facility",
+        "Western-style commode equipped with wall support grab bar",
+        "Clean running tap water and wash basin"
+      ],
+      "cleanliness_rating": "4.4 / 5.0 (ASI Dharwad Circle)",
+      "operating_hours": "09:00 AM - 05:00 PM (Closed Fridays)",
+      "badge": "Assisted Access"
+    },
+    {
+      "id": "toilet_badami_reception",
+      "location_name": "Badami Tourist Reception Centre & Mayura Complex",
+      "site": "Badami Town Center",
+      "distance": "Near Badami Railway Station / Station Road",
+      "features": [
+        "Ground-floor disabled-friendly washroom with level entry",
+        "Western commode with grab handles and hot/cold water",
+        "Accessible to general traveling public and tour groups"
+      ],
+      "cleanliness_rating": "4.7 / 5.0 (KSTDC)",
+      "operating_hours": "24 Hours Open",
+      "badge": "Ground Floor ♿"
+    }
+  ],
+  "rest_areas": [
+    {
+      "id": "rest_pattadakal_lawns",
+      "name": "Pattadakal Heritage Park Lawn Seating & Shade Canopies",
+      "location": "Pattadakal UNESCO Enclosure",
+      "capacity": "35+ Benches across 10 Acres",
+      "description": "Weather-treated wrought-iron and stone garden benches installed under mature neem, tamarind, and banyan tree canopies. Provides continuous natural shade, gentle breeze, and uninterrupted views of 8th-century temple spires.",
+      "amenities": ["Shaded Benches every 40-50m", "RO Drinking Water Fountain", "Trash Receptacles", "Flat Stone Walkways"],
+      "badge": "Tree-Shaded Parks 🌿"
+    },
+    {
+      "id": "rest_kudala_sangama_promenade",
+      "name": "Kudala Sangama Riverfront Pergolas & Gazebos",
+      "location": "Krishna-Malaprabha Riverfront",
+      "capacity": "60+ Covered Gazebos & Seating Pavilions",
+      "description": "Over 1.5 km of beautifully landscaped riverfront promenades lined with covered stone pergolas, circular gazebos, and river-facing seating ledges where visitors can relax in the serene river breeze.",
+      "amenities": ["Covered Rain/Sun Gazebos", "Chilled RO Water Kiosks", "Soft Lighting in Evenings", "Buggy Pickup Stops"],
+      "badge": "Riverfront Gazebos 🌊"
+    },
+    {
+      "id": "rest_almatti_gardens",
+      "name": "Almatti Dam Terrace Gardens & Amphitheater Seating",
+      "location": "Almatti Dam Garden Complex",
+      "capacity": "Spacious Amphitheater & Lawn Seating",
+      "description": "Tiered grass seating overlooking the dancing musical fountain, complemented by pergola walkways draped in vibrant bougainvillea flowers and wooden benches facing the dam waters.",
+      "amenities": ["Amphitheater Seating", "Bougainvillea Pergolas", "Snack Counters nearby", "Illuminated Evenings"],
+      "badge": "Garden Amphitheater 🌸"
+    },
+    {
+      "id": "rest_badami_garden",
+      "name": "Badami Cave Entrance Garden & Lake Verandas",
+      "location": "Base of Cave 1, Badami",
+      "capacity": "Stone Garden Benches & Rock Niches",
+      "description": "Landscaped garden at the base of the caves before the stone staircase ascent. Features polished stone benches and shaded alcoves under ancient cliff faces overlooking Agastya lake.",
+      "amenities": ["Shaded Stone Seating", "Ticket Plaza Kiosk", "First Aid Post", "Lake Views"],
+      "badge": "Cliff Alcoves 🏛️"
+    },
+    {
+      "id": "rest_aihole_pavilion",
+      "name": "Aihole Durga Temple Lawn Resting Pavilion",
+      "location": "Aihole Durga Complex",
+      "capacity": "Lawn-side Covered Pavilion",
+      "description": "Covered wooden and stone pavilion situated on the edge of the manicured green lawn, offering a shaded resting vantage point directly facing the apsidal temple pillared colonnade.",
+      "amenities": ["Covered Pavilion", "Cool Flagstone Floors", "Photography Vantage"],
+      "badge": "Temple Lawn View 🪑"
+    }
+  ],
+  "senior_citizen_recommendations": [
+    {
+      "category": "Optimal Visiting Hours & Sun Protection",
+      "icon": "☀️",
+      "advice": "Plan monument visits during the golden morning hours (07:30 AM to 10:30 AM) or gentle late afternoons (04:00 PM to 06:30 PM). Red sandstone monument stones become hot between 12:00 PM and 03:00 PM. Carry an umbrella or sun hat and wear comfortable cushioned walking shoes with non-slip soles."
+    },
+    {
+      "category": "Badami Caves Climbing Alternative",
+      "icon": "⛰️",
+      "advice": "Badami Caves 1 to 4 require climbing over 250 carved sandstone steps with high risers. For seniors with osteoarthritis, hypertension, or knee concerns: do NOT attempt the full staircase. Instead, enjoy the ground-level ASI museum and entrance garden, then take an auto-rickshaw or taxi to the northern bank of Agastya Lake (Bhootanatha Temple) where the caves can be admired and photographed completely step-free across the water."
+    },
+    {
+      "category": "Free Electric Buggies & Wheelchair Service",
+      "icon": "🚐",
+      "advice": "Take advantage of on-site transit: Kudala Sangama offers free battery-operated golf buggies from the parking lot straight to temple doors. At Pattadakal and Aihole, request an ASI wheelchair at the ticket office by showing senior citizen ID (Aadhaar or Senior Card) free of charge."
+    },
+    {
+      "category": "Emergency Medical Services & Hospitals",
+      "icon": "🏥",
+      "advice": "Emergency infrastructure in the district: Taluk General Hospital Badami: (08357) 220233 (2 km from caves). 24x7 Government Primary Health Centre & Ambulance at Kudala Sangama: On-site near police outpost. Bagalkote District Central Civil Hospital: (08354) 235333 (Sector 48, Navanagar). Statewide Emergency Ambulance Hotline: Dial 108. Police Tourist Helpline: Dial 112. District Disaster Management: Dial 1077."
+    },
+    {
+      "category": "Digestive & Dietary Guidelines",
+      "icon": "🍲",
+      "advice": "Traditional Uttara Karnataka cuisine is wholesome, but spices (chilli and garlic chutneys) can be pungent. When ordering Jolada Rotti meals at local Khanavalis, politely request 'Swalpa Khara' (less spicy) or enjoy soft curd rice (Majjige Anna) with mild dal (Saaru). Fresh tender coconut water (Bonda) is sold outside all major monuments and provides clean natural electrolytes."
+    }
+  ],
+  "child_friendly_locations": [
+    {
+      "id": "child_almatti_musical_fountain",
+      "name": "Almatti Dam Rock Garden & Musical Dancing Fountain",
+      "taluk": "Nidagundi / Bagalkote",
+      "highlight": "North Karnataka's #1 Family Destination",
+      "features": [
+        "Synchronized musical dancing laser fountain shows every evening at 07:00 PM with popular nursery and folk tunes",
+        "Sprawling manicured lawns and dedicated Children's Play Zone with swings, slides, and rope bridges",
+        "Playful dinosaur and animal rock sculptures nestled in landscaped gardens",
+        "Pedal boating and motorboat rides on calm Krishna river backwaters equipped with child safety life jackets",
+        "Spacious, vehicle-free walking avenues where kids can play safely"
+      ],
+      "ideal_age": "All Ages (Toddlers, Kids, Teens)",
+      "stroller_friendly": "Yes, 100% Paved Walkways",
+      "image": "/images/destinations/Almatti.png"
+    },
+    {
+      "id": "child_kudala_sangama_promenade",
+      "name": "Kudala Sangama River Gardens & Fish Sanctuary",
+      "taluk": "Hunagund Taluk",
+      "highlight": "Sacred River Promenade & Interactive Park",
+      "features": [
+        "Expansive vehicle-free riverside promenade with gentle water breezes",
+        "Sacred fish-feeding ghats with sturdy safety railings where children can feed thousands of river carps puffed rice",
+        "Interactive Basava International Museum with animated sound & light dioramas",
+        "Vast picnic lawns with safe grassy running areas away from traffic"
+      ],
+      "ideal_age": "Ages 2 to 14",
+      "stroller_friendly": "Yes, Smooth Granite & Concrete Walkways",
+      "image": "/images/destinations/Kudala_Sangama.png"
+    },
+    {
+      "id": "child_pattadakal_park",
+      "name": "Pattadakal Open Heritage Park & Sculpture Discovery",
+      "taluk": "Badami Taluk",
+      "highlight": "Living History Playground on Green Lawns",
+      "features": [
+        "10+ acres of flat, soft grassy lawns perfect for open-air family strolls and heritage scavenger hunts",
+        "Engaging stone animal carvings on temple walls (elephants, peacocks, flying horses, makara sea-monsters) that captivate children's imagination",
+        "Spacious outdoor picnic environment without cramped indoor museum restrictions",
+        "Clean drinking water fountains and shaded picnic tree spots"
+      ],
+      "ideal_age": "Ages 4 to 16",
+      "stroller_friendly": "Yes, Paved Perimeter Paths",
+      "image": "/images/destinations/Pattadakal.png"
+    },
+    {
+      "id": "child_ilkal_weaving_live",
+      "name": "Ilkal Live Handloom Pit-Loom Weaving Workshop",
+      "taluk": "Ilkal Taluk",
+      "highlight": "Fascinating Living Craft Experience",
+      "features": [
+        "Children get to witness the rhythmic clicking of wooden handloom shuttles flying across vibrant silk threads",
+        "Artisans let children touch authentic cocoon silk and demonstrate natural vegetable dye coloring",
+        "Safe, ground-level interactive workshop environment with zero moving machinery hazards",
+        "Educational experience directly supplementing school social studies and craft curriculum"
+      ],
+      "ideal_age": "Ages 5 to 16",
+      "stroller_friendly": "Yes, Ground Floor Access",
+      "image": "/images/destinations/Ilkal.png"
+    }
+  ],
+  "baby_care_facilities": [
+    {
+      "id": "baby_stroller_pathways",
+      "facility": "Stroller & Pram Accessible Pathways",
+      "locations": "Almatti Dam Gardens, Pattadakal UNESCO Complex, Kudala Sangama Promenade",
+      "details": "Wide, level-grade paved concrete and asphalt pathways allow parents to push lightweight baby strollers and heavy prams effortlessly without jarring bumps. Gentle ramped turnstiles at ticketing gates ensure seamless stroller entry.",
+      "rating": "Pram-Certified ✓",
+      "icon": "🚼"
+    },
+    {
+      "id": "baby_nursing_lounges",
+      "facility": "Mother & Baby Private Nursing Rooms",
+      "locations": "Kudala Sangama Dasoha Complex, Almatti Tourist Info Center, Badami Tourist Reception Plaza",
+      "details": "Dedicated curtain-partitioned nursing corners and air-ventilated baby-care cubicles equipped with comfortable padded armchairs, diaper-changing tables, and hygienic handwash sinks for privacy and comfort.",
+      "rating": "Private & Hygienic ✓",
+      "icon": "🤱"
+    },
+    {
+      "id": "baby_water_milk",
+      "facility": "Purified Water & Warm Milk Assistance",
+      "locations": "All ASI Ticket Plazas, KSTDC Mayura Restaurants, Verified Local Khanavalis",
+      "details": "Complimentary RO purified drinking water refill taps available at all ASI ticket counters. Verified local restaurants and Khanavalis happily provide boiled warm drinking water and warm cow/buffalo milk for baby formula bottles upon polite request.",
+      "rating": "Available On Request ✓",
+      "icon": "🍼"
+    },
+    {
+      "id": "baby_pediatric_care",
+      "facility": "Emergency Infant & Pediatric Medical Support",
+      "locations": "Bagalkote Mother & Child Hospital (MCH Navanagar), Badami Taluk Maternity Clinic, Kudala Sangama PHC",
+      "details": "Government Mother & Child Hospital (MCH) in Navanagar Bagalkote operates a dedicated 24x7 Pediatric Emergency Unit. Primary pediatric trauma care, oral rehydration salts (ORS), and pediatric nurses available at Badami Taluk Hospital (2 km from caves).",
+      "rating": "24/7 Government Support ✓",
+      "icon": "🏥"
+    }
+  ]
+}

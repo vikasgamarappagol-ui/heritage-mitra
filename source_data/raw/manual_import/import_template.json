@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ManualImportBatch",
+  "description": "Template schema for manually imported tourism posts, announcements, and local provider records",
+  "import_batch_id": "manual_batch_YYYYMMDD_001",
+  "imported_by": "administrator_or_user",
+  "imported_at": "2026-09-20T00:00:00+05:30",
+  "source_platform": "Facebook (Bagalkote Tourism Page)",
+  "source_url": "https://www.facebook.com/p/Bagalkote-Tourism-100086104343186/",
+  "items": [
+    {
+      "item_id": "import_item_001",
+      "post_date": "YYYY-MM-DD",
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=...",
+      "content_type": "post | event | artisan_spotlight | advisory | business_feature",
+      "title": "Title or headline of the post/notice",
+      "raw_text": "Exact text copied from the post caption or announcement",
+      "entities_mentioned": {
+        "destinations": ["Badami", "Pattadakal"],
+        "taluk": "Badami",
+        "artisans": [],
+        "businesses": [],
+        "festivals": ["Chalukya Utsava"]
+      },
+      "media_attachments": [
+        {
+          "type": "image",
+          "file_name": "example_post_image.jpg",
+          "caption": "Dance performance at Pattadakal temple"
+        }
+      ],
+      "verification_status": "USER/ADMIN_ADDED",
+      "notes": "Verified against official district announcement"
+    }
+  ]
+}

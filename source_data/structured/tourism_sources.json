@@ -1,0 +1,84 @@
+[
+  {
+    "id": "ts_bagalkot_portal",
+    "name": "Official District Portal of Bagalkote (NIC)",
+    "category": "Official Government Portal",
+    "description": "Comprehensive district administration and tourism repository maintained by the National Informatics Centre (NIC), Ministry of Electronics & IT, Government of India, in coordination with the Bagalkote District Administration.",
+    "location": "Bagalkote District, Karnataka",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verified_sections": [
+      "Tourist Destinations (Badami, Pattadakal, Aihole, Mahakuta, Banashankari, Kudala Sangama, Almatti)",
+      "Handloom Tourism (Ilkal Sarees, Guledgudd Khana, Handloom Tourism Committee)",
+      "Public Utilities & Directory (Hospitals, Police, Helplines, Administrative officers)",
+      "District Taluks & Demographics"
+    ],
+    "verification_status": "SOURCE_VERIFIED",
+    "source": "National Informatics Centre (NIC)",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "ts_karnataka_tourism_dept",
+    "name": "Department of Tourism, Government of Karnataka",
+    "category": "State Tourism Authority",
+    "description": "Apex tourism promotion department of Karnataka providing verified tourist circuit itineraries, festival calendars (Chalukya Utsava, Pattadakallu Dance Festival), and accommodation directories.",
+    "location": "Bengaluru / Bagalkote, Karnataka",
+    "source_url": "https://karnatakatourism.org/",
+    "verified_sections": [
+      "Badami destination guide and Chalukya Utsava overview",
+      "Pattadakal UNESCO World Heritage monument descriptions",
+      "Aihole cradle of temple architecture and museum guide",
+      "KSTDC hotel facilities and licensed tour guide information"
+    ],
+    "verification_status": "SOURCE_VERIFIED",
+    "source": "Department of Tourism, Government of Karnataka",
+    "retrieved_at": "2026-09-20T00:27:12+05:30"
+  },
+  {
+    "id": "ts_asi_dharwad_circle",
+    "name": "Archaeological Survey of India (ASI) Dharwad Circle",
+    "category": "Central Heritage Authority",
+    "description": "Statutory central agency responsible for the archaeological conservation, epigraphy, and visitor management of centrally protected monuments in Bagalkote district.",
+    "location": "Dharwad / Badami / Pattadakal / Aihole",
+    "source_url": "https://asidharwadcircle.in/",
+    "verified_sections": [
+      "Badami Cave Temples (1-4) structural conservation data",
+      "Pattadakal World Heritage Site boundary and buffer zone management",
+      "Aihole Durga, Lad Khan, and Meguti Temple inscriptions and dating",
+      "ASI on-site museums and ticket counter facilities"
+    ],
+    "verification_status": "SOURCE_VERIFIED",
+    "source": "Archaeological Survey of India",
+    "retrieved_at": "2026-09-20T00:27:15+05:30"
+  },
+  {
+    "id": "ts_unesco_whc",
+    "name": "UNESCO World Heritage Centre",
+    "category": "International Heritage Repository",
+    "description": "International convention registry maintaining the official inscription dossier (Ref 383, 1987) for the Group of Monuments at Pattadakal.",
+    "location": "Paris, France / Pattadakal, India",
+    "source_url": "https://whc.unesco.org/en/list/383",
+    "verified_sections": [
+      "Statement of Outstanding Universal Value (OUV)",
+      "Criterion (iii) and (iv) compliance regarding cultural synthesis of Nagara and Dravidian architecture",
+      "Conservation reports and state of conservation dossiers"
+    ],
+    "verification_status": "SOURCE_VERIFIED",
+    "source": "UNESCO World Heritage Centre",
+    "retrieved_at": "2026-09-20T00:27:20+05:30"
+  },
+  {
+    "id": "ts_facebook_bagalkote_tourism",
+    "name": "Bagalkote Tourism Official Facebook Page",
+    "category": "Social Media Tourism Channel",
+    "description": "District public outreach page dedicated to highlighting Bagalkote's cultural, natural, and artisanal heritage.",
+    "location": "Bagalkote, Karnataka",
+    "source_url": "https://www.facebook.com/p/Bagalkote-Tourism-100086104343186/",
+    "verified_sections": [
+      "Page identity, follower counts (1,169 followers), mission statement",
+      "Manual import pipeline established for ongoing post feed ingestion"
+    ],
+    "verification_status": "SOURCE_VERIFIED",
+    "source": "Meta / Facebook",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  }
+]

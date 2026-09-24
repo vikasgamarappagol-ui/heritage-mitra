@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Map | Heritage ಮಿತ್ರ</title>
+  
+  <!-- PWA & Mobile App Support -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0D1B2A">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Heritage ಮಿತ್ರ">
+  <link rel="icon" type="image/svg+xml" href="/images/app-icon.svg">
+  <link rel="apple-touch-icon" href="/images/app-icon.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Noto+Sans+Kannada:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/mobile-app.css">
+</head>
+<body data-lang="en">
+
+  <div class="gov-utility-bar">
+    <div class="gov-container gov-utility-inner">
+      <div class="gov-utility-left">
+        <span class="gov-dept-label">Government of Karnataka</span>
+        <span class="gov-divider">|</span>
+        <span class="gov-dept-label">District Administration, Bagalkote</span>
+      </div>
+      <div class="gov-utility-right">
+        <span class="gov-lang-label" data-i18n="lang_label">Language:</span>
+        <button class="gov-lang-btn lang-btn active" data-lang-code="en">English</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="kn">ಕನ್ನಡ</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="hi">हिन्दी</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="ta">தமிழ்</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="te">తెలుగు</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="mr">मराठी</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="ml">മലയാളം</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="gov-brand-band">
+    <div class="gov-container gov-brand-inner">
+      <a href="/" class="gov-ka-logo-block">
+        <div class="gov-ka-emblem">
+          <img src="/images/karnataka_govt_seal.jpg" alt="Government of Karnataka Official Seal" class="ka-emblem-img" />
+        </div>
+        <div class="gov-ka-text">
+          <span class="gov-ka-script">Karnataka</span>
+          <span class="gov-ka-tagline">One state. Many worlds.</span>
+          <span class="gov-ka-dept">Department of Tourism</span>
+        </div>
+      </a>
+      <div class="gov-site-center">
+        <span class="gov-site-title-kn">ಬಾಗಲಕೋಟೆ ಜಿಲ್ಲಾ ಪ್ರವಾಸೋದ್ಯಮ</span>
+        <span class="gov-site-title-en">DEPARTMENT OF TOURISM</span>
+        <span class="gov-site-district">BAGALKOTE DISTRICT</span>
+        <span class="gov-site-sub">AI-Powered Inclusive Tourism Ecosystem</span>
+      </div>
+      <div class="gov-brand-actions">
+        <a href="/my-profile.html" class="btn btn-outline" style="text-decoration:none;">
+          <span class="btn-icon">👤</span>
+          <span>MY PROFILE</span>
+        </a>
+        <button class="btn btn-primary" id="openTripPlannerBtn">
+          <span class="btn-icon">🧭</span>
+          <span>PLAN MY TRIP</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="gov-nav-bar" id="siteHeader">
+    <div class="gov-container gov-nav-inner">
+      <a href="/" class="gov-nav-link  " data-i18n="nav_home">Home</a>
+      <a href="/explore.html" class="gov-nav-link  " data-i18n="nav_explore">Explore</a>
+      <a href="/map.html" class="gov-nav-link  active" data-i18n="nav_map">Karnataka Map</a>
+      <a href="/meet-the-people.html" class="gov-nav-link" data-i18n="nav_skills">Meet People &amp; Artisans</a>
+      <a href="/accessibility.html" class="gov-nav-link  " data-i18n="nav_accessible">Accessible Tourism</a>
+      <a href="/safety.html" class="gov-nav-link  " data-i18n="nav_safety">Safety Centre</a>
+      <a href="/my-profile.html" class="gov-nav-link  ">My Profile</a>
+      <a href="/provider-portal.html" class="gov-nav-link gov-nav-provider " data-i18n="nav_provider">Provider Portal</a>
+      <a href="/complaints.html" class="gov-nav-link gov-nav-complaints" data-i18n="nav_complaints">Complaints &amp; Feedback</a>
+      <a href="/dc-dashboard.html" class="gov-nav-link gov-nav-admin " data-i18n="nav_admin">DC Dashboard</a>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-hero-content container">
+      <span class="section-kicker">GEOGRAPHIC HEARTLAND</span>
+      <h1 class="page-hero-title">BAGALKOTE — HEART OF CHALUKYAN HERITAGE</h1>
+      <p class="page-hero-sub">Interactive GIS map highlighting Bagalkote District within Karnataka state, showing verified monuments, artisan clusters, and safety nodes.</p>
+    </div>
+  </div>
+
+  <main>
+    <section class="section-padding" id="mapPage">
+      <div class="container" id="mapPageContainer">
+        <div style="text-align:center;padding:4rem 0;color:#64748B;">
+          <div style="font-size:3rem;margin-bottom:1rem;">⏳</div>
+          <p>Loading content...</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LOGIN MODAL (shared) -->
+  <div class="modal-backdrop" id="loginModal">
+    <div class="modal-dialog login-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="section-kicker" style="font-size:0.7rem;">BAGALKOTE TOURISM PORTAL</span>
+          <h3 class="modal-title">Sign In to Continue</h3>
+          <p style="font-size:0.85rem;color:#64748B;margin-top:0.25rem;">Login to plan and save your Bagalkote trip</p>
+        </div>
+        <button class="modal-close" id="closeLoginModal">&times;</button>
+      </div>
+      <div class="login-body">
+        <form id="loginForm" class="login-form">
+          <div class="form-group">
+            <label for="loginEmail">Email Address</label>
+            <input type="email" id="loginEmail" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" placeholder="Enter your password" required>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary" style="width:100%;">Sign In & Continue</button>
+          </div>
+          <div class="login-footer-links">
+            <a href="#" onclick="return false;">Forgot Password?</a>
+            <span>·</span>
+            <a href="#" onclick="return false;">Create Account</a>
+          </div>
+        </form>
+        <div id="loginError" class="login-error" style="display:none;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DESTINATION DETAIL MODAL -->
+  <div class="modal-backdrop" id="destinationDetailModal" onclick="if(event.target === this) this.classList.remove('active')">
+    <div class="modal-dialog detail-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="detail-category-badge" id="modalDestCategory">Heritage</span>
+          <h3 class="modal-title" id="modalDestTitle">Badami Cave Temples</h3>
+          <span class="detail-kn-name" id="modalDestKn">ಬಾದಾಮಿ ಗುಹಾ ದೇವಾಲಯಗಳು</span>
+        </div>
+        <button class="modal-close" id="closeDestModalBtn" onclick="document.getElementById('destinationDetailModal').classList.remove('active')" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="detail-body" id="modalDestBody"></div>
+      <div class="modal-footer">
+        <div class="modal-source-tag" id="modalDestSource">Source: Official Bagalkote District Portal</div>
+        <button class="btn btn-primary" id="modalAddToTripBtn">+ Add to Trip</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ATTRACTION LIGHTBOX -->
+  <div class="modal-backdrop" id="attractionLightbox" onclick="if(event.target === this) this.classList.remove('active')">
+    <div class="modal-dialog attraction-lightbox-dialog">
+      <button class="modal-close" id="closeLightboxBtn" onclick="document.getElementById('attractionLightbox').classList.remove('active')">&times;</button>
+      <div class="lightbox-image-wrap">
+        <img id="lightboxImage" src="" alt="">
+      </div>
+      <div class="lightbox-info">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+        <div id="lightboxSource" class="modal-source-tag"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/translations.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/tourist-profile.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="/js/map.js"></script>
+  <script src="/js/ai-assistant.js"></script>
+  <script src="/js/pages/shared-login.js"></script>
+  <script src="/js/pages/map-page.js"></script>
+  <!-- Heritage ಮಿತ್ರ Native Mobile & PWA Engine -->
+  <script src="/js/mobile-app.js"></script>
+</body>
+</html>

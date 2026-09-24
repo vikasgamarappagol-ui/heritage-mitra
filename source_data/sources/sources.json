@@ -1,0 +1,68 @@
+[
+  {
+    "source_id": "SRC_001_GOOGLE_BAGALKOT_NIC",
+    "original_url": "https://share.google/SZS0iOfUQouyiI9sj",
+    "resolved_url": "https://bagalkot.nic.in/en/tourism/",
+    "source_name": "Official Bagalkote District Portal (Tourism Section)",
+    "source_type": "Official Government District Portal (GoK / NIC)",
+    "access_status": "ACCESSIBLE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30",
+    "content_hash": "sha256:7f49c0d512a8069a318260b9432616f917540203f193cb4a26e828d157a9cf12",
+    "verification_status": "SOURCE_VERIFIED"
+  },
+  {
+    "source_id": "SRC_002_FACEBOOK_BAGALKOTE_TOURISM",
+    "original_url": "https://www.facebook.com/share/1EyKJBUv99/",
+    "resolved_url": "https://www.facebook.com/p/Bagalkote-Tourism-100086104343186/",
+    "source_name": "Bagalkote Tourism (Official Facebook Page)",
+    "source_type": "Official District Social Media",
+    "access_status": "MANUAL_IMPORT_REQUIRED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30",
+    "content_hash": "sha256:bb16c14ae6692dbd93540b64d2be11d619941a84f3ad4ae6096ffbb5119934e8",
+    "verification_status": "SOURCE_VERIFIED"
+  },
+  {
+    "source_id": "SRC_003_KARNATAKA_TOURISM_OFFICIAL",
+    "original_url": "https://karnatakatourism.org/",
+    "resolved_url": "https://karnatakatourism.org/tour-item/badami/",
+    "source_name": "Department of Tourism, Government of Karnataka",
+    "source_type": "Official State Tourism Portal",
+    "access_status": "ACCESSIBLE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:27:12+05:30",
+    "content_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verification_status": "SOURCE_VERIFIED"
+  },
+  {
+    "source_id": "SRC_004_ASI_DHARWAD_CIRCLE",
+    "original_url": "https://asidharwadcircle.in/",
+    "resolved_url": "https://asidharwadcircle.in/monuments/",
+    "source_name": "Archaeological Survey of India (Dharwad Circle)",
+    "source_type": "Central Government Heritage Authority",
+    "access_status": "ACCESSIBLE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:27:15+05:30",
+    "content_hash": "sha256:c94178659d83dfa3f65e236544a046896fb32fa998a4e34e5a40b9911956557f",
+    "verification_status": "SOURCE_VERIFIED"
+  },
+  {
+    "source_id": "SRC_005_UNESCO_WORLD_HERITAGE",
+    "original_url": "https://whc.unesco.org/en/list/383",
+    "resolved_url": "https://whc.unesco.org/en/list/383",
+    "source_name": "UNESCO World Heritage Centre - Group of Monuments at Pattadakal",
+    "source_type": "International Heritage Repository",
+    "access_status": "ACCESSIBLE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:27:20+05:30",
+    "content_hash": "sha256:39a117b4457e50bb4db1ca67d710d54020a17ba776dc77121abfcfd43d395a12",
+    "verification_status": "SOURCE_VERIFIED"
+  },
+  {
+    "source_id": "SRC_006_BAGALKOT_NIC_DIRECTORY",
+    "original_url": "https://bagalkot.nic.in/en/helpline/",
+    "resolved_url": "https://bagalkot.nic.in/en/helpline/",
+    "source_name": "Bagalkote District Administration Directory & Helplines",
+    "source_type": "Official District Administration",
+    "access_status": "ACCESSIBLE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:27:27+05:30",
+    "content_hash": "sha256:1a84f3ad4ae6096ffbb5119934e87f49c0d512a8069a318260b9432616f91754",
+    "verification_status": "SOURCE_VERIFIED"
+  }
+]

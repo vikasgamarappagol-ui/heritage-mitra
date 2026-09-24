@@ -1,0 +1,27 @@
+{
+  "dataset_name": "destinations_cleaned",
+  "cleaning_steps_applied": [
+    "Deduplication across official portal and state tourism records",
+    "Normalization of English, Kannada, and historical Sanskrit toponyms",
+    "Geographical validation of taluk jurisdictions (9 taluk modern system)",
+    "Standardization of accessibility categories into boolean and verified descriptive text",
+    "Verification of ASI and UNESCO protection credentials"
+  ],
+  "records_count": 13,
+  "data_retrieval_date": "2026-09-20T00:26:35+05:30",
+  "verified_destinations": [
+    "dest_badami",
+    "dest_pattadakal",
+    "dest_aihole",
+    "dest_mahakuta",
+    "dest_banashankari",
+    "dest_kudala_sangama",
+    "dest_almatti_dam",
+    "dest_ilkal",
+    "dest_guledagudda",
+    "dest_mudhol",
+    "dest_jamkhandi",
+    "dest_bilagi",
+    "dest_shivayogamandira"
+  ]
+}

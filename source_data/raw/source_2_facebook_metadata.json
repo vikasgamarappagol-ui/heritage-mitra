@@ -1,0 +1,19 @@
+{
+  "source_id": "src_002_facebook_tourism",
+  "original_url": "https://www.facebook.com/share/1EyKJBUv99/",
+  "resolved_url": "https://www.facebook.com/p/Bagalkote-Tourism-100086104343186/",
+  "page_id": "100086104343186",
+  "page_name": "Bagalkote Tourism",
+  "followers_count": "1,169 followers",
+  "talking_about_count": "10 talking about this",
+  "page_description": "Bagalkote Tourism. 1,169 followers · 10 talking about this. This page is an excellent endeavor to highlight the best of district’s Cultural & natural heritage",
+  "og_image": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/307560098_108671612012983_8871650173524220808_n.jpg",
+  "access_status": "MANUAL_IMPORT_REQUIRED",
+  "access_diagnostics": {
+    "http_status": 200,
+    "payload_type": "text/html",
+    "challenge_detected": "Facebook client-side authentication / dynamic JS timeline rendering barrier. Raw crawler payload contains OpenGraph metadata headers, but timeline post objects require authenticated browser session or direct Graph API access.",
+    "action_taken": "Preserved OpenGraph metadata and page identity; created manual import pipeline for offline ingestion of timeline posts, photos, and event announcements."
+  },
+  "retrieved_at": "2026-09-20T00:26:35+05:30"
+}

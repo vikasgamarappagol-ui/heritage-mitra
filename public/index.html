@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heritage ಮಿತ್ರ | AI-Powered Inclusive Tourism Ecosystem for Bagalkote</title>
+  
+  <!-- PWA & Mobile App Support -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0D1B2A">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Heritage ಮಿತ್ರ">
+  <link rel="icon" type="image/svg+xml" href="/images/app-icon.svg">
+  <link rel="apple-touch-icon" href="/images/app-icon.jpg">
+  
+  <!-- SEO & OpenGraph Meta Tags -->
+  <meta name="description" content="Heritage ಮಿತ್ರ - AI-Powered Inclusive Tourism Ecosystem for Bagalkote. Connecting travellers with Chalukyan heritage, local artisans, businesses, and authentic cultural experiences across Northern Karnataka.">
+  <meta name="keywords" content="Heritage Mitra, Heritage ಮಿತ್ರ, Bagalkote, Badami, Pattadakal, Aihole, Kudala Sangama, Almatti, Ilkal Saree, Guledgudd Khana, Inclusive Tourism, Karnataka Tourism, Chalukya">
+  <meta property="og:title" content="Heritage ಮಿತ್ರ | Bagalkote Inclusive Tourism Ecosystem">
+  <meta property="og:description" content="Inclusive Tourism for Every Traveller, Opportunities for Every Local.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Noto Sans Kannada, Outfit, Cinzel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Noto+Sans+Kannada:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS for Karnataka / Bagalkote Interactive Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/mobile-app.css">
+</head>
+<body data-lang="en">
+
+
+
+  <!-- ===== GOVERNMENT HEADER (3-Tier Layout) ===== -->
+
+  <!-- TIER 1: Utility / Language Bar -->
+  <div class="gov-utility-bar">
+    <div class="gov-container gov-utility-inner">
+      <div class="gov-utility-left">
+        <span class="gov-dept-label">Government of Karnataka</span>
+        <span class="gov-divider">|</span>
+        <span class="gov-dept-label">District Administration, Bagalkote</span>
+      </div>
+      <div class="gov-utility-right">
+        <span class="gov-lang-label" data-i18n="lang_label">Language:</span>
+        <button class="gov-lang-btn lang-btn active" data-lang-code="en">English</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="kn">ಕನ್ನಡ</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="hi">हिन्दी</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="ta">தமிழ்</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="te">తెలుగు</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="mr">मराठी</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="ml">മലയാളം</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIER 2: Branding / Logo Band -->
+  <div class="gov-brand-band">
+    <div class="gov-container gov-brand-inner">
+
+      <!-- LEFT: Karnataka Govt + Tourism Logo -->
+      <a href="#home" class="gov-ka-logo-block" id="brandLogo">
+        <!-- Karnataka Government Seal -->
+        <div class="gov-ka-emblem">
+          <img src="/images/karnataka_govt_seal.jpg"
+               alt="Government of Karnataka Official Seal"
+               class="ka-emblem-img" />
+        </div>
+
+        <!-- Karnataka Tourism Text -->
+        <div class="gov-ka-text">
+          <span class="gov-ka-script">Karnataka</span>
+          <span class="gov-ka-tagline">One state. Many worlds.</span>
+          <span class="gov-ka-dept">Department of Tourism</span>
+        </div>
+      </a>
+
+      <!-- CENTER: Site Title -->
+      <div class="gov-site-center">
+        <span class="gov-site-title-kn">ಬಾಗಲಕೋಟೆ ಜಿಲ್ಲಾ ಪ್ರವಾಸೋದ್ಯಮ</span>
+        <span class="gov-site-title-en">DEPARTMENT OF TOURISM</span>
+        <span class="gov-site-district">BAGALKOTE DISTRICT</span>
+        <span class="gov-site-sub">AI-Powered Inclusive Tourism Ecosystem</span>
+      </div>
+
+      <!-- RIGHT: Action Buttons -->
+      <div class="gov-brand-actions">
+        <a href="/my-profile.html" class="btn btn-outline" id="headerProfileBtn" style="text-decoration:none;">
+          <span class="btn-icon">👤</span>
+          <span>MY PROFILE</span>
+        </a>
+        <button class="btn btn-primary" id="openTripPlannerBtn">
+          <span class="btn-icon">🧭</span>
+          <span data-i18n="btn_plan_trip">PLAN MY TRIP</span>
+        </button>
+        <button class="btn btn-ai-toggle" id="openAIChatBtn" title="Ask AI Tourism Companion">
+          <span class="btn-icon">✨</span>
+          <span class="ai-btn-text">AI Assistant</span>
+        </button>
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- TIER 3: Sticky Navigation Bar -->
+  <nav class="gov-nav-bar" id="siteHeader">
+    <div class="gov-container gov-nav-inner">
+      <a href="/"                    class="gov-nav-link active" data-i18n="nav_home">Home</a>
+      <a href="/explore.html"         class="gov-nav-link" data-i18n="nav_explore">Explore</a>
+      <a href="/map.html"             class="gov-nav-link" data-i18n="nav_map">Karnataka Map</a>
+      <a href="/meet-the-people.html" class="gov-nav-link" data-i18n="nav_skills">Meet People &amp; Artisans</a>
+      <a href="/accessibility.html"   class="gov-nav-link" data-i18n="nav_accessible">Accessible Tourism</a>
+      <a href="/safety.html"          class="gov-nav-link" data-i18n="nav_safety">Safety Centre</a>
+      <a href="/my-profile.html"      class="gov-nav-link" id="navProfileLink">My Profile</a>
+      <a href="/provider-portal.html" class="gov-nav-link gov-nav-provider" id="navProviderBtn" data-i18n="nav_provider">Provider Portal</a>
+      <a href="/complaints.html" class="gov-nav-link gov-nav-complaints" data-i18n="nav_complaints">Complaints &amp; Feedback</a>
+      <a href="/dc-dashboard.html"    class="gov-nav-link gov-nav-admin"    id="navAdminBtn"    data-i18n="nav_admin">DC Dashboard</a>
+    </div>
+  </nav>
+
+
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-pattern-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span data-i18n="hero_badge">OFFICIAL DISTRICT AI TOURISM PLATFORM</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-title-kn">ಬಾಗಲಕೋಟೆ</span>
+          <span class="hero-title-en">BAGALKOTE</span>
+        </h1>
+        <p class="hero-tagline" data-i18n="hero_tagline">
+          DISCOVER BAGALKOTE. EXPERIENCE ITS CULTURE. EMPOWER ITS PEOPLE.
+        </p>
+        <p class="hero-desc" data-i18n="hero_desc">
+          An AI-powered inclusive tourism ecosystem connecting travellers with 6th-century Chalukyan rock-cut caves, UNESCO World Heritage monuments, GI-tagged handloom weavers, and authentic rural communities.
+        </p>
+
+        <div class="hero-cta-group">
+          <button class="btn btn-hero-primary" id="heroPlanTripBtn">
+            <span class="btn-icon">🗺️</span>
+            <span data-i18n="hero_btn_plan">PLAN MY TRIP</span>
+          </button>
+          <button class="btn btn-hero-secondary" id="heroAskAIBtn">
+            <span class="btn-icon">🤖</span>
+            <span data-i18n="hero_btn_ai">ASK AI COMPANION</span>
+          </button>
+          <a href="#mapSection" class="btn btn-hero-outline">
+            <span class="btn-icon">📍</span>
+            <span data-i18n="hero_btn_map">VIEW KARNATAKA MAP</span>
+          </a>
+        </div>
+
+        <!-- Quick District Stats / Trust Banner -->
+        <div class="hero-stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">13</div>
+            <div class="stat-label" data-i18n="stat_destinations">Verified Destinations</div>
+            <div class="stat-sub">Across 9 Taluks</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">1 UNESCO</div>
+            <div class="stat-label" data-i18n="stat_unesco">Pattadakal World Heritage</div>
+            <div class="stat-sub">Inscribed 1987</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">2 GI Crafts</div>
+            <div class="stat-label" data-i18n="stat_gi">Ilkal Saree & Khana</div>
+            <div class="stat-sub">Geographical Indication</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">100%</div>
+            <div class="stat-label" data-i18n="stat_inclusive">Inclusive Growth Focus</div>
+            <div class="stat-sub">Direct Local Benefits</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: ONE DISTRICT. MANY EXPERIENCES. -->
+    <section class="categories-strip">
+      <div class="container">
+        <div class="strip-header">
+          <span class="section-kicker" data-i18n="cat_kicker">EXPERIENCE DIVERSITY</span>
+          <h2 class="strip-title" data-i18n="cat_title">ONE DISTRICT. MANY EXPERIENCES.</h2>
+        </div>
+        <div class="categories-scroll" id="categoryScroll">
+          <button class="cat-pill active" data-cat="All">
+            <span class="cat-icon">✨</span>
+            <span data-i18n="cat_all">All Experiences</span>
+          </button>
+          <button class="cat-pill" data-cat="Heritage">
+            <span class="cat-icon">🏛️</span>
+            <span data-i18n="cat_heritage">Heritage & Caves</span>
+          </button>
+          <button class="cat-pill" data-cat="Craft">
+            <span class="cat-icon">🎨</span>
+            <span data-i18n="cat_crafts">Art & GI Handlooms</span>
+          </button>
+          <button class="cat-pill" data-cat="Food">
+            <span class="cat-icon">🍲</span>
+            <span data-i18n="cat_food">Local Food & Khanavalis</span>
+          </button>
+          <button class="cat-pill" data-cat="Spiritual">
+            <span class="cat-icon">🕉️</span>
+            <span data-i18n="cat_spiritual">Spiritual & Confluence</span>
+          </button>
+          <button class="cat-pill" data-cat="Nature">
+            <span class="cat-icon">🌿</span>
+            <span data-i18n="cat_nature">Nature &amp; Dam Gardens</span>
+          </button>
+          <button class="cat-pill" data-cat="Business">
+            <span class="cat-icon">🛍️</span>
+            <span data-i18n="cat_business">Local Businesses</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: ICONIC BAGALKOTE (MAJOR MONUMENTS) -->
+    <section class="section-padding iconic-section" id="explore">
+      <div class="container">
+        <div class="section-header-row">
+          <div>
+            <span class="section-kicker" data-i18n="iconic_kicker">AUTHENTIC DESTINATIONS</span>
+            <h2 class="section-title" data-i18n="iconic_title">ICONIC BAGALKOTE</h2>
+            <p class="section-subtitle" data-i18n="iconic_subtitle">
+              Source-verified heritage monuments, sacred river confluences, and artisan clusters.
+            </p>
+          </div>
+          <!-- Taluk Filter -->
+          <div class="filter-controls">
+            <label for="talukSelect" class="filter-label" data-i18n="filter_taluk_label">Taluk Filter:</label>
+            <select id="talukSelect" class="select-dropdown">
+              <option value="All">All 9 Taluks</option>
+              <option value="Badami">Badami Taluk</option>
+              <option value="Hunagund">Hunagund Taluk</option>
+              <option value="Ilkal">Ilkal Taluk</option>
+              <option value="Guledagudda">Guledagudda Taluk</option>
+              <option value="Bagalkote">Bagalkote Taluk</option>
+              <option value="Mudhol">Mudhol Taluk</option>
+              <option value="Jamkhandi">Jamkhandi Taluk</option>
+              <option value="Bilagi">Bilagi Taluk</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Destination Cards Grid -->
+        <div class="destinations-grid" id="destinationsGrid">
+          <!-- Loaded dynamically via JavaScript from /api/destinations -->
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: KARNATAKA MAP + BAGALKOTE LOCATION -->
+    <section class="section-padding map-section" id="mapSection">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-kicker" data-i18n="map_kicker">GEOGRAPHIC HEARTLAND</span>
+          <h2 class="section-title" data-i18n="map_title">BAGALKOTE — HEART OF CHALUKYAN HERITAGE</h2>
+          <p class="section-subtitle" data-i18n="map_subtitle">
+            Interactive GIS map highlighting Bagalkote District within Karnataka state, showing verified monuments, artisan clusters, and safety nodes.
+          </p>
+        </div>
+
+        <div class="map-wrapper">
+          <!-- Map Layer Controls -->
+          <div class="map-controls-bar">
+            <span class="control-label" data-i18n="map_layers_title">Active Map Layers:</span>
+            <div class="layer-toggles">
+              <label class="layer-btn active"><input type="checkbox" id="layerHeritage" checked> 🏛️ Heritage</label>
+              <label class="layer-btn active"><input type="checkbox" id="layerArtisans" checked> 🎨 Artisans</label>
+              <label class="layer-btn active"><input type="checkbox" id="layerFood" checked> 🍲 Food</label>
+              <label class="layer-btn active"><input type="checkbox" id="layerLodging" checked> 🏠 Stays</label>
+              <label class="layer-btn active"><input type="checkbox" id="layerEmergency" checked> 🚨 Safety / Hospitals</label>
+            </div>
+            <button class="btn btn-sm btn-outline" id="resetMapBtn">Reset View</button>
+          </div>
+
+          <!-- Leaflet Map Container -->
+          <div id="interactiveMap" class="map-canvas"></div>
+
+          <!-- Map Info Footer -->
+          <div class="map-footer-bar">
+            <div class="map-legend">
+              <span class="legend-item"><span class="legend-dot dot-heritage"></span> Heritage / Monuments</span>
+              <span class="legend-item"><span class="legend-dot dot-artisan"></span> Handlooms & Artisans</span>
+              <span class="legend-item"><span class="legend-dot dot-food"></span> Khanavalis / Food</span>
+              <span class="legend-item"><span class="legend-dot dot-safety"></span> 24x7 Emergency / Police</span>
+            </div>
+            <div class="map-data-source">
+              <span>Source: Official District GIS & OpenStreetMap Contributors</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: MEET THE PEOPLE BEHIND BAGALKOTE (MODULE 12: SKILL MATCHING) -->
+    <section class="section-padding skill-matching-section" id="skillMatching">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-kicker" data-i18n="skills_kicker">INCLUSIVE GROWTH SIGNATURE MODULE</span>
+          <h2 class="section-title" data-i18n="skills_title">MEET THE PEOPLE BEHIND BAGALKOTE</h2>
+          <p class="section-subtitle" data-i18n="skills_subtitle">
+            AI-Based Tourist–Local Skill Matching: Connecting your specific interests directly to master weavers, needlecraft artisans, and traditional home-chefs.
+          </p>
+        </div>
+
+        <!-- 5-Node Relational Flow Diagram Graphic -->
+        <div class="relational-flow-card">
+          <div class="flow-node">
+            <div class="flow-icon">🙋</div>
+            <div class="flow-title">1. TOURIST INTEREST</div>
+            <div class="flow-sub">Your travel curiosity</div>
+          </div>
+          <div class="flow-arrow">➔</div>
+          <div class="flow-node">
+            <div class="flow-icon">🧠</div>
+            <div class="flow-title">2. AI MATCHING ENGINE</div>
+            <div class="flow-sub">Hybrid recommendation</div>
+          </div>
+          <div class="flow-arrow">➔</div>
+          <div class="flow-node">
+            <div class="flow-icon">🧵</div>
+            <div class="flow-title">3. LOCAL SKILL</div>
+            <div class="flow-sub">Master craftsmanship</div>
+          </div>
+          <div class="flow-arrow">➔</div>
+          <div class="flow-node">
+            <div class="flow-icon">👥</div>
+            <div class="flow-title">4. LOCAL PROVIDER</div>
+            <div class="flow-sub">Verified cooperative</div>
+          </div>
+          <div class="flow-arrow">➔</div>
+          <div class="flow-node">
+            <div class="flow-icon">🌟</div>
+            <div class="flow-title">5. LOCAL EXPERIENCE</div>
+            <div class="flow-sub">Hands-on immersion</div>
+          </div>
+        </div>
+
+        <!-- Interactive Interest Picker for Skill Matching -->
+        <div class="skill-interactive-box">
+          <div class="interactive-prompt">
+            <span class="prompt-label" data-i18n="skill_prompt">Select what you love to explore:</span>
+            <div class="interest-chips" id="interestChips">
+              <button class="chip active" data-interest="handloom">Handloom Weaving (ಇಳಕಲ್ ಸೀರೆ)</button>
+              <button class="chip" data-interest="embroidery">Kasuti Needlecraft (ಕಸೂತಿ ಕಲೆ)</button>
+              <button class="chip" data-interest="food">Traditional Millet Food (ಜೋಳದ ರೊಟ್ಟಿ)</button>
+              <button class="chip" data-interest="architecture">Chalukya Architecture & Epigraphy</button>
+              <button class="chip" data-interest="philosophy">Sharana Philosophy & Dasoha</button>
+            </div>
+          </div>
+
+          <!-- Matched Results Cards -->
+          <div class="skill-matches-grid" id="skillMatchesGrid">
+            <!-- Populated dynamically via skill-matching.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: DISCOVER LOCAL CRAFTS (MODULE 8: ARTISAN RECOMMENDATION) -->
+    <section class="section-padding artisans-section" id="artisans">
+      <div class="container">
+        <div class="section-header-row">
+          <div>
+            <span class="section-kicker" data-i18n="artisan_kicker">MODULE 8: LOCAL ARTISANS</span>
+            <h2 class="section-title" data-i18n="artisan_title">DISCOVER LOCAL CRAFTS & ARTISANS</h2>
+            <p class="section-subtitle" data-i18n="artisan_subtitle">
+              Verified handloom cooperatives and GI-tagged craft practitioners. Zero invented entities.
+            </p>
+          </div>
+          <div class="artisan-badge-note">
+            <span class="verified-badge">✓ SOURCE VERIFIED</span>
+            <span class="demo-badge">DEMO DATA LABELED</span>
+          </div>
+        </div>
+
+        <div class="artisans-grid" id="artisansGrid">
+          <!-- Populated from /api/artisans -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECTION: TRAVEL WITHOUT BARRIERS (MODULE 10: ACCESSIBLE TOURISM ASSISTANT) -->
+    <section class="section-padding accessibility-section" id="accessibility">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-kicker" data-i18n="acc_kicker">MODULE 10: INCLUSIVE ACCESS</span>
+          <h2 class="section-title" data-i18n="acc_title">TRAVEL WITHOUT BARRIERS</h2>
+          <p class="section-subtitle" data-i18n="acc_subtitle">
+            Verified mobility assessments, staircase counts, wheelchair ramp availability, and senior-friendly facilities.
+          </p>
+        </div>
+
+        <!-- Visual Accessibility Icons Legend -->
+        <div class="access-icons-banner">
+          <div class="access-icon-pill">
+            <span class="icon">♿</span>
+            <span class="title">Wheelchair Accessible</span>
+          </div>
+          <div class="access-icon-pill">
+            <span class="icon">👴</span>
+            <span class="title">Senior Friendly</span>
+          </div>
+          <div class="access-icon-pill">
+            <span class="icon">🚶</span>
+            <span class="title">Reduced Walking</span>
+          </div>
+          <div class="access-icon-pill">
+            <span class="icon">🅿️</span>
+            <span class="title">Designated Parking</span>
+          </div>
+          <div class="access-icon-pill">
+            <span class="icon">🚻</span>
+            <span class="title">Accessible Washrooms</span>
+          </div>
+          <div class="access-icon-pill">
+            <span class="icon">🪑</span>
+            <span class="title">Shaded Rest Areas</span>
+          </div>
+        </div>
+
+        <!-- Accessibility Matrix Table -->
+        <div class="accessibility-table-wrapper" id="accessibilityTableWrapper">
+          <!-- Populated via JavaScript from /api/accessibility -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: SAFETY CENTRE (MODULE 13: WOMEN & SENIOR SAFETY) -->
+    <section class="section-padding safety-section" id="safety">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-kicker" data-i18n="safe_kicker">MODULE 13: TOURIST SECURITY</span>
+          <h2 class="section-title" data-i18n="safe_title">BAGALKOTE TOURIST SAFETY CENTRE</h2>
+          <p class="section-subtitle" data-i18n="safe_subtitle">
+            Verified 24x7 emergency contacts, police stations, multi-specialty trauma hospitals, and responsible travel advisories.
+          </p>
+        </div>
+
+        <div class="safety-grid">
+          <!-- 24x7 Helplines Card -->
+          <div class="safety-card emergency-helpline-card">
+            <div class="card-icon">🚨</div>
+            <h3 class="card-title">24x7 Emergency Helplines</h3>
+            <p class="card-desc">Toll-free emergency contacts managed by Bagalkote District Administration & Government of Karnataka.</p>
+            <ul class="helpline-list">
+              <li><strong>1077</strong>: District Disaster & Emergency (Toll-Free)</li>
+              <li><strong>112</strong>: Universal Emergency & Police Response</li>
+              <li><strong>08354-236240</strong>: District Control Room (DC Office)</li>
+              <li><strong>08354-235077</strong>: Superintendent of Police (SP) Office</li>
+              <li><strong>104</strong>: Karnataka Health Helpline & Medical Advice</li>
+              <li><strong>1033</strong>: NHAI Highway Emergency (NH-50)</li>
+              <li><strong>1091</strong>: Women Helpline / Emergency Assistance</li>
+            </ul>
+            <div class="safety-note">✓ Verified against official district directory</div>
+          </div>
+
+          <!-- Hospitals Card -->
+          <div class="safety-card hospital-card">
+            <div class="card-icon">🏥</div>
+            <h3 class="card-title">Multi-Specialty Trauma Hospitals</h3>
+            <p class="card-desc">Major hospital facilities with 24x7 emergency departments and ambulance fleets.</p>
+            <div class="hospital-item">
+              <h4>Hangal Sri Kumareshwara Hospital</h4>
+              <p class="hosp-loc">Navanagar, Bagalkote - Ph: <strong>08354-235360</strong></p>
+              <span class="hosp-tag">Tertiary Trauma Care</span>
+            </div>
+            <div class="hospital-item">
+              <h4>Kerudi Hospital & Research Centre</h4>
+              <p class="hosp-loc">Bagalkote Town - Ph: <strong>08354-221233</strong></p>
+              <span class="hosp-tag">24x7 Emergency Unit</span>
+            </div>
+            <div class="safety-note">✓ Verified against Bagalkote Health Directory</div>
+          </div>
+
+          <!-- Safety Advisory Card -->
+          <div class="safety-card advisory-card">
+            <div class="card-icon">🛡️</div>
+            <h3 class="card-title">Travel Advisories (Women & Seniors)</h3>
+            <ul class="advisories-list">
+              <li><strong>Visiting Hours</strong>: Tour ASI monuments between sunrise and sunset; avoid isolated cliff tracks after dark.</li>
+              <li><strong>Monkey Alert</strong>: Exercise caution around Badami caves; do not carry visible open food packets.</li>
+              <li><strong>Hydration</strong>: High daytime temperatures occur from March to June; carry electrolyte packets and hats.</li>
+              <li><strong>Footwear</strong>: Rock-cut steps can be slippery; use shoes with sturdy rubber grip.</li>
+              <li><strong>No Route Guaranteed 100% Safe</strong>: Travel responsibly using authorized KSRTC buses and licensed taxis.</li>
+            </ul>
+            <div class="safety-note">Source: Karnataka Tourism & Police Advisories</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: INCLUSIVE TOURISM IN ACTION -->
+    <section class="section-padding impact-section">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-kicker">ECOSYSTEM IMPACT</span>
+          <h2 class="section-title">INCLUSIVE TOURISM IN ACTION</h2>
+          <p class="section-subtitle">
+            How the AI tourism platform creates tangible, multi-stakeholder value across Bagalkote.
+          </p>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-card">
+            <div class="impact-icon">🧳</div>
+            <h3>For Every Traveller</h3>
+            <p>Personalized journeys matching budget, companions, language, and accessibility needs with source-verified confidence.</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">🧵</div>
+            <h3>For Local Artisans</h3>
+            <p>Direct tourist footfall and sales without exploitative intermediaries, preserving ancient GI-tagged textile traditions.</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">🏪</div>
+            <h3>For Small Businesses</h3>
+            <p>Fair visibility for local Khanavalis, licensed guides, and homestays on an equal footing with large commercial operators.</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">🏛️</div>
+            <h3>For District Administration</h3>
+            <p>Real-time tourism intelligence, seasonal demand forecasting, crowd distribution, and heritage conservation oversight.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CORE PHILOSOPHY CALLOUT -->
+    <section class="core-philosophy-banner">
+      <div class="container philosophy-content">
+        <div class="chalukya-decorative-line"></div>
+        <blockquote class="philosophy-quote">
+          “AI should not only take tourists to monuments.<br>
+          AI should connect tourists with the people, culture, skills and businesses of Bagalkote.”
+        </blockquote>
+        <p class="philosophy-sub">
+          “Discover Bagalkote. Experience its culture. Empower its people.”
+        </p>
+        <div class="chalukya-decorative-line"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================ -->
+  <!-- MODALS & DRAWERS -->
+  <!-- ============================================================ -->
+
+  <!-- 1. AI ASSISTANT DRAWER / MODAL -->
+  <div class="ai-drawer" id="aiDrawer">
+    <div class="ai-drawer-header">
+      <div class="ai-header-title">
+        <span class="ai-sparkle">🤖</span>
+        <div>
+          <h3>Bagalkote AI Guide</h3>
+          <p class="ai-sub">🎙️ Voice · 📷 Visual AI · 🏛️ Govt Verified</p>
+        </div>
+      </div>
+      <div class="ai-header-actions" style="display:flex;align-items:center;gap:8px;">
+        <button id="aiAutoVoiceToggle" class="ai-auto-voice-toggle active" onclick="window.toggleAutoVoice()" title="Toggle voice narration">
+          <span id="aiAutoVoiceIcon">🔊</span>
+          <span>Voice <strong id="aiAutoVoiceText">ON</strong></span>
+        </button>
+        <button class="close-btn" id="closeAIChatBtn" onclick="window.closeAIDrawer()" aria-label="Close AI Companion">&times;</button>
+      </div>
+    </div>
+
+    <!-- Quick Prompts Chips -->
+    <div class="ai-quick-prompts" id="aiQuickPrompts">
+      <button class="quick-chip" data-prompt="Plan a 1-day Bagalkote trip for family with seniors">Plan 1-day trip for seniors</button>
+      <button class="quick-chip" data-prompt="Where can I see traditional Ilkal saree weavers?">Find local artisans</button>
+      <button class="quick-chip" data-prompt="Where can I taste authentic Jolada Rotti and Amingad Kardant?">Find traditional food</button>
+      <button class="quick-chip" data-prompt="Which monuments in Bagalkote are wheelchair friendly?">Show accessible places</button>
+      <button class="quick-chip" data-prompt="Show emergency numbers and safety advisories for tourists">Show safety contacts</button>
+    </div>
+
+    <!-- Chat Messages Container -->
+    <div class="ai-messages-container" id="aiMessagesContainer">
+      <div class="ai-message bot-message">
+        <div class="msg-avatar">🤖</div>
+        <div class="msg-body">
+          <p><strong>Namaskara! Welcome to Bagalkote.</strong></p>
+          <p>I am your multimodal AI tourism companion. You can <strong>type questions</strong>, <strong>speak with your voice (🎙️)</strong>, or <strong>upload photos (📷)</strong> of monuments, temples, crafts, or food to get detailed historical, architectural, and travel information!</p>
+          <div class="msg-source-tag">Source: Official Bagalkote District Knowledge Base & Google Intelligence</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Input Form with Voice & Image Upload -->
+    <form class="ai-input-form" id="aiInputForm" onsubmit="window.submitAIChat(event)">
+      <!-- Active Voice Recording Banner -->
+      <div class="ai-voice-active-banner" id="aiVoiceActiveBanner">
+        <div style="display:flex;align-items:center;gap:6px;">
+          <span style="font-size:1rem;">🔴</span>
+          <span>Listening... Speak your question now (English, ಕನ್ನಡ, हिन्दी)</span>
+        </div>
+        <button type="button" onclick="window.stopVoiceInput()" style="background:#B91C1C;color:#FFFFFF;border:none;border-radius:12px;padding:2px 8px;font-size:0.7rem;cursor:pointer;">Stop</button>
+      </div>
+
+      <!-- Uploaded Image Preview Strip -->
+      <div class="ai-image-preview-strip" id="aiImagePreviewStrip">
+        <img id="aiPreviewImg" class="ai-preview-thumb" src="" alt="Upload preview">
+        <div class="ai-preview-info">
+          <strong>Photo selected for Visual AI Analysis</strong>
+          <span>Ask a question about this photo, or press send</span>
+        </div>
+        <button type="button" class="ai-remove-img-btn" onclick="window.clearUploadedImage()" title="Remove image">&times;</button>
+      </div>
+
+      <div class="input-wrapper ai-input-wrapper">
+        <input type="file" id="aiImageFileInput" accept="image/*" style="display:none" onchange="window.handleImageSelected(event)">
+        <button type="button" id="aiImageUploadBtn" class="ai-input-action-btn" title="Upload image of monument, craft, or food" onclick="document.getElementById('aiImageFileInput').click()">📷</button>
+        <button type="button" id="aiVoiceInputBtn" class="ai-input-action-btn" title="Ask question with voice (English, Kannada, Hindi)" onclick="window.toggleVoiceInput()">🎙️</button>
+        <input type="text" id="aiUserInput" placeholder="Type question, use voice (🎙️), or upload photo (📷)..." autocomplete="off">
+        <button type="submit" class="ai-send-btn" id="aiSendBtn" onclick="window.submitAIChat(event)" title="Send Question" aria-label="Send Question">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="ai-disclaimer">
+        <span>Grounded in official government sources & verified visual AI.</span>
+      </div>
+    </form>
+  </div>
+
+  <!-- 2. PERSONALIZED TRIP PLANNER MODAL (8-STEP WIZARD) -->
+  <div class="modal-backdrop" id="tripPlannerModal" onclick="if(event.target === this) this.classList.remove('active')">
+    <div class="modal-dialog trip-wizard-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="wizard-step-indicator" id="wizardStepNumber">Step 1 of 8</span>
+          <h3 class="modal-title" id="wizardTitle">Personalized Trip Planner</h3>
+        </div>
+        <button class="modal-close" id="closeTripPlannerModal" onclick="document.getElementById('tripPlannerModal').classList.remove('active')" aria-label="Close modal">&times;</button>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="wizard-progress-bar">
+        <div class="progress-fill" id="wizardProgressFill" style="width: 12.5%;"></div>
+      </div>
+
+      <!-- Step Content Box -->
+      <div class="wizard-body" id="wizardBody">
+        <!-- Step 1: Where do you want to explore? -->
+        <div class="wizard-step active" data-step="1">
+          <h4>Where in Bagalkote would you like to explore?</h4>
+          <p class="step-sub">Select one or more destinations, or select 'Entire District' for a comprehensive circuit.</p>
+          <div class="wizard-options-grid">
+            <label class="wizard-opt-card"><input type="checkbox" name="destChoice" value="Badami" checked> <strong>Badami</strong><span>Rock Caves & Lake</span></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="destChoice" value="Pattadakal" checked> <strong>Pattadakal</strong><span>UNESCO Temples</span></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="destChoice" value="Aihole" checked> <strong>Aihole</strong><span>Temple Architecture</span></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="destChoice" value="Ilkal"> <strong>Ilkal</strong><span>GI Saree Weaving</span></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="destChoice" value="Kudala Sangama"> <strong>Kudala Sangama</strong><span>River Confluence</span></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="destChoice" value="Almatti"> <strong>Almatti Dam</strong><span>Mughal Gardens</span></label>
+          </div>
+        </div>
+
+        <!-- Step 2: Time -->
+        <div class="wizard-step" data-step="2">
+          <h4>How much time do you have?</h4>
+          <div class="wizard-radio-list">
+            <label class="wizard-radio-card"><input type="radio" name="durationChoice" value="Half Day"> <strong>Half Day (3-4 Hours)</strong><span>Quick highlights tour</span></label>
+            <label class="wizard-radio-card"><input type="radio" name="durationChoice" value="1 Day" checked> <strong>1 Full Day</strong><span>Iconic Chalukya circuit + local meal</span></label>
+            <label class="wizard-radio-card"><input type="radio" name="durationChoice" value="2 Days"> <strong>2 Days</strong><span>In-depth heritage + artisan immersion</span></label>
+            <label class="wizard-radio-card"><input type="radio" name="durationChoice" value="3+ Days"> <strong>3+ Days</strong><span>Comprehensive district discovery</span></label>
+          </div>
+        </div>
+
+        <!-- Step 3: Budget -->
+        <div class="wizard-step" data-step="3">
+          <h4>What is your estimated budget?</h4>
+          <div class="wizard-radio-list">
+            <label class="wizard-radio-card"><input type="radio" name="budgetChoice" value="Budget (< ₹1,500)"> <strong>Budget (Under ₹1,500)</strong><span>Public transit, Khanavali meals</span></label>
+            <label class="wizard-radio-card"><input type="radio" name="budgetChoice" value="Moderate (₹2,000 - ₹4,000)" checked> <strong>Moderate (₹2,000 - ₹4,000)</strong><span>KSTDC dining, local guides</span></label>
+            <label class="wizard-radio-card"><input type="radio" name="budgetChoice" value="Comfort (₹5,000+)"> <strong>Comfort (₹5,000+)</strong><span>Private cab, craft shopping, deluxe stay</span></label>
+          </div>
+        </div>
+
+        <!-- Step 4: Interests -->
+        <div class="wizard-step" data-step="4">
+          <h4>What are your primary travel interests?</h4>
+          <div class="wizard-options-grid">
+            <label class="wizard-opt-card"><input type="checkbox" name="interestChoice" value="Heritage" checked> 🏛️ <strong>Heritage & Caves</strong></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="interestChoice" value="Handicrafts" checked> 🎨 <strong>Handicrafts & Sarees</strong></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="interestChoice" value="Food" checked> 🍲 <strong>Traditional Food</strong></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="interestChoice" value="Spiritual"> 🕉️ <strong>Spiritual Pilgrimage</strong></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="interestChoice" value="Photography"> 📸 <strong>Photography & Landscapes</strong></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="interestChoice" value="Rural"> 🌾 <strong>Rural Village Life</strong></label>
+          </div>
+        </div>
+
+        <!-- Step 5: Companions -->
+        <div class="wizard-step" data-step="5">
+          <h4>Who are you travelling with?</h4>
+          <div class="wizard-radio-list">
+            <label class="wizard-radio-card"><input type="radio" name="companionChoice" value="Solo"> <strong>Solo Explorer</strong></label>
+            <label class="wizard-radio-card"><input type="radio" name="companionChoice" value="Couple"> <strong>Couple</strong></label>
+            <label class="wizard-radio-card"><input type="radio" name="companionChoice" value="Family with Seniors" checked> <strong>Family with Senior Citizens</strong></label>
+            <label class="wizard-radio-card"><input type="radio" name="companionChoice" value="Family with Kids"> <strong>Family with Children</strong></label>
+            <label class="wizard-radio-card"><input type="radio" name="companionChoice" value="Friends Group"> <strong>Group of Friends</strong></label>
+          </div>
+        </div>
+
+        <!-- Step 6: Accessibility -->
+        <div class="wizard-step" data-step="6">
+          <h4>Do you have specific accessibility requirements?</h4>
+          <div class="wizard-radio-list">
+            <label class="wizard-radio-card"><input type="radio" name="accessChoice" value="Standard"> <strong>Standard</strong><span>No specific physical limitations</span></label>
+            <label class="wizard-radio-card"><input type="radio" name="accessChoice" value="Reduced Walking" checked> <strong>Reduced Walking</strong><span>Prefer low-walking & flat terrains</span></label>
+            <label class="wizard-radio-card"><input type="radio" name="accessChoice" value="Wheelchair"> <strong>Wheelchair Access Required</strong><span>Need ramps, step-free access</span></label>
+          </div>
+        </div>
+
+        <!-- Step 7: Language -->
+        <div class="wizard-step" data-step="7">
+          <h4>Preferred guide and information language?</h4>
+          <div class="wizard-radio-list">
+            <label class="wizard-radio-card"><input type="radio" name="langChoice" value="en" checked> <strong>English</strong></label>
+            <label class="wizard-radio-card"><input type="radio" name="langChoice" value="kn"> <strong>ಕನ್ನಡ (Kannada)</strong></label>
+            <label class="wizard-radio-card"><input type="radio" name="langChoice" value="hi"> <strong>हिन्दी (Hindi)</strong></label>
+          </div>
+        </div>
+
+        <!-- Step 8: Safety Preferences & Review -->
+        <div class="wizard-step" data-step="8">
+          <h4>Safety Preferences & Itinerary Generation</h4>
+          <p class="step-sub">We will generate an itinerary that includes verified emergency points, daytime monument schedules, and certified accommodations.</p>
+          <div class="wizard-options-grid">
+            <label class="wizard-opt-card"><input type="checkbox" name="safetyChoice" value="DaylightOnly" checked> ☀️ <strong>Strict Daylight Monuments</strong></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="safetyChoice" value="GovtHospitality" checked> 🏨 <strong>Government Verified Stays</strong></label>
+            <label class="wizard-opt-card"><input type="checkbox" name="safetyChoice" value="EmergencyAlerts" checked> 🚨 <strong>Include 24x7 Helplines</strong></label>
+          </div>
+        </div>
+
+        <!-- Generated Itinerary Result Container -->
+        <div class="wizard-result-box" id="wizardResultBox" style="display: none;">
+          <!-- Dynamically inserted by trip-planner.js -->
+        </div>
+      </div>
+
+      <!-- Wizard Navigation Footer -->
+      <div class="modal-footer wizard-footer">
+        <button class="btn btn-outline" id="wizardPrevBtn" style="display: none;">Back</button>
+        <button class="btn btn-primary" id="wizardNextBtn">Next Step ➔</button>
+        <button class="btn btn-success" id="wizardGenerateBtn" style="display: none;">Generate Itinerary ✨</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. DESTINATION DETAIL MODAL -->
+  <div class="modal-backdrop" id="destinationDetailModal" onclick="if(event.target === this) this.classList.remove('active')">
+    <div class="modal-dialog detail-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="detail-category-badge" id="modalDestCategory">Heritage</span>
+          <h3 class="modal-title" id="modalDestTitle">Badami Cave Temples</h3>
+          <span class="detail-kn-name" id="modalDestKn">ಬಾದಾಮಿ ಗುಹಾ ದೇವಾಲಯಗಳು</span>
+        </div>
+        <button class="modal-close" id="closeDestModalBtn" onclick="document.getElementById('destinationDetailModal').classList.remove('active')" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="detail-body" id="modalDestBody">
+        <!-- Injected via app.js -->
+      </div>
+      <div class="modal-footer">
+        <div class="modal-source-tag" id="modalDestSource">Source: Official Bagalkote District Portal</div>
+        <button class="btn btn-primary" id="modalAddToTripBtn">+ Add to Trip</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ATTRACTION LIGHTBOX -->
+  <div class="modal-backdrop" id="attractionLightbox" onclick="if(event.target === this) this.classList.remove('active')">
+    <div class="modal-dialog attraction-lightbox-dialog">
+      <button class="modal-close" id="closeLightboxBtn" onclick="document.getElementById('attractionLightbox').classList.remove('active')">&times;</button>
+      <div class="lightbox-image-wrap">
+        <img id="lightboxImage" src="" alt="">
+      </div>
+      <div class="lightbox-info">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+        <div id="lightboxSource" class="modal-source-tag"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. PROVIDER PORTAL MODAL -->
+  <div class="modal-backdrop" id="providerPortalModal" onclick="if(event.target === this) this.classList.remove('active')">
+    <div class="modal-dialog provider-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="provider-badge-header">LOCAL COMMUNITY EMPOWERMENT</span>
+          <h3 class="modal-title">Bagalkote Local Provider Portal</h3>
+        </div>
+        <button class="modal-close" id="closeProviderModalBtn" onclick="document.getElementById('providerPortalModal').classList.remove('active')" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="provider-body" id="providerBody">
+        <!-- Injected via provider-portal.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. ADMIN / DISTRICT COMMISSIONER DASHBOARD MODAL -->
+  <div class="modal-backdrop" id="adminDashboardModal" onclick="if(event.target === this) this.classList.remove('active')">
+    <div class="modal-dialog admin-dialog">
+      <div class="modal-header admin-header">
+        <div>
+          <span class="admin-badge">DISTRICT ADMINISTRATION INTELLIGENCE</span>
+          <h3 class="modal-title">Bagalkote Tourism Intelligence Dashboard</h3>
+        </div>
+        <button class="modal-close" id="closeAdminModalBtn" onclick="document.getElementById('adminDashboardModal').classList.remove('active')" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="admin-body" id="adminBody">
+        <!-- Injected via admin-dashboard.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- LOGIN MODAL -->
+  <div class="modal-backdrop" id="loginModal">
+    <div class="modal-dialog login-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="section-kicker" style="font-size:0.7rem;">BAGALKOTE TOURISM PORTAL</span>
+          <h3 class="modal-title">Sign In to Continue</h3>
+          <p style="font-size:0.85rem;color:#64748B;margin-top:0.25rem;">Login to plan and save your trip to Bagalkote</p>
+        </div>
+        <button class="modal-close" id="closeLoginModal">&times;</button>
+      </div>
+      <div class="login-body">
+        <form id="loginForm" class="login-form">
+          <div class="form-group">
+            <label for="loginEmail">Email Address</label>
+            <input type="email" id="loginEmail" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" placeholder="Enter your password" required>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary" style="width:100%;">Sign In &amp; Continue</button>
+          </div>
+          <div class="login-footer-links">
+            <a href="#" onclick="return false;">Forgot Password?</a>
+            <span>&middot;</span>
+            <a href="#" onclick="return false;">Create Account</a>
+          </div>
+        </form>
+        <div id="loginError" class="login-error" style="display:none;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col brand-col">
+        <div class="brand-logo footer-logo">
+          <span class="brand-kn">ಬಾಗಲಕೋಟೆ</span>
+          <span class="brand-en">BAGALKOTE TOURISM</span>
+        </div>
+        <p class="footer-desc">
+          An AI-powered inclusive tourism ecosystem dedicated to sustainable economic development, cultural preservation, and seamless accessibility across Bagalkote District, Karnataka.
+        </p>
+        <p class="footer-tagline">“Inclusive Tourism for Every Traveller, Opportunities for Every Local.”</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Key Destinations</h4>
+        <ul class="footer-links">
+          <li><a href="#explore">Badami Cave Temples</a></li>
+          <li><a href="#explore">Pattadakal UNESCO Site</a></li>
+          <li><a href="#explore">Aihole Temple Complex</a></li>
+          <li><a href="#explore">Mahakuta Sacred Springs</a></li>
+          <li><a href="#explore">Kudala Sangama</a></li>
+          <li><a href="#explore">Almatti Dam Gardens</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Inclusive Pillars</h4>
+        <ul class="footer-links">
+          <li><a href="#artisans">Local Artisan Recommendation</a></li>
+          <li><a href="#accessibility">Accessible Tourism Assistant</a></li>
+          <li><a href="#skillMatching">Tourist–Local Skill Matching</a></li>
+          <li><a href="#safety">Tourist Safety Centre</a></li>
+          <li><a href="#home">Trilingual Translation</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Source Authorities</h4>
+        <ul class="footer-links">
+          <li><a href="https://bagalkot.nic.in/en/tourism/" target="_blank" rel="noopener">Bagalkote District Portal (NIC)</a></li>
+          <li><a href="https://karnatakatourism.org/" target="_blank" rel="noopener">Department of Tourism, Karnataka</a></li>
+          <li><a href="https://whc.unesco.org/en/list/383" target="_blank" rel="noopener">UNESCO World Heritage Centre</a></li>
+          <li><a href="https://asidharwadcircle.in/" target="_blank" rel="noopener">Archaeological Survey of India</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Bagalkote District Tourism Administration & AI Inclusive Tourism Project. All source-verified data preserved.</p>
+        <div class="footer-badges">
+          <span class="badge-status">✓ Zero Hallucination Architecture</span>
+          <span class="badge-status">✓ Source-Grounded RAG</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Modular Application Scripts -->
+  <script src="/js/translations.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/tourist-profile.js"></script>
+  <script src="/js/map.js"></script>
+  <script src="/js/skill-matching.js"></script>
+  <script src="/js/trip-planner.js"></script>
+  <script src="/js/ai-assistant.js"></script>
+  <script src="/js/provider-portal.js"></script>
+  <script src="/js/admin-dashboard.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/pages/shared-login.js"></script>
+  <script>
+    // Override trip planner open to require login & integrate Tourist Profile
+    (function() {
+      function isLoggedIn() {
+        return window.TouristProfile ? window.TouristProfile.isLoggedIn() : !!localStorage.getItem('bgk_user_token');
+      }
+
+      function updateNavStatus() {
+        const profileBtn = document.getElementById('headerProfileBtn');
+        if (isLoggedIn() && profileBtn) {
+          const email = localStorage.getItem('bgk_user_email') || 'Tourist';
+          const name = email.split('@')[0];
+          profileBtn.innerHTML = `<span class="btn-icon">👤</span> <span>MY PROFILE (${name})</span>`;
+          profileBtn.classList.remove('btn-outline');
+          profileBtn.classList.add('btn-primary');
+        }
+      }
+
+      function requireLoginThenDo(action) {
+        if (!isLoggedIn()) {
+          window.showLoginModal(() => {
+            updateNavStatus();
+            action();
+          });
+        } else {
+          action();
+        }
+      }
+
+      // Override addDestinationToTrip to require login and add to Tourist Profile
+      window.addDestinationToTrip = function(destId) {
+        requireLoginThenDo(() => {
+          if (window.TouristProfile) {
+            const res = window.TouristProfile.addDestination(destId);
+            if (res === true) {
+              window.showToast('\u2705 Added to your Profile Journey! View in My Profile.');
+            } else if (res === 'duplicate') {
+              window.showToast('Already in your Profile Journey!');
+            }
+          } else {
+            let trip = JSON.parse(localStorage.getItem('bagalkote_my_trip') || '[]');
+            if (!trip.includes(destId)) {
+              trip.push(destId);
+              localStorage.setItem('bagalkote_my_trip', JSON.stringify(trip));
+              window.showToast('\u2705 Added to your Bagalkote Journey!');
+            } else {
+              window.showToast('Already in your trip!');
+            }
+          }
+        });
+      };
+
+      // Wrap Plan My Trip buttons to require login
+      document.addEventListener('DOMContentLoaded', () => {
+        updateNavStatus();
+        const openWizardFn = () => {
+          const modal = document.getElementById('tripPlannerModal');
+          if (modal) {
+            modal.classList.add('active');
+            if (typeof goToStep === 'function') goToStep(1);
+          }
+        };
+        ['openTripPlannerBtn','heroPlanTripBtn'].forEach(id => {
+          const btn = document.getElementById(id);
+          if (btn) {
+            btn.replaceWith(btn.cloneNode(true)); // remove old listener
+            document.getElementById(id)?.addEventListener('click', () => {
+              requireLoginThenDo(openWizardFn);
+            });
+          }
+        });
+
+        // Auto-open trip planner if redirected from sub-page after login
+        if (window.location.search.includes('openTrip=1')) {
+          requireLoginThenDo(openWizardFn);
+        }
+      });
+    })();
+  </script>
+  <!-- Heritage ಮಿತ್ರ Native Mobile & PWA Engine -->
+  <script src="/js/mobile-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+  "name": "Heritage ಮಿತ್ರ - Bagalkote Inclusive Tourism",
+  "short_name": "Heritage ಮಿತ್ರ",
+  "id": "/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0A1118",
+  "theme_color": "#0D1B2A",
+  "description": "AI-Powered Inclusive Tourism Ecosystem for Bagalkote District, Karnataka. Official companion for Badami, Pattadakal, Aihole, Kudala Sangama, GI-tagged handlooms and local community empowerment.",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "travel",
+    "culture",
+    "navigation",
+    "government",
+    "utilities"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/images/app-icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/app-icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mitr AI Companion",
+      "short_name": "Mitr AI",
+      "description": "Ask Heritage Mitr AI about monuments, routes, and history",
+      "url": "/?open=ai#ai-companion",
+      "icons": [{ "src": "/images/app-icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "AI Monument Scanner",
+      "short_name": "Vision AI",
+      "description": "Scan and identify Chalukyan monuments with AI",
+      "url": "/?open=scanner",
+      "icons": [{ "src": "/images/app-icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Interactive Tourism Map",
+      "short_name": "Live Map",
+      "description": "Explore Bagalkote with GPS and step-free routes",
+      "url": "/map.html",
+      "icons": [{ "src": "/images/app-icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Emergency 112 SOS",
+      "short_name": "Emergency SOS",
+      "description": "Immediate access to 112, 1077, 104 and nearest hospitals",
+      "url": "/safety.html",
+      "icons": [{ "src": "/images/app-icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Artisans & Handloom",
+      "short_name": "Artisans",
+      "description": "Connect with Ilkal Saree & Guledgudd Khana weavers",
+      "url": "/artisans.html",
+      "icons": [{ "src": "/images/app-icon.svg", "sizes": "96x96" }]
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official Tourist Grievance and Citizen Feedback Redressal Portal for Bagalkote District. Direct monitoring by the Deputy Commissioner & District Magistrate.">
+  <title>Grievance & Redressal Cell | Heritage ಮಿತ್ರ</title>
+
+  <!-- PWA & Mobile App Support -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0D1B2A">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Heritage ಮಿತ್ರ">
+  <link rel="icon" type="image/svg+xml" href="/images/app-icon.svg">
+  <link rel="apple-touch-icon" href="/images/app-icon.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Noto+Sans+Kannada:wght@400;600;700;800&family=Tiro+Kannada&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&family=Noto+Sans+Malayalam:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/mobile-app.css">
+</head>
+<body class="page-complaints">
+
+  <!-- ACCESSIBILITY SKIP LINK -->
+  <a href="#complaintsMain" class="skip-link">Skip to main content</a>
+
+  <!-- TOP ANNOUNCEMENT TICKER -->
+  <div class="gov-top-ticker">
+    <div class="gov-container ticker-content">
+      <span class="ticker-badge" data-i18n="official_portal_badge">OFFICIAL CITIZEN REDRESSAL</span>
+      <span class="ticker-text" data-i18n="announcement_text">Deputy Commissioner's Tourist Grievance &amp; Visitor Redressal Cell — Bagalkote District</span>
+      <span class="ticker-helpline">Helpline: <strong>1077</strong> (Toll Free) | Police: <strong>112</strong></span>
+    </div>
+  </div>
+
+  <!-- GOVERNMENT MAIN BRANDING HEADER -->
+  <div class="gov-brand-header">
+    <div class="gov-container gov-brand-inner">
+      <div class="gov-brand-left">
+        <a href="/" class="gov-ka-logo-block" aria-label="Go to Bagalkote Tourism Homepage">
+          <div class="gov-ka-emblem">
+            <img src="/images/karnataka_govt_seal.jpg" alt="Government of Karnataka Official Seal" class="ka-emblem-img" />
+          </div>
+          <div class="gov-ka-text">
+            <span class="gov-ka-script">ಕರ್ನಾಟಕ ಸರ್ಕಾರ</span>
+            <span class="gov-ka-state">Government of Karnataka</span>
+            <span class="gov-ka-dept">District Administration Bagalkote · Tourism Redressal Cell</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- 7-Language Global Switcher -->
+      <div class="lang-selector-compact" style="margin: 0 1rem;">
+        <label for="langSelect" style="font-size: 0.78rem; font-weight: 600; color: #475569; margin-right: 0.35rem;" data-i18n="lang_label">Language:</label>
+        <select id="langSelect" class="lang-select" aria-label="Select Language" onchange="window.setLanguage(this.value)" style="padding: 0.35rem 0.6rem; border-radius: 6px; border: 1px solid #CBD5E1; font-weight: 600; font-size: 0.8rem; background: #FFF; color: #0D1B2A; cursor: pointer;">
+          <option value="en">English</option>
+          <option value="kn">ಕನ್ನಡ (Kannada)</option>
+          <option value="hi">हिन्दी (Hindi)</option>
+          <option value="ta">தமிழ் (Tamil)</option>
+          <option value="te">తెలుగు (Telugu)</option>
+          <option value="mr">मराठी (Marathi)</option>
+          <option value="ml">മലയാളം (Malayalam)</option>
+        </select>
+      </div>
+
+      <div class="gov-brand-actions">
+        <a href="/my-profile.html" class="btn btn-outline" style="text-decoration:none;">
+          <span class="btn-icon">👤</span>
+          <span>MY PROFILE</span>
+        </a>
+        <button class="btn btn-primary" id="openTripPlannerBtn">
+          <span class="btn-icon">🧭</span>
+          <span>PLAN MY TRIP</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="gov-nav-bar" id="siteHeader">
+    <div class="gov-container gov-nav-inner">
+      <a href="/" class="gov-nav-link" data-i18n="nav_home">Home</a>
+      <a href="/explore.html" class="gov-nav-link" data-i18n="nav_explore">Explore</a>
+      <a href="/map.html" class="gov-nav-link" data-i18n="nav_map">Karnataka Map</a>
+      <a href="/meet-the-people.html" class="gov-nav-link" data-i18n="nav_skills">Meet People &amp; Artisans</a>
+      <a href="/accessibility.html" class="gov-nav-link" data-i18n="nav_accessible">Accessible Tourism</a>
+      <a href="/safety.html" class="gov-nav-link" data-i18n="nav_safety">Safety Centre</a>
+      <a href="/my-profile.html" class="gov-nav-link">My Profile</a>
+      <a href="/provider-portal.html" class="gov-nav-link gov-nav-provider" data-i18n="nav_provider">Provider Portal</a>
+      <a href="/complaints.html" class="gov-nav-link gov-nav-complaints active" data-i18n="nav_complaints">Complaints &amp; Feedback</a>
+      <a href="/dc-dashboard.html" class="gov-nav-link gov-nav-admin" data-i18n="nav_admin">DC Dashboard</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero" style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);">
+    <div class="page-hero-content container">
+      <span class="section-kicker" style="color:#F59E0B;">🏛️ DISTRICT COLLECTORATE EXECUTIVE REDRESSAL CELL</span>
+      <h1 class="page-hero-title">TOURIST GRIEVANCES &amp; FEEDBACK PORTAL</h1>
+      <p class="page-hero-sub">Direct administrative oversight by the Deputy Commissioner, Bagalkote. Voice your concerns, report overcharging or hygiene discrepancies, or share visitor appreciation to ensure world-class heritage tourism.</p>
+      
+      <!-- Key Service Commitments -->
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem;">
+        <div style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:99px;padding:0.4rem 1rem;font-size:0.82rem;color:#F8FAFC;display:flex;align-items:center;gap:0.4rem;">
+          <span>⏱️</span> <strong>24–48 Hr Time-Bound Redressal SLA</strong>
+        </div>
+        <div style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:99px;padding:0.4rem 1rem;font-size:0.82rem;color:#F8FAFC;display:flex;align-items:center;gap:0.4rem;">
+          <span>🛡️</span> <strong>Direct Police &amp; ASI Field Escalation</strong>
+        </div>
+        <div style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:99px;padding:0.4rem 1rem;font-size:0.82rem;color:#F8FAFC;display:flex;align-items:center;gap:0.4rem;">
+          <span>🎫</span> <strong>Instant Digital Tracking Ticket ID</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="complaintsMain">
+    <div class="container section-padding">
+      
+      <!-- Portal Sub-Nav / Mode Switcher -->
+      <div style="display:flex;justify-content:center;gap:0.75rem;margin-bottom:2.5rem;flex-wrap:wrap;">
+        <button id="tabBtnLodge" class="btn btn-primary" onclick="switchPortalTab('lodge')" style="padding:0.7rem 1.6rem;font-size:0.92rem;font-weight:700;display:flex;align-items:center;gap:0.5rem;border-radius:10px;">
+          <span>🚨</span> <span>Lodge Grievance / Complaint</span>
+        </button>
+        <button id="tabBtnFeedback" class="btn btn-outline" onclick="switchPortalTab('feedback')" style="padding:0.7rem 1.6rem;font-size:0.92rem;font-weight:700;display:flex;align-items:center;gap:0.5rem;border-radius:10px;background:#FFF;">
+          <span>🌟</span> <span>Share Appreciation &amp; Feedback</span>
+        </button>
+      </div>
+
+      <!-- MAIN GRID: Left Form, Right Guidance & Helpline -->
+      <div style="display:grid;grid-template-columns:2fr 1fr;gap:2rem;" id="portalContentGrid">
+        
+        <!-- LEFT: Dynamic Form Panel -->
+        <div>
+          <!-- 1. Grievance Form Panel -->
+          <div id="grievanceFormPanel" style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:16px;padding:2rem;box-shadow:0 4px 16px rgba(0,0,0,0.04);">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;border-bottom:1px solid #F1F5F9;padding-bottom:1rem;">
+              <div>
+                <h2 style="font-size:1.35rem;font-weight:800;color:#0D1B2A;margin:0;">Lodge Official Tourist Grievance</h2>
+                <p style="font-size:0.85rem;color:#64748B;margin:0.25rem 0 0 0;">All submissions are logged in the DC Tourism Intelligence System for time-bound review.</p>
+              </div>
+              <span style="background:#FEE2E2;color:#DC2626;padding:0.35rem 0.85rem;border-radius:99px;font-size:0.75rem;font-weight:800;letter-spacing:0.04em;">GRIEVANCE REDRESSAL</span>
+            </div>
+
+            <form id="complaintForm" onsubmit="handleComplaintSubmit(event)">
+              <input type="hidden" id="entryType" value="COMPLAINT">
+
+              <!-- Category & Urgency Row -->
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.25rem;">
+                <div>
+                  <label for="complaintCategory" style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                    Issue Category <span style="color:#DC2626;">*</span>
+                  </label>
+                  <select id="complaintCategory" required style="width:100%;padding:0.7rem 0.85rem;border:1px solid #CBD5E1;border-radius:8px;font-size:0.88rem;background:#F8FAFC;">
+                    <option value="">-- Select Category --</option>
+                    <option value="Overcharging & Parking Fees">💰 Overcharging &amp; Unofficial Parking Fees</option>
+                    <option value="Monument Sanitation & Hygiene">🧹 Monument Washrooms &amp; Garbage Clearance</option>
+                    <option value="Guide Misconduct & Unlicensed Operators">🦺 Unlicensed Guides / Harassment</option>
+                    <option value="Accessibility & Wheelchair Barriers">♿ Accessibility Obstacles &amp; Wheelchair Ramps</option>
+                    <option value="Tourist Safety & Security">🛡️ Tourist Safety, Eve-teasing &amp; Security</option>
+                    <option value="Transport & Auto Fare Discrepancy">🛺 Auto / Taxi Overcharging</option>
+                    <option value="Heritage Monument Maintenance">🏛️ Monument Damage / Missing Informative Signage</option>
+                    <option value="Artisan & Experience Issue">🧵 Artisan Experience / Quality Discrepancy</option>
+                    <option value="General District Suggestion">💡 Other Governance / Tourism Suggestion</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="complaintUrgency" style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                    Urgency / Severity Level <span style="color:#DC2626;">*</span>
+                  </label>
+                  <select id="complaintUrgency" required style="width:100%;padding:0.7rem 0.85rem;border:1px solid #CBD5E1;border-radius:8px;font-size:0.88rem;background:#F8FAFC;">
+                    <option value="Normal">🟢 Normal (Resolution within 48 Hours)</option>
+                    <option value="Urgent">🟡 Urgent (Field action within 24 Hours)</option>
+                    <option value="Critical">🔴 Critical (Immediate DC / Police Alert)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Taluk & Exact Monument / Location -->
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.25rem;">
+                <div>
+                  <label for="complaintTaluk" style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                    Taluk <span style="color:#DC2626;">*</span>
+                  </label>
+                  <select id="complaintTaluk" required style="width:100%;padding:0.7rem 0.85rem;border:1px solid #CBD5E1;border-radius:8px;font-size:0.88rem;background:#F8FAFC;">
+                    <option value="Badami">Badami (Cave Temples, Agastya Lake, Banashankari)</option>
+                    <option value="Hunagund">Hunagund (Pattadakal, Aihole, Kudala Sangama)</option>
+                    <option value="Bagalkote">Bagalkote (City, Muchakandi Dam, Ghataprabha)</option>
+                    <option value="Ilkal">Ilkal (Handloom Weavers, Saree Market)</option>
+                    <option value="Guledagudda">Guledagudda (Khana Weaving Hub)</option>
+                    <option value="Bilagi">Bilagi (Siddheshwara Temple, Backwaters)</option>
+                    <option value="Jamkhandi">Jamkhandi (Royal Palace, Pampa Sarovara)</option>
+                    <option value="Mudhol">Mudhol (Ranna Smaraka, Mudhol Hounds)</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="complaintLocation" style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                    Exact Location / Monument / Landmark <span style="color:#DC2626;">*</span>
+                  </label>
+                  <input type="text" id="complaintLocation" required placeholder="e.g. Badami Cave 1 Parking or Pattadakal North Gate" style="width:100%;padding:0.7rem 0.85rem;border:1px solid #CBD5E1;border-radius:8px;font-size:0.88rem;">
+                </div>
+              </div>
+
+              <!-- Incident Date & Time -->
+              <div style="margin-bottom:1.25rem;">
+                <label for="incidentDate" style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                  Incident Date &amp; Approximate Time
+                </label>
+                <input type="text" id="incidentDate" placeholder="e.g. Today around 11:30 AM" style="width:100%;padding:0.7rem 0.85rem;border:1px solid #CBD5E1;border-radius:8px;font-size:0.88rem;">
+              </div>
+
+              <!-- Detailed Grievance Description -->
+              <div style="margin-bottom:1.25rem;">
+                <label for="complaintDescription" style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                  Detailed Description of Grievance <span style="color:#DC2626;">*</span>
+                </label>
+                <textarea id="complaintDescription" required rows="4" placeholder="Please clearly describe what happened, names of personnel or vehicle numbers if applicable, exact grievance details..." style="width:100%;padding:0.8rem;border:1px solid #CBD5E1;border-radius:8px;font-size:0.88rem;font-family:inherit;resize:vertical;"></textarea>
+              </div>
+
+              <!-- Tourist Identity & Contact Details -->
+              <div style="background:#F8FAFC;border:1px solid #E2E8F0;border-radius:12px;padding:1.25rem;margin-bottom:1.5rem;">
+                <div style="font-weight:700;font-size:0.92rem;color:#0D1B2A;margin-bottom:0.75rem;display:flex;align-items:center;gap:0.4rem;">
+                  <span>👤</span> <span>Visitor Contact Details (For Redressal Updates &amp; SMS)</span>
+                </div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:0.75rem;">
+                  <div>
+                    <label for="touristName" style="display:block;font-size:0.8rem;font-weight:600;color:#475569;margin-bottom:0.3rem;">Full Name *</label>
+                    <input type="text" id="touristName" required placeholder="e.g. Ananya Rao" style="width:100%;padding:0.6rem 0.75rem;border:1px solid #CBD5E1;border-radius:6px;font-size:0.85rem;">
+                  </div>
+                  <div>
+                    <label for="touristPhone" style="display:block;font-size:0.8rem;font-weight:600;color:#475569;margin-bottom:0.3rem;">Mobile / WhatsApp Number *</label>
+                    <input type="tel" id="touristPhone" required placeholder="e.g. 9845012345" style="width:100%;padding:0.6rem 0.75rem;border:1px solid #CBD5E1;border-radius:6px;font-size:0.85rem;">
+                  </div>
+                </div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+                  <div>
+                    <label for="touristEmail" style="display:block;font-size:0.8rem;font-weight:600;color:#475569;margin-bottom:0.3rem;">Email Address (Optional)</label>
+                    <input type="email" id="touristEmail" placeholder="your@email.com" style="width:100%;padding:0.6rem 0.75rem;border:1px solid #CBD5E1;border-radius:6px;font-size:0.85rem;">
+                  </div>
+                  <div>
+                    <label for="touristType" style="display:block;font-size:0.8rem;font-weight:600;color:#475569;margin-bottom:0.3rem;">Visitor Category</label>
+                    <select id="touristType" style="width:100%;padding:0.6rem 0.75rem;border:1px solid #CBD5E1;border-radius:6px;font-size:0.85rem;background:#FFF;">
+                      <option value="Domestic Tourist">Domestic Tourist (Karnataka / Other State)</option>
+                      <option value="International Traveler">International Traveler</option>
+                      <option value="Local Bagalkote Resident">Local Bagalkote Resident</option>
+                      <option value="Group / Family Tour">Group / Family Tour Leader</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Evidence Attachment -->
+              <div style="margin-bottom:1.5rem;">
+                <label style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                  📷 Photo / Receipt Evidence (Optional, Helps Fast Redressal)
+                </label>
+                <div style="display:flex;gap:0.75rem;align-items:center;flex-wrap:wrap;">
+                  <input type="file" id="evidenceFileInput" accept="image/*" onchange="previewEvidencePhoto(this)" style="font-size:0.82rem;color:#475569;">
+                  <span style="font-size:0.8rem;color:#94A3B8;">or test with sample:</span>
+                  <button type="button" class="btn btn-sm btn-outline" onclick="setPresetPhoto('/images/destinations/badami.jpg')" style="font-size:0.75rem;padding:0.25rem 0.6rem;">Badami Photo</button>
+                  <button type="button" class="btn btn-sm btn-outline" onclick="setPresetPhoto('/images/destinations/pattadakal.jpg')" style="font-size:0.75rem;padding:0.25rem 0.6rem;">Pattadakal Photo</button>
+                </div>
+                <div id="photoPreviewContainer" style="margin-top:0.75rem;display:none;align-items:center;gap:0.75rem;">
+                  <img id="evidencePreviewImg" src="" alt="Evidence Preview" style="width:80px;height:60px;object-fit:cover;border-radius:8px;border:1px solid #CBD5E1;">
+                  <span id="photoPreviewName" style="font-size:0.8rem;color:#16a34a;font-weight:600;">✓ Photo attached</span>
+                  <button type="button" onclick="clearEvidencePhoto()" style="background:none;border:none;color:#DC2626;cursor:pointer;font-size:0.78rem;">Remove</button>
+                </div>
+              </div>
+
+              <!-- Declaration Checkbox -->
+              <div style="display:flex;align-items:flex-start;gap:0.6rem;margin-bottom:1.75rem;">
+                <input type="checkbox" id="declarationCheck" required style="margin-top:0.25rem;cursor:pointer;">
+                <label for="declarationCheck" style="font-size:0.82rem;color:#475569;line-height:1.4;cursor:pointer;">
+                  I declare that the information provided is truthful and reflects actual events observed during my visit in Bagalkote district.
+                </label>
+              </div>
+
+              <!-- Submit Button & Feedback -->
+              <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
+                <button type="submit" id="submitGrievanceBtn" class="btn btn-primary" style="padding:0.85rem 2rem;font-size:0.95rem;font-weight:700;display:flex;align-items:center;gap:0.5rem;">
+                  <span>🚀</span>
+                  <span>Submit to DC Redressal Cell</span>
+                </button>
+                <span id="submissionStatusMsg" style="font-size:0.85rem;font-weight:600;"></span>
+              </div>
+            </form>
+          </div>
+
+          <!-- 2. Share Appreciation & Feedback Panel (ONLY Rating + ONE Feedback Box) -->
+          <div id="feedbackSectionPanel" style="display:none;background:#FFFFFF;border:1px solid #E2E8F0;border-radius:16px;padding:2rem;box-shadow:0 4px 16px rgba(0,0,0,0.04);">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;border-bottom:1px solid #F1F5F9;padding-bottom:1rem;">
+              <div>
+                <h2 style="font-size:1.35rem;font-weight:800;color:#0D1B2A;margin:0;">Share Visitor Appreciation &amp; Feedback</h2>
+                <p style="font-size:0.85rem;color:#64748B;margin:0.25rem 0 0 0;">Help the District Administration recognize top artisans, clean monuments, and helpful guides.</p>
+              </div>
+              <span style="background:#DCFCE7;color:#15803D;padding:0.35rem 0.85rem;border-radius:99px;font-size:0.75rem;font-weight:800;letter-spacing:0.04em;">COMMENDATION &amp; FEEDBACK</span>
+            </div>
+
+            <form id="feedbackOnlyForm" onsubmit="handleFeedbackOnlySubmit(event)">
+              <!-- Rating Selector -->
+              <div style="margin-bottom:1.5rem;">
+                <label style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                  Your Overall Rating <span style="color:#DC2626;">*</span>
+                </label>
+                <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
+                  <div id="starRatingGroup" style="display:flex;gap:0.35rem;font-size:2.2rem;cursor:pointer;user-select:none;color:#F59E0B;">
+                    <span class="star-item" data-val="1" onclick="setStarRating(1)" onmouseover="hoverStarRating(1)" onmouseout="resetStarRating()">★</span>
+                    <span class="star-item" data-val="2" onclick="setStarRating(2)" onmouseover="hoverStarRating(2)" onmouseout="resetStarRating()">★</span>
+                    <span class="star-item" data-val="3" onclick="setStarRating(3)" onmouseover="hoverStarRating(3)" onmouseout="resetStarRating()">★</span>
+                    <span class="star-item" data-val="4" onclick="setStarRating(4)" onmouseover="hoverStarRating(4)" onmouseout="resetStarRating()">★</span>
+                    <span class="star-item" data-val="5" onclick="setStarRating(5)" onmouseover="hoverStarRating(5)" onmouseout="resetStarRating()">★</span>
+                  </div>
+                  <span id="starRatingLabel" style="font-size:0.95rem;font-weight:700;color:#C85A32;background:#FFF7ED;padding:0.3rem 0.75rem;border-radius:6px;border:1px solid #FFEDD5;">5.0 — Excellent Experience</span>
+                  <input type="hidden" id="feedbackRatingValue" value="5">
+                </div>
+              </div>
+
+              <!-- One Feedback Box -->
+              <div style="margin-bottom:1.5rem;">
+                <label for="feedbackOnlyDescription" style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                  Your Feedback <span style="color:#DC2626;">*</span>
+                </label>
+                <textarea id="feedbackOnlyDescription" required rows="6" placeholder="Share your experience, appreciation for local artisans, guides, monument cleanliness, or suggestions for improving Bagalkote tourism..." style="width:100%;padding:0.85rem 1rem;border:1px solid #CBD5E1;border-radius:10px;font-size:0.92rem;font-family:inherit;resize:vertical;line-height:1.5;"></textarea>
+              </div>
+
+              <!-- Visitor Name (Optional) -->
+              <div style="margin-bottom:1.75rem;">
+                <label for="feedbackTouristName" style="display:block;font-size:0.85rem;font-weight:700;color:#1E293B;margin-bottom:0.4rem;">
+                  Your Name (Optional)
+                </label>
+                <input type="text" id="feedbackTouristName" placeholder="e.g. Dr. Ananya Sharma or Visitor from Bengaluru" style="width:100%;padding:0.7rem 0.85rem;border:1px solid #CBD5E1;border-radius:8px;font-size:0.88rem;">
+              </div>
+
+              <!-- Submit Button -->
+              <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
+                <button type="submit" id="submitFeedbackBtn" class="btn btn-primary" style="padding:0.85rem 2.2rem;font-size:0.95rem;font-weight:700;display:flex;align-items:center;gap:0.5rem;background:#15803D;border-color:#15803D;">
+                  <span>🌟</span>
+                  <span>Submit Feedback</span>
+                </button>
+                <span id="feedbackStatusMsg" style="font-size:0.85rem;font-weight:600;"></span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- RIGHT: Official Redressal Architecture & Fast Helplines -->
+        <div>
+          <!-- Deputy Commissioner Redressal Notice Card -->
+          <div style="background:#FFF;border:1px solid #E2E8F0;border-radius:16px;padding:1.5rem;box-shadow:0 4px 16px rgba(0,0,0,0.04);margin-bottom:1.5rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:44px;height:44px;border-radius:50%;background:#F8FAFC;border:1px solid #CBD5E1;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+                <img src="/images/karnataka_govt_seal.jpg" alt="Government Emblem" style="width:100%;height:100%;object-fit:cover;">
+              </div>
+              <div>
+                <div style="font-weight:800;font-size:0.95rem;color:#0D1B2A;">Deputy Commissioner's Desk</div>
+                <div style="font-size:0.75rem;color:#C85A32;font-weight:700;">District Collectorate, Bagalkote</div>
+              </div>
+            </div>
+            <p style="font-size:0.82rem;color:#475569;line-height:1.5;margin-bottom:1rem;">
+              "Every visitor to Bagalkote is an honoured guest of our district. We have instituted a zero-tolerance policy against unauthorized guides, parking extortion, and sub-standard sanitation at our world heritage sites."
+            </p>
+            <div style="background:#F8FAFC;border-radius:8px;padding:0.75rem;font-size:0.78rem;color:#334155;border-left:3px solid #C85A32;">
+              <strong>Official Redressal Workflow:</strong>
+              <div style="margin-top:0.35rem;display:flex;flex-direction:column;gap:0.25rem;">
+                <span>1. Grievance digitally logged &amp; ticket issued</span>
+                <span>2. DC Cell assesses priority within 2 hrs</span>
+                <span>3. Taluk Tahsildar / Tourist Police dispatched</span>
+                <span>4. Direct resolution &amp; tourist feedback SMS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Emergency Helplines -->
+          <div style="background:#EFF6FF;border:1px solid #BFDBFE;border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;">
+            <div style="font-weight:800;font-size:0.95rem;color:#1E3A8A;margin-bottom:0.75rem;display:flex;align-items:center;gap:0.4rem;">
+              <span>🚨</span> <span>Immediate Emergency Helplines</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:0.6rem;font-size:0.85rem;">
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dashed #BFDBFE;padding-bottom:0.35rem;">
+                <span>District Control Room:</span>
+                <strong style="color:#1E3A8A;">1077 (Toll Free)</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dashed #BFDBFE;padding-bottom:0.35rem;">
+                <span>Police Emergency:</span>
+                <strong style="color:#DC2626;">112</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dashed #BFDBFE;padding-bottom:0.35rem;">
+                <span>Ambulance Service:</span>
+                <strong style="color:#059669;">108</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dashed #BFDBFE;padding-bottom:0.35rem;">
+                <span>Women Helpline:</span>
+                <strong style="color:#7C3AED;">1091 / 181</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;">
+                <span>ASI Badami Office:</span>
+                <strong style="color:#0F172A;">08357-220157</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- SUCCESS CONFIRMATION MODAL -->
+  <div class="modal-backdrop" id="complaintSuccessModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:9999;align-items:center;justify-content:center;">
+    <div style="background:#FFF;border-radius:16px;max-width:540px;width:90%;padding:2rem;box-shadow:0 20px 40px rgba(0,0,0,0.2);position:relative;">
+      <div style="text-align:center;">
+        <div style="width:64px;height:64px;border-radius:50%;background:#DCFCE7;color:#15803D;font-size:2rem;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem auto;">
+          ✓
+        </div>
+        <span class="section-kicker" style="font-size:0.75rem;color:#15803D;">SUBMISSION REGISTERED WITH DC CELL</span>
+        <h3 style="font-size:1.4rem;font-weight:800;color:#0D1B2A;margin:0.25rem 0 0.5rem 0;">Submission Registered Successfully</h3>
+        <p style="font-size:0.85rem;color:#64748B;margin-bottom:1.5rem;">Your report has been forwarded to the Deputy Commissioner's Office.</p>
+
+        <!-- Ticket Card Box -->
+        <div style="background:#F8FAFC;border:2px dashed #CBD5E1;border-radius:12px;padding:1.25rem;margin-bottom:1.5rem;text-align:left;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem;">
+            <span style="font-size:0.75rem;color:#64748B;font-weight:700;text-transform:uppercase;">Official Reference</span>
+            <span style="background:#DCFCE7;color:#15803D;font-size:0.72rem;font-weight:800;padding:0.2rem 0.6rem;border-radius:99px;">ACTIVE / UNDER REVIEW</span>
+          </div>
+          <div id="modalTicketId" style="font-size:1.35rem;font-weight:900;color:#C85A32;letter-spacing:0.04em;margin-bottom:0.5rem;">
+            BGK-TGT-2026-XXXX
+          </div>
+          <div id="modalTicketSummary" style="font-size:0.82rem;color:#334155;line-height:1.4;">
+            <!-- Summary will be injected -->
+          </div>
+        </div>
+
+        <div style="display:flex;justify-content:center;">
+          <button onclick="closeSuccessModal()" class="btn btn-primary" style="padding:0.75rem 2.5rem;font-size:0.92rem;font-weight:700;">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GOVERNMENT FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand-col">
+        <div class="gov-ka-logo-block footer-logo">
+          <div class="gov-ka-emblem"><img src="/images/karnataka_govt_seal.jpg" alt="Government of Karnataka Official Seal" class="ka-emblem-img" /></div>
+          <div class="gov-ka-text">
+            <span class="gov-ka-script">Karnataka</span>
+            <span class="gov-ka-tagline">One state. Many worlds.</span>
+            <span class="gov-ka-dept">Department of Tourism</span>
+          </div>
+        </div>
+        <p class="footer-desc">
+          Official Tourism Grievance &amp; Feedback Redressal Mechanism for Bagalkote District, 
+          Government of Karnataka. Monitored directly by the Deputy Commissioner and District Magistrate.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Major Destinations</h4>
+        <ul class="footer-links">
+          <li><a href="/explore.html">Badami Cave Temples</a></li>
+          <li><a href="/explore.html">Pattadakal UNESCO Site</a></li>
+          <li><a href="/explore.html">Aihole Temple Complex</a></li>
+          <li><a href="/explore.html">Mahakuta Sacred Springs</a></li>
+          <li><a href="/explore.html">Kudala Sangama</a></li>
+          <li><a href="/explore.html">Almatti Dam Gardens</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Inclusive Pillars</h4>
+        <ul class="footer-links">
+          <li><a href="/meet-the-people.html">Local Artisan Recommendation</a></li>
+          <li><a href="/accessibility.html">Accessible Tourism Assistant</a></li>
+          <li><a href="/complaints.html">Tourist Grievance Portal</a></li>
+          <li><a href="/safety.html">Tourist Safety Centre</a></li>
+          <li><a href="/dc-dashboard.html">DC Tourism Dashboard</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Source Authorities</h4>
+        <ul class="footer-links">
+          <li><a href="https://bagalkot.nic.in/en/tourism/" target="_blank" rel="noopener">Bagalkote District Portal (NIC)</a></li>
+          <li><a href="https://karnatakatourism.org/" target="_blank" rel="noopener">Department of Tourism, Karnataka</a></li>
+          <li><a href="https://whc.unesco.org/en/list/383" target="_blank" rel="noopener">UNESCO World Heritage Centre</a></li>
+          <li><a href="https://asidharwadcircle.in/" target="_blank" rel="noopener">Archaeological Survey of India</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Bagalkote District Tourism Administration &amp; AI Inclusive Tourism Project.</p>
+        <div class="footer-badges">
+          <span class="badge-status">✓ Zero Hallucination Architecture</span>
+          <span class="badge-status">✓ DC Monitored Redressal</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/translations.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/ai-assistant.js"></script>
+  <script src="/js/pages/shared-login.js"></script>
+  <script src="/js/pages/complaints-page.js"></script>
+  <!-- Heritage ಮಿತ್ರ Native Mobile & PWA Engine -->
+  <script src="/js/mobile-app.js"></script>
+</body>
+</html>

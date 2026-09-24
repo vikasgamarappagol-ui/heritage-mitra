@@ -1,0 +1,711 @@
+/**
+ * Heritage ಮಿತ್ರ - Native Mobile App & PWA Styling
+ * Designed for High-Performance Mobile UX, Standalone APK Feel, & Responsive Touch
+ */
+
+:root {
+  --mobile-bottom-nav-height: 64px;
+  --mobile-top-bar-height: 58px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --mitra-primary: #D97706;
+  --mitra-primary-light: #FBBF24;
+  --mitra-dark: #0D1B2A;
+  --mitra-dark-surface: #132238;
+  --mitra-accent: #059669;
+  --mitra-gold: #F59E0B;
+}
+
+/* Touch & Mobile Reset */
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+body.mobile-app-mode {
+  padding-bottom: calc(var(--mobile-bottom-nav-height) + var(--safe-bottom) + 12px) !important;
+  overscroll-behavior-y: contain;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Allow text selection in chat, articles and forms */
+.chat-window, .content-section, input, textarea, .destination-modal, .card-body {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* ============================================================
+   TOP MOBILE APP BAR
+   ============================================================ */
+.mobile-app-header {
+  display: none;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(13, 27, 42, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(245, 158, 11, 0.2);
+  padding: calc(var(--safe-top) + 6px) 12px 8px 12px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.mobile-app-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.mobile-app-icon-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.35);
+  border: 1px solid rgba(251, 191, 36, 0.4);
+}
+
+.mobile-app-brand-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-app-brand-name {
+  font-family: 'Cinzel', 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  line-height: 1.15;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mobile-app-brand-name .kn-part {
+  color: var(--mitra-primary-light);
+  font-family: 'Noto Sans Kannada', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.mobile-app-brand-sub {
+  font-size: 0.65rem;
+  color: #94A3B8;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.mobile-app-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mobile-action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.mobile-action-btn:active {
+  transform: scale(0.92);
+  background: rgba(245, 158, 11, 0.2);
+}
+
+.mobile-action-btn.sos-btn {
+  background: #DC2626;
+  border-color: #EF4444;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 0.72rem;
+  width: auto;
+  padding: 0 10px;
+  border-radius: 18px;
+  gap: 4px;
+}
+
+.mobile-action-btn.install-quick-btn {
+  background: linear-gradient(135deg, #D97706, #B45309);
+  border-color: #F59E0B;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.75rem;
+  width: auto;
+  padding: 0 10px;
+  border-radius: 18px;
+  gap: 4px;
+  animation: pulse-gold 2s infinite;
+}
+
+@keyframes pulse-gold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4); }
+  50% { box-shadow: 0 0 0 6px rgba(245, 158, 11, 0); }
+}
+
+/* ============================================================
+   BOTTOM NAVIGATION BAR (Native Mobile App Bar)
+   ============================================================ */
+.mobile-bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(var(--mobile-bottom-nav-height) + var(--safe-bottom));
+  padding-bottom: var(--safe-bottom);
+  background: rgba(13, 27, 42, 0.96);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  z-index: 10000;
+  box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.5);
+}
+
+.mobile-bottom-nav-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr 1fr 1fr;
+  height: var(--mobile-bottom-nav-height);
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.mobile-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #94A3B8;
+  font-size: 0.68rem;
+  font-weight: 600;
+  gap: 3px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 4px 0;
+  position: relative;
+}
+
+.mobile-nav-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.mobile-nav-item.active {
+  color: var(--mitra-primary-light);
+}
+
+.mobile-nav-item.active .mobile-nav-icon {
+  transform: translateY(-2px) scale(1.12);
+  filter: drop-shadow(0 2px 6px rgba(245, 158, 11, 0.5));
+}
+
+.mobile-nav-item:active {
+  transform: scale(0.9);
+}
+
+/* Center Highlighted MITR AI Button */
+.mobile-nav-center-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.mobile-nav-fab {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 50%, #B45309 100%);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.45rem;
+  box-shadow: 0 4px 18px rgba(217, 119, 6, 0.55), inset 0 2px 2px rgba(255, 255, 255, 0.4);
+  transform: translateY(-16px);
+  border: 3.5px solid #0D1B2A;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.mobile-nav-fab:active {
+  transform: translateY(-12px) scale(0.92);
+}
+
+.mobile-nav-center-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--mitra-primary-light);
+  transform: translateY(-12px);
+  letter-spacing: 0.3px;
+}
+
+/* ============================================================
+   NATIVE "INSTALL HERITAGE ಮಿತ್ರ APK" MODAL & BANNER
+   ============================================================ */
+.apk-install-banner {
+  position: fixed;
+  bottom: calc(var(--mobile-bottom-nav-height) + var(--safe-bottom) + 12px);
+  left: 12px;
+  right: 12px;
+  max-width: 480px;
+  margin: 0 auto;
+  background: rgba(19, 34, 56, 0.98);
+  border: 1.5px solid rgba(245, 158, 11, 0.5);
+  border-radius: 16px;
+  padding: 12px 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 20px rgba(217, 119, 6, 0.2);
+  backdrop-filter: blur(12px);
+  z-index: 9999;
+  display: none;
+  animation: slideUpBanner 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideUpBanner {
+  from { transform: translateY(120%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.apk-banner-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.apk-banner-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.apk-banner-text {
+  flex: 1;
+}
+
+.apk-banner-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.apk-badge {
+  background: rgba(5, 150, 105, 0.2);
+  color: #34D399;
+  border: 1px solid rgba(5, 150, 105, 0.4);
+  font-size: 0.62rem;
+  padding: 1px 6px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.apk-banner-sub {
+  font-size: 0.75rem;
+  color: #94A3B8;
+  margin-top: 2px;
+}
+
+.apk-banner-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-apk-install {
+  background: linear-gradient(135deg, #F59E0B, #D97706);
+  color: #0D1B2A;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+  white-space: nowrap;
+}
+
+.btn-apk-install:active {
+  transform: scale(0.95);
+}
+
+.btn-apk-close {
+  background: transparent;
+  border: none;
+  color: #64748B;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Full Install Sheet / Modal */
+.apk-modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  z-index: 10001;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.apk-modal-overlay.active {
+  display: flex;
+}
+
+.apk-modal-content {
+  background: #111C2D;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  width: 100%;
+  max-width: 520px;
+  padding: 24px 20px calc(24px + var(--safe-bottom));
+  border-top: 2px solid rgba(245, 158, 11, 0.4);
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.8);
+  animation: slideUpSheet 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #FFFFFF;
+}
+
+@keyframes slideUpSheet {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.apk-modal-handle {
+  width: 44px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  margin: 0 auto 16px;
+}
+
+.apk-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.apk-modal-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+}
+
+.apk-modal-title {
+  font-family: 'Cinzel', 'Outfit', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.apk-modal-meta {
+  font-size: 0.78rem;
+  color: #94A3B8;
+  display: flex;
+  gap: 8px;
+  margin-top: 3px;
+}
+
+.apk-features-list {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+}
+
+.apk-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #E2E8F0;
+  padding: 6px 0;
+}
+
+.apk-feature-item:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.apk-feature-item span.icon {
+  font-size: 1.15rem;
+  color: var(--mitra-primary-light);
+}
+
+.apk-install-primary-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #F59E0B, #D97706);
+  color: #0A1118;
+  border: none;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+}
+
+.apk-install-primary-btn:active {
+  transform: scale(0.98);
+}
+
+.apk-ios-instructions {
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px dashed rgba(245, 158, 11, 0.3);
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 14px;
+  font-size: 0.8rem;
+  color: #CBD5E1;
+  line-height: 1.4;
+}
+
+/* ============================================================
+   MOBILE QUICK-ACTIONS DRAWER / MENU ("MORE" TAB)
+   ============================================================ */
+.mobile-more-sheet {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  z-index: 10002;
+  align-items: flex-end;
+}
+
+.mobile-more-sheet.active {
+  display: flex;
+}
+
+.mobile-more-content {
+  background: #0F1B2B;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 20px 16px calc(24px + var(--safe-bottom));
+  border-top: 2px solid rgba(245, 158, 11, 0.4);
+  color: #FFFFFF;
+}
+
+.mobile-grid-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.mobile-menu-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 14px 12px;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.2s ease;
+}
+
+.mobile-menu-card:active {
+  background: rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.4);
+  transform: scale(0.97);
+}
+
+.mobile-menu-icon {
+  font-size: 1.6rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.mobile-menu-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.mobile-menu-sub {
+  font-size: 0.68rem;
+  color: #94A3B8;
+  margin-top: 2px;
+}
+
+/* ============================================================
+   RESPONSIVE OVERRIDES FOR PHONES (< 768px)
+   ============================================================ */
+@media (max-width: 768px) {
+  /* Show Mobile App Header & Bottom Navigation */
+  .mobile-app-header {
+    display: flex;
+  }
+
+  .mobile-bottom-nav {
+    display: block;
+  }
+
+  /* Compact the original Desktop 3-Tier Header */
+  .gov-utility-bar {
+    display: none;
+  }
+
+  .gov-brand-band {
+    display: none;
+  }
+
+  .gov-nav-band {
+    display: none;
+  }
+
+  /* Make Hero mobile friendly */
+  .hero-section {
+    padding: 3rem 1rem 2.5rem !important;
+    min-height: auto;
+  }
+
+  .hero-title-kn {
+    font-size: 1.85rem !important;
+  }
+
+  .hero-title-en {
+    font-size: 2.2rem !important;
+    line-height: 1.15;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem !important;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-stats-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.65rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .stat-card {
+    padding: 0.85rem !important;
+  }
+
+  .stat-number {
+    font-size: 1.6rem !important;
+  }
+
+  /* Map Container touch friendly */
+  .map-canvas {
+    height: 380px !important;
+  }
+
+  .map-controls-bar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0.75rem;
+  }
+
+  .layer-toggles {
+    overflow-x: auto;
+    padding-bottom: 4px;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .layer-btn {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Grids to single column or clean 2-col on mobile */
+  .destinations-grid,
+  .artisans-grid,
+  .businesses-grid,
+  .features-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .dest-card-img-wrap {
+    height: 190px !important;
+  }
+
+  /* Filter bars scrollable horizontally */
+  .filter-controls-group {
+    overflow-x: auto;
+    flex-wrap: nowrap !important;
+    padding-bottom: 6px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .filter-chip {
+    flex-shrink: 0;
+  }
+
+  /* Chat window mobile full size */
+  .ai-chat-drawer {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  /* Footer simplified */
+  .site-footer {
+    padding: 2.5rem 1rem calc(4rem + var(--safe-bottom)) !important;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+}

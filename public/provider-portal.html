@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Provider Portal | Heritage ಮಿತ್ರ</title>
+  
+  <!-- PWA & Mobile App Support -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0D1B2A">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Heritage ಮಿತ್ರ">
+  <link rel="icon" type="image/svg+xml" href="/images/app-icon.svg">
+  <link rel="apple-touch-icon" href="/images/app-icon.jpg">
+
+  <meta name="description" content="Register and manage your provider profile on Bagalkote Tourism Portal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Noto+Sans+Kannada:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/experiences.css">
+  <link rel="stylesheet" href="/css/mobile-app.css">
+</head>
+<body data-lang="en">
+
+  <div class="gov-utility-bar">
+    <div class="gov-container gov-utility-inner">
+      <div class="gov-utility-left">
+        <span class="gov-dept-label">Government of Karnataka</span>
+        <span class="gov-divider">|</span>
+        <span class="gov-dept-label">District Administration, Bagalkote</span>
+      </div>
+      <div class="gov-utility-right">
+        <span class="gov-lang-label" data-i18n="lang_label">Language:</span>
+        <button class="gov-lang-btn lang-btn active" data-lang-code="en">English</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="kn">ಕನ್ನಡ</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="hi">हिन्दी</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="ta">தமிழ்</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="te">తెలుగు</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="mr">मराठी</button>
+        <span class="gov-lang-sep">|</span>
+        <button class="gov-lang-btn lang-btn" data-lang-code="ml">മലയാളം</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="gov-brand-band">
+    <div class="gov-container gov-brand-inner">
+      <a href="/" class="gov-ka-logo-block">
+        <div class="gov-ka-emblem">
+          <img src="/images/karnataka_govt_seal.jpg" alt="Government of Karnataka Official Seal" class="ka-emblem-img" />
+        </div>
+        <div class="gov-ka-text">
+          <span class="gov-ka-script">Karnataka</span>
+          <span class="gov-ka-tagline">One state. Many worlds.</span>
+          <span class="gov-ka-dept">Department of Tourism</span>
+        </div>
+      </a>
+      <div class="gov-site-center">
+        <span class="gov-site-title-kn">ಬಾಗಲಕೋಟೆ ಜಿಲ್ಲಾ ಪ್ರವಾಸೋದ್ಯಮ</span>
+        <span class="gov-site-title-en">DEPARTMENT OF TOURISM</span>
+        <span class="gov-site-district">BAGALKOTE DISTRICT</span>
+        <span class="gov-site-sub">AI-Powered Inclusive Tourism Ecosystem</span>
+      </div>
+      <div class="gov-brand-actions">
+        <a href="/my-profile.html" class="btn btn-outline" style="text-decoration:none;">
+          <span class="btn-icon">👤</span><span>MY PROFILE</span>
+        </a>
+        <button class="btn btn-primary" id="openTripPlannerBtn">
+          <span class="btn-icon">🧭</span><span>PLAN MY TRIP</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="gov-nav-bar" id="siteHeader">
+    <div class="gov-container gov-nav-inner">
+      <a href="/" class="gov-nav-link" data-i18n="nav_home">Home</a>
+      <a href="/explore.html" class="gov-nav-link" data-i18n="nav_explore">Explore</a>
+      <a href="/map.html" class="gov-nav-link" data-i18n="nav_map">Karnataka Map</a>
+      <a href="/meet-the-people.html" class="gov-nav-link">Meet People & Artisans</a>
+      <a href="/accessibility.html" class="gov-nav-link" data-i18n="nav_accessible">Accessible Tourism</a>
+      <a href="/safety.html" class="gov-nav-link" data-i18n="nav_safety">Safety Centre</a>
+      <a href="/my-profile.html" class="gov-nav-link">My Profile</a>
+      <a href="/provider-portal.html" class="gov-nav-link gov-nav-provider active" data-i18n="nav_provider">Provider Portal</a>
+      <a href="/complaints.html" class="gov-nav-link gov-nav-complaints" data-i18n="nav_complaints">Complaints &amp; Feedback</a>
+      <a href="/dc-dashboard.html" class="gov-nav-link gov-nav-admin" data-i18n="nav_admin">DC Dashboard</a>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-hero-content container">
+      <span class="section-kicker">LOCAL COMMUNITY EMPOWERMENT</span>
+      <h1 class="page-hero-title">BAGALKOTE LOCAL PROVIDER PORTAL</h1>
+      <p class="page-hero-sub">Register your skill, art, or experience to connect directly with tourists. Build your verified provider profile.</p>
+    </div>
+  </div>
+
+  <main>
+    <section class="section-padding" id="providerPage">
+      <div class="container" id="providerPageContainer">
+        <div id="providerContent"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/js/translations.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/ai-assistant.js"></script>
+  <script>
+  // ── Provider Portal Logic (inline) ──────────────────────────────────────────
+  const STORAGE_KEY = 'bagalkote_provider_profile';
+
+  function getProviderProfile() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null'); }
+    catch(e) { return null; }
+  }
+
+  function saveProviderProfile(data) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    // Also save in provider registry for easy account switching
+    try {
+      let saved = JSON.parse(localStorage.getItem('bgk_saved_providers') || '[]');
+      const idx = saved.findIndex(p => p.providerId === data.providerId || p.name === data.name);
+      if (idx >= 0) saved[idx] = data;
+      else saved.unshift(data);
+      localStorage.setItem('bgk_saved_providers', JSON.stringify(saved));
+    } catch(e) {}
+  }
+
+  function showPortalModal({ title, htmlContent, confirmText, confirmColor, onConfirm }) {
+    const existing = document.getElementById('portalActionModal');
+    if (existing) existing.remove();
+
+    const modal = document.createElement('div');
+    modal.id = 'portalActionModal';
+    modal.style.cssText = 'position:fixed;inset:0;background:rgba(13,27,42,0.72);backdrop-filter:blur(5px);display:flex;align-items:center;justify-content:center;z-index:99999;padding:1.5rem;';
+    modal.innerHTML = `
+      <div style="background:#FFFFFF;border-radius:20px;max-width:520px;width:100%;box-shadow:0 25px 50px -12px rgba(0,0,0,0.25);border:1px solid #E2E8F0;overflow:hidden;animation:modalPop 0.2s ease-out;">
+        <div style="padding:1.4rem 1.75rem;border-bottom:1px solid #F1F5F9;display:flex;align-items:center;justify-content:space-between;background:#FAFBFD;">
+          <h3 style="margin:0;font-family:'Cinzel',serif;font-size:1.15rem;color:#0D1B2A;display:flex;align-items:center;gap:0.5rem;">${title}</h3>
+          <button id="closePortalModalBtn" style="background:none;border:none;font-size:1.6rem;color:#94A3B8;cursor:pointer;line-height:1;padding:0.2rem 0.5rem;border-radius:6px;">&times;</button>
+        </div>
+        <div style="padding:1.6rem 1.75rem;font-family:'Outfit',sans-serif;font-size:0.92rem;color:#334155;line-height:1.65;">
+          ${htmlContent}
+        </div>
+        <div style="padding:1.1rem 1.75rem;background:#F8FAFC;border-top:1px solid #F1F5F9;display:flex;justify-content:flex-end;gap:0.75rem;">
+          <button id="cancelPortalModalBtn" class="btn btn-outline" style="padding:0.6rem 1.25rem;font-size:0.88rem;cursor:pointer;border-radius:10px;">Cancel</button>
+          <button id="confirmPortalModalBtn" class="btn" style="background:${confirmColor || '#C85A32'};color:#FFF;border:none;padding:0.6rem 1.4rem;font-size:0.88rem;font-weight:700;border-radius:10px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.12);">${confirmText || 'Confirm'}</button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const closeModal = () => modal.remove();
+    modal.querySelector('#closePortalModalBtn').onclick = closeModal;
+    modal.querySelector('#cancelPortalModalBtn').onclick = closeModal;
+    modal.onclick = (e) => { if (e.target === modal) closeModal(); };
+
+    modal.querySelector('#confirmPortalModalBtn').onclick = () => {
+      closeModal();
+      if (typeof onConfirm === 'function') onConfirm();
+    };
+  }
+
+  window.deleteProviderProfile = function() {
+    const prof = getProviderProfile();
+    if (!prof) {
+      alert('No active provider profile found to delete.');
+      return;
+    }
+
+    const provName = prof.name || 'Provider';
+    const provId = prof.providerId || 'Unknown ID';
+
+    showPortalModal({
+      title: '🗑️ Delete Provider Profile',
+      htmlContent: `
+        <p style="margin:0 0 0.5rem 0;font-size:0.95rem;color:#0D1B2A;">Are you sure you want to permanently delete your provider profile for <strong>${provName}</strong>?</p>
+        <div style="font-size:0.82rem;color:#64748B;margin-bottom:0.85rem;background:#F8FAFC;padding:0.5rem 0.75rem;border-radius:8px;border:1px solid #E2E8F0;">
+          Provider ID: <code style="color:#C85A32;font-weight:700;">${provId}</code> · Skill: <strong>${prof.skill || 'Experience'}</strong>
+        </div>
+        <div style="background:#FEF2F2;border:1px solid #FECACA;border-radius:10px;padding:0.85rem 1rem;color:#991B1B;font-size:0.84rem;">
+          <strong style="display:flex;align-items:center;gap:0.35rem;">⚠️ Permanent Removal Warning:</strong>
+          <ul style="margin:0.4rem 0 0;padding-left:1.2rem;line-height:1.55;">
+            <li>Your provider profile and uploaded work proofs will be permanently removed.</li>
+            <li>Your experience listing will be removed from tourist booking discovery.</li>
+            <li>Any pending verification queue record in District Governance (DC) will be purged.</li>
+          </ul>
+        </div>
+      `,
+      confirmText: '🗑️ Permanently Delete Profile',
+      confirmColor: '#DC2626',
+      onConfirm: () => {
+        // 1. Remove active profile and session state
+        localStorage.removeItem(STORAGE_KEY);
+        sessionStorage.removeItem('bgk_provider_logged_out');
+        sessionStorage.removeItem('bgk_provider_active_session');
+
+        // 2. Remove from saved registry
+        try {
+          let saved = JSON.parse(localStorage.getItem('bgk_saved_providers') || '[]');
+          saved = saved.filter(p => p.providerId !== provId && p.name !== provName);
+          localStorage.setItem('bgk_saved_providers', JSON.stringify(saved));
+        } catch(e) {}
+
+        // 3. Remove from active approved experiences
+        try {
+          let expList = JSON.parse(localStorage.getItem('bgk_approved_experiences') || '[]');
+          expList = expList.filter(p => p.providerId !== provId && p.id !== provId && p.name !== provName);
+          localStorage.setItem('bgk_approved_experiences', JSON.stringify(expList));
+          localStorage.setItem('bagalkote_dc_approved_providers', JSON.stringify(expList));
+        } catch(e) {}
+
+        // 4. Remove from DC verifications queue
+        try {
+          let dcQueue = JSON.parse(localStorage.getItem('bgk_dc_verifications') || '[]');
+          dcQueue = dcQueue.filter(v => v.provider_id !== provId && v.provider_name !== provName);
+          localStorage.setItem('bgk_dc_verifications', JSON.stringify(dcQueue));
+        } catch(e) {}
+
+        renderLoggedOutView(`Provider profile "${provName}" (${provId}) has been successfully deleted.`);
+      }
+    });
+  };
+
+  window.logoutProviderSession = function() {
+    const prof = getProviderProfile();
+    const provName = prof?.name || 'Provider';
+
+    showPortalModal({
+      title: '🚪 Confirm Logout',
+      htmlContent: `
+        <p style="margin:0 0 0.65rem 0;font-size:0.95rem;color:#0D1B2A;">Are you sure you want to log out of <strong>"${provName}"</strong>?</p>
+        <p style="margin:0;color:#64748B;font-size:0.86rem;line-height:1.55;">
+          Your profile details and uploaded documents will remain securely saved on this device. You can log back into your dashboard at any time with one click.
+        </p>
+      `,
+      confirmText: '🚪 Yes, Log Out',
+      confirmColor: '#0D1B2A',
+      onConfirm: () => {
+        sessionStorage.setItem('bgk_provider_logged_out', 'true');
+        renderLoggedOutView('You have been logged out of your provider dashboard session.');
+      }
+    });
+  };
+
+  window.loginAsProvider = function(providerId) {
+    sessionStorage.removeItem('bgk_provider_logged_out');
+    let prof = null;
+    if (providerId) {
+      try {
+        const saved = JSON.parse(localStorage.getItem('bgk_saved_providers') || '[]');
+        prof = saved.find(p => p.providerId === providerId);
+      } catch(e) {}
+    }
+    if (!prof) prof = getProviderProfile();
+    if (prof) {
+      saveProviderProfile(prof);
+      renderProviderDashboard(prof);
+    } else {
+      renderRegistrationForm(false);
+    }
+  };
+
+  function generateProviderId() {
+    const cats = { Food: 'FOOD', Art: 'ART', Culture: 'CULT', History: 'GUIDE', Crafts: 'CRAFT' };
+    const prefix = cats[document.getElementById('pf_category')?.value] || 'PROV';
+    return `BGK-${prefix}-${String(Math.floor(1000 + Math.random() * 9000))}`;
+  }
+
+  function renderProviderDashboard(p) {
+    const el = document.getElementById('providerContent');
+    const statusColor = p.verificationStatus === 'Verified' || p.verificationStatus === 'Government Verified ✓' ? '#16a34a' : p.verificationStatus === 'Pending Review' || p.verificationStatus === 'Pending' ? '#D97706' : '#64748B';
+    const statusDot = p.verificationStatus === 'Verified' || p.verificationStatus === 'Government Verified ✓' ? '🟢' : p.verificationStatus === 'Pending Review' || p.verificationStatus === 'Pending' ? '🟡' : '⚪';
+
+    el.innerHTML = `
+      <!-- Provider Profile Header -->
+      <div style="background:linear-gradient(135deg,#0D1B2A,#1e3558);border-radius:20px;padding:2rem;color:#fff;margin-bottom:2rem;display:flex;align-items:center;gap:1.75rem;flex-wrap:wrap;">
+        <div style="width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#C85A32,#D4AF37);display:flex;align-items:center;justify-content:center;font-size:2rem;font-weight:700;font-family:'Cinzel',serif;border:3px solid rgba(255,255,255,0.25);flex-shrink:0;">
+          ${(p.name||'P')[0].toUpperCase()}
+        </div>
+        <div style="flex:1;min-width:180px;">
+          <div style="font-family:'Cinzel',serif;font-size:1.4rem;font-weight:700;">${p.name || 'Provider Name'}</div>
+          <div style="color:#D4AF37;font-size:0.9rem;margin:0.3rem 0;">${p.skill || 'Skill not set'}</div>
+          <div style="font-size:0.78rem;color:rgba(255,255,255,0.6);">Provider ID: <strong style="color:#D4AF37;">${p.providerId}</strong></div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.5);margin-bottom:0.4rem;">District Verification Status</div>
+          <div style="display:inline-flex;align-items:center;gap:0.4rem;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:50px;padding:0.35rem 1rem;font-size:0.85rem;font-weight:700;color:${statusColor};">
+            ${statusDot} ${p.verificationStatus || 'Pending DC Review'}
+          </div>
+          <div style="margin-top:0.6rem;display:flex;gap:0.5rem;justify-content:flex-end;flex-wrap:wrap;">
+            <button onclick="renderRegistrationForm(true)" style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.25);color:#fff;padding:0.4rem 0.9rem;border-radius:8px;font-family:'Outfit',sans-serif;font-size:0.82rem;cursor:pointer;">✏️ Edit Profile</button>
+            <button onclick="logoutProviderSession()" style="background:rgba(239,68,68,0.25);border:1px solid rgba(239,68,68,0.4);color:#FCA5A5;padding:0.4rem 0.9rem;border-radius:8px;font-family:'Outfit',sans-serif;font-size:0.82rem;cursor:pointer;font-weight:700;">🚪 Logout</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- INCOMING TOURIST BOOKING REQUESTS (5-Minute Decision Requirement) -->
+      <div style="background:#FFFFFF;border:1.5px solid #CBD5E1;border-radius:18px;padding:1.5rem;margin-bottom:2rem;box-shadow:0 4px 15px rgba(0,0,0,0.04);">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.25rem;">
+          <div>
+            <span style="font-size:0.75rem;font-weight:700;color:#C85A32;text-transform:uppercase;letter-spacing:1px;">⚡ Live Tourist Notifications</span>
+            <h3 style="font-family:'Cinzel',serif;font-size:1.15rem;color:#0D1B2A;margin:0.2rem 0 0;">Incoming Booking Requests (5-Minute Accept/Reject)</h3>
+          </div>
+          <button onclick="loadProviderBookings('${p.providerId}')" class="btn btn-sm btn-outline" style="font-size:0.8rem;">🔄 Refresh Requests</button>
+        </div>
+        <div id="providerBookingsList">
+          <div style="text-align:center;padding:1.5rem;color:#64748B;">Loading incoming booking requests...</div>
+        </div>
+      </div>
+
+      <!-- Profile Details Grid -->
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.25rem;margin-bottom:2rem;">
+        ${[
+          ['Provider ID', p.providerId, '🆔'],
+          ['Skill', p.skill, '🎯'],
+          ['Category', p.category, '📂'],
+          ['Location', p.location, '📍'],
+          ['Price', `₹${p.price} per person`, '💰'],
+          ['Duration', `${p.duration} hours`, '⏱️'],
+          ['Language', p.language, '🗣️'],
+          ['Availability', p.availability, '📅'],
+          ['Rating', p.rating ? `⭐ ${p.rating}` : 'Not yet rated', '⭐'],
+          ['Verification', p.verificationStatus, '✅'],
+        ].map(([k, v, icon]) => `
+          <div style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:14px;padding:1.1rem;box-shadow:0 1px 6px rgba(0,0,0,0.04);">
+            <div style="font-size:0.7rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;margin-bottom:0.35rem;">${icon} ${k}</div>
+            <div style="font-size:0.92rem;color:#0D1B2A;font-weight:600;font-family:'Outfit',sans-serif;">${v || '—'}</div>
+          </div>`).join('')}
+      </div>
+
+      <!-- Description -->
+      <div style="background:#FFFBF6;border:1px solid #F3E8DC;border-radius:14px;padding:1.5rem;margin-bottom:2rem;">
+        <h3 style="font-family:'Cinzel',serif;font-size:1rem;color:#0D1B2A;margin-bottom:0.75rem;">📝 Experience Description</h3>
+        <p style="font-size:0.9rem;color:#475569;line-height:1.7;margin:0;">${p.description || 'No description provided.'}</p>
+      </div>
+
+      <!-- Submitted Work Proofs (Images, PDFs, Videos) -->
+      <div style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:14px;padding:1.5rem;margin-bottom:2rem;">
+        <h3 style="font-family:'Cinzel',serif;font-size:1rem;color:#0D1B2A;margin-bottom:1rem;">🖼️ Submitted Work Proofs & Experience Verification</h3>
+        
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:1.25rem;">
+          <!-- Images -->
+          <div style="background:#F8FAFC;border:1px solid #E2E8F0;border-radius:10px;padding:1rem;">
+            <div style="font-size:0.75rem;font-weight:700;color:#C85A32;text-transform:uppercase;margin-bottom:0.5rem;">🖼️ Work Photos & Images</div>
+            <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+              ${(p.workPhotos && p.workPhotos.length ? p.workPhotos : ['/images/destinations/Ilkal.png', '/images/destinations/badami.jpg']).map(img => `
+                <div style="width:90px;height:70px;border-radius:8px;overflow:hidden;border:1px solid #CBD5E1;background:#fff;">
+                  <img src="${img}" alt="Work photo" style="width:100%;height:100%;object-fit:cover;" onerror="this.src='/images/karnataka_govt_seal.jpg';">
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- PDFs & Docs -->
+          <div style="background:#F8FAFC;border:1px solid #E2E8F0;border-radius:10px;padding:1rem;">
+            <div style="font-size:0.75rem;font-weight:700;color:#C85A32;text-transform:uppercase;margin-bottom:0.5rem;">📄 PDF Certificates & Proof Documents</div>
+            <ul style="margin:0;padding-left:1.1rem;font-size:0.83rem;color:#334155;">
+              ${(p.certifications && p.certifications.length ? p.certifications : ['Khadi Board Certificate.pdf', 'Artisan Registration NOC.pdf']).map(c => `
+                <li style="margin-bottom:0.3rem;"><a href="#" onclick="alert('Viewing PDF Document: ${c}');return false;" style="color:#1D4ED8;text-decoration:none;font-weight:600;">📄 ${c}</a></li>
+              `).join('')}
+            </ul>
+          </div>
+
+          <!-- Videos -->
+          <div style="background:#F8FAFC;border:1px solid #E2E8F0;border-radius:10px;padding:1rem;">
+            <div style="font-size:0.75rem;font-weight:700;color:#C85A32;text-transform:uppercase;margin-bottom:0.5rem;">🎥 Video Demos of Experience</div>
+            <div style="font-size:0.83rem;color:#334155;">
+              ${(p.videoDemos && p.videoDemos.length ? p.videoDemos : ['Demonstration_Video_Ilkal.mp4']).map(vid => `
+                <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.4rem;">
+                  <span>🎬</span>
+                  <a href="#" onclick="alert('Playing Video Demonstration: ${vid}');return false;" style="color:#16A34A;font-weight:600;text-decoration:none;">${vid}</a>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div style="display:flex;gap:0.85rem;flex-wrap:wrap;align-items:center;background:#FFFFFF;border:1px solid #E2E8F0;border-radius:16px;padding:1.25rem 1.5rem;box-shadow:0 2px 10px rgba(0,0,0,0.03);">
+        <button onclick="renderRegistrationForm(true)" class="btn btn-primary" style="display:flex;align-items:center;gap:0.4rem;">
+          <span>✏️</span> <span>Update Profile &amp; Proofs</span>
+        </button>
+        <button id="providerLogoutBtn" onclick="logoutProviderSession()" class="btn btn-outline" style="color:#0D1B2A;border-color:#CBD5E1;display:flex;align-items:center;gap:0.4rem;font-weight:600;cursor:pointer;">
+          <span>🚪</span> <span>Logout</span>
+        </button>
+        <button id="providerDeleteBtn" onclick="deleteProviderProfile()" class="btn btn-outline" style="color:#DC2626;border-color:#F87171;background:#FEF2F2;display:flex;align-items:center;gap:0.4rem;font-weight:700;cursor:pointer;">
+          <span>🗑️</span> <span>Delete Profile</span>
+        </button>
+        <a href="/meet-the-people.html" class="btn btn-outline" style="text-decoration:none;margin-left:auto;display:flex;align-items:center;gap:0.4rem;">
+          <span>👁️</span> <span>View in Experience Finder ↗</span>
+        </a>
+      </div>`;
+
+    loadProviderBookings(p.providerId);
+  }
+
+  async function loadProviderBookings(providerId) {
+    const container = document.getElementById('providerBookingsList');
+    if (!container) return;
+
+    const res = await API.getBookings(providerId);
+    let bookings = res && res.bookings ? res.bookings : [];
+
+    // Fallback: if no booking specifically matches this ID, show demo incoming requests for illustration
+    if (!bookings.length && API.getBookings) {
+      const allRes = await API.getBookings('');
+      if (allRes && allRes.bookings && allRes.bookings.length) {
+        bookings = allRes.bookings;
+      }
+    }
+
+    if (!bookings.length) {
+      container.innerHTML = `
+        <div style="text-align:center;padding:2rem;background:#F8FAFC;border-radius:12px;color:#64748B;">
+          <div style="font-size:2rem;margin-bottom:0.5rem;">🔔</div>
+          <p style="margin:0;">No active incoming booking requests right now.</p>
+          <p style="font-size:0.8rem;color:#94A3B8;margin-top:0.25rem;">When tourists click "Book Experience", their 5-minute request notifications will appear here live.</p>
+        </div>`;
+      return;
+    }
+
+    container.innerHTML = `
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        ${bookings.map(b => {
+          const isPending = b.status === 'PENDING';
+          const isConfirmed = b.status === 'CONFIRMED';
+          const isRejected = b.status === 'REJECTED';
+          const isExpired = b.status === 'EXPIRED';
+
+          let statusBadge = isConfirmed ? '<span style="color:#16a34a;font-weight:700;">Confirmed ✓</span>' :
+                            isRejected ? '<span style="color:#dc2626;font-weight:700;">Rejected ✗</span>' :
+                            isExpired ? '<span style="color:#d97706;font-weight:700;">Expired (5 min elapsed)</span>' :
+                            '<span style="color:#d97706;font-weight:700;animation:pulse 2s infinite;">⏳ Pending Response (5 min limit)</span>';
+
+          return `
+            <div style="background:#F8FAFC;border:1px solid #E2E8F0;border-radius:12px;padding:1.25rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">
+              <div>
+                <div style="font-family:'Outfit',sans-serif;font-weight:700;color:#0D1B2A;font-size:1rem;">
+                  ${b.experience_title}
+                </div>
+                <div style="font-size:0.85rem;color:#475569;margin:0.25rem 0;">
+                  Tourist: <strong>${b.tourist_name}</strong> · Contact: <code>${b.tourist_contact}</code> · Price: <strong style="color:#C85A32;">₹${b.price}</strong>
+                </div>
+                <div style="font-size:0.78rem;color:#64748B;">
+                  Requested At: ${new Date(b.created_at).toLocaleTimeString()} · Status: ${statusBadge}
+                </div>
+              </div>
+
+              <div>
+                ${isPending ? `
+                  <div style="display:flex;gap:0.5rem;">
+                    <button onclick="handleProviderAction('${b.id}', 'accept')" class="btn btn-sm btn-primary" style="background:#16a34a;border-color:#16a34a;padding:0.4rem 1rem;">Accept ✓</button>
+                    <button onclick="handleProviderAction('${b.id}', 'reject')" class="btn btn-sm btn-outline" style="color:#dc2626;border-color:#dc2626;padding:0.4rem 1rem;">Reject ✗</button>
+                  </div>
+                ` : `
+                  <span style="font-size:0.85rem;color:#64748B;">Decision Recorded</span>
+                `}
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>`;
+  }
+
+  async function handleProviderAction(bookingId, action) {
+    const res = await API.respondBooking(bookingId, action);
+    if (res && res.success) {
+      alert(`Booking request ${action === 'accept' ? 'accepted ✓' : 'rejected ✗'}. Tourist notified immediately.`);
+      const prof = getProviderProfile();
+      loadProviderBookings(prof?.providerId || '');
+    } else {
+      alert('Action failed: ' + (res?.error || 'Booking request expired'));
+    }
+  }
+
+  function renderRegistrationForm(isEdit) {
+    const existing = isEdit ? getProviderProfile() : null;
+    const el = document.getElementById('providerContent');
+
+    el.innerHTML = `
+      <div style="max-width:760px;margin:0 auto;">
+        <div style="background:#FFFFFF;border-radius:20px;padding:2.5rem;box-shadow:0 4px 30px rgba(0,0,0,0.08);border:1px solid #E2E8F0;">
+          <h2 style="font-family:'Cinzel',serif;font-size:1.35rem;color:#0D1B2A;margin-bottom:0.4rem;">
+            ${isEdit ? '✏️ Update Provider Profile & Proof Attachments' : '🎯 Register as a Local Provider'}
+          </h2>
+          <p style="font-size:0.88rem;color:#64748B;margin-bottom:2rem;">
+            ${isEdit ? 'Update your details, images, PDFs, and videos for DC Portal verification.' : 'Join the verified Bagalkote Tourism Network and connect with tourists.'}
+          </p>
+
+          <form id="providerForm" onsubmit="submitProviderForm(event, ${isEdit})">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.5rem;">
+
+              <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">Full Name *</label>
+                <input id="pf_name" type="text" required value="${existing?.name||''}"
+                  style="padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.9rem;outline:none;"
+                  placeholder="e.g. Ravi Kumar Hiremath">
+              </div>
+
+              <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">Skill / Experience Title *</label>
+                <input id="pf_skill" type="text" required value="${existing?.skill||''}"
+                  style="padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.9rem;outline:none;"
+                  placeholder="e.g. Traditional Jolada Rotti Cooking">
+              </div>
+
+              <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">Category *</label>
+                <select id="pf_category" required style="padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.9rem;outline:none;background:#fff;">
+                  <option value="">Select Category</option>
+                  ${['Food','Art','Culture','History','Crafts'].map(c =>
+                    `<option value="${c}" ${existing?.category===c?'selected':''}>${c}</option>`).join('')}
+                </select>
+              </div>
+
+              <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">Location / Taluk *</label>
+                <input id="pf_location" type="text" required value="${existing?.location||''}"
+                  style="padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.9rem;outline:none;"
+                  placeholder="e.g. Badami, Bagalkote">
+              </div>
+
+              <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">Price (₹ per person) *</label>
+                <input id="pf_price" type="number" required min="50" max="10000" value="${existing?.price||''}"
+                  style="padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.9rem;outline:none;"
+                  placeholder="e.g. 500">
+              </div>
+
+              <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">Duration (hours) *</label>
+                <input id="pf_duration" type="number" required min="0.5" max="8" step="0.5" value="${existing?.duration||''}"
+                  style="padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.9rem;outline:none;"
+                  placeholder="e.g. 2">
+              </div>
+
+              <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">Language(s) *</label>
+                <input id="pf_language" type="text" required value="${existing?.language||''}"
+                  style="padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.9rem;outline:none;"
+                  placeholder="e.g. Kannada, Hindi, English">
+              </div>
+
+              <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">Availability *</label>
+                <input id="pf_availability" type="text" required value="${existing?.availability||''}"
+                  style="padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.9rem;outline:none;"
+                  placeholder="e.g. Mon–Sat, 9:00 AM – 5:00 PM">
+              </div>
+
+            </div>
+
+            <!-- Description -->
+            <div style="display:flex;flex-direction:column;gap:0.4rem;margin-bottom:1.5rem;">
+              <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">Experience Description *</label>
+              <textarea id="pf_description" required rows="4"
+                style="padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.9rem;outline:none;resize:vertical;"
+                placeholder="Describe your experience in detail...">${existing?.description||''}</textarea>
+            </div>
+
+            <!-- WORK PROOF ATTACHMENTS (Images, PDFs, Videos from Device) -->
+            <div style="background:#F8FAFC;border:1.5px dashed #CBD5E1;border-radius:14px;padding:1.5rem;margin-bottom:1.75rem;">
+              <h4 style="font-family:'Cinzel',serif;font-size:0.95rem;color:#0D1B2A;margin-bottom:1rem;display:flex;align-items:center;gap:0.5rem;">
+                📁 Attach Work Proofs for DC Verification (Images, PDFs, Videos)
+              </h4>
+
+              <div style="display:flex;flex-direction:column;gap:1.5rem;">
+                <!-- 1. Work Images from Device -->
+                <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                  <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">🖼️ 1. Work Photos / Craft Images</label>
+                  <div style="display:flex;gap:0.6rem;align-items:center;flex-wrap:wrap;">
+                    <input id="pf_work_photos" type="text" value="${(existing?.workPhotos||['/images/destinations/Ilkal.png','/images/destinations/badami.jpg']).join(', ')}"
+                      style="flex:1;min-width:240px;padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.85rem;outline:none;"
+                      placeholder="Upload image files or enter image URLs (comma separated)">
+                    <button type="button" class="btn btn-outline" style="font-size:0.82rem;padding:0.65rem 1rem;white-space:nowrap;display:flex;align-items:center;gap:0.4rem;border-color:#C85A32;color:#C85A32;background:#FFF5F2;"
+                      onclick="document.getElementById('device_file_work_photos').click()">
+                      📱 Select Images from Device
+                    </button>
+                    <input type="file" id="device_file_work_photos" accept="image/*" multiple style="display:none;" onchange="handleDeviceFileUpload(this, 'work_photos')">
+                  </div>
+                  <div id="preview_work_photos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.3rem;"></div>
+                </div>
+
+                <!-- 2. PDF Documents from Device -->
+                <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                  <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">📄 2. Certifications & PDF Proof Documents</label>
+                  <div style="display:flex;gap:0.6rem;align-items:center;flex-wrap:wrap;">
+                    <input id="pf_certifications" type="text" value="${(existing?.certifications||['Khadi Board Registration #441/2018.pdf','Panchayat License NOC.pdf']).join(', ')}"
+                      style="flex:1;min-width:240px;padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.85rem;outline:none;"
+                      placeholder="Attach PDF document links or certificate reference names">
+                    <button type="button" class="btn btn-outline" style="font-size:0.82rem;padding:0.65rem 1rem;white-space:nowrap;display:flex;align-items:center;gap:0.4rem;border-color:#2563EB;color:#2563EB;background:#EFF6FF;"
+                      onclick="document.getElementById('device_file_certifications').click()">
+                      📱 Select PDFs from Device
+                    </button>
+                    <input type="file" id="device_file_certifications" accept=".pdf,application/pdf" multiple style="display:none;" onchange="handleDeviceFileUpload(this, 'certifications')">
+                  </div>
+                  <div id="preview_certifications" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.3rem;"></div>
+                </div>
+
+                <!-- 3. Videos from Device -->
+                <div style="display:flex;flex-direction:column;gap:0.4rem;">
+                  <label style="font-size:0.75rem;text-transform:uppercase;color:#C85A32;font-weight:700;letter-spacing:0.8px;">🎥 3. Video Demonstrations of Experience</label>
+                  <div style="display:flex;gap:0.6rem;align-items:center;flex-wrap:wrap;">
+                    <input id="pf_video_demos" type="text" value="${(existing?.videoDemos||['Demonstration_Video_Ilkal.mp4']).join(', ')}"
+                      style="flex:1;min-width:240px;padding:0.7rem 1rem;border:1.5px solid #CBD5E1;border-radius:10px;font-family:'Outfit',sans-serif;font-size:0.85rem;outline:none;"
+                      placeholder="Attach video MP4 files or demonstration links">
+                    <button type="button" class="btn btn-outline" style="font-size:0.82rem;padding:0.65rem 1rem;white-space:nowrap;display:flex;align-items:center;gap:0.4rem;border-color:#D97706;color:#D97706;background:#FFFBEB;"
+                      onclick="document.getElementById('device_file_video_demos').click()">
+                      📱 Select Videos from Device
+                    </button>
+                    <input type="file" id="device_file_video_demos" accept="video/*" multiple style="display:none;" onchange="handleDeviceFileUpload(this, 'video_demos')">
+                  </div>
+                  <div id="preview_video_demos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.3rem;"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Verification status info box -->
+            <div style="background:#FEF3C7;border:1px solid #FCD34D;border-radius:12px;padding:1rem;margin-bottom:1.75rem;font-size:0.85rem;color:#78350F;">
+              <strong>📋 District Verification Notice:</strong> Your registered images, PDF documents, and videos will be sent to the <strong>DC Intelligence Portal</strong> for verification. Once accepted by District Officers, your experience will be published to tourists!
+            </div>
+
+            <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center;">
+              <button type="submit" class="btn btn-primary" style="flex:1;min-width:180px;">
+                ${isEdit ? '💾 Save Changes & Update DC Queue' : '🚀 Submit Registration & Proofs to DC'}
+              </button>
+              ${isEdit ? `<button type="button" class="btn btn-outline" onclick="renderProviderDashboard(getProviderProfile())" style="flex:1;">Cancel</button>` : ''}
+              ${isEdit ? `<button type="button" class="btn btn-outline" onclick="deleteProviderProfile()" style="color:#DC2626;border-color:#F87171;background:#FEF2F2;font-weight:700;">🗑️ Delete Profile</button>` : ''}
+            </div>
+          </form>
+        </div>
+      </div>`;
+  }
+
+  async function submitProviderForm(e, isEdit) {
+    e.preventDefault();
+    const existing = isEdit ? getProviderProfile() : null;
+    const workPhotosStr = document.getElementById('pf_work_photos').value.trim();
+    const certsStr = document.getElementById('pf_certifications').value.trim();
+    const videosStr = document.getElementById('pf_video_demos').value.trim();
+
+    const photosList = workPhotosStr ? workPhotosStr.split(',').map(s=>s.trim()).filter(Boolean) : ['/images/destinations/Ilkal.png'];
+    const certsList = certsStr ? certsStr.split(',').map(s=>s.trim()).filter(Boolean) : ['Official Artisan Guild Registration.pdf'];
+    const videosList = videosStr ? videosStr.split(',').map(s=>s.trim()).filter(Boolean) : ['Demonstration_Video.mp4'];
+
+    const data = {
+      providerId: existing?.providerId || generateProviderId(),
+      name: document.getElementById('pf_name').value.trim(),
+      skill: document.getElementById('pf_skill').value.trim(),
+      category: document.getElementById('pf_category').value,
+      location: document.getElementById('pf_location').value.trim(),
+      price: Number(document.getElementById('pf_price').value),
+      duration: Number(document.getElementById('pf_duration').value),
+      language: document.getElementById('pf_language').value.trim(),
+      availability: document.getElementById('pf_availability').value.trim(),
+      description: document.getElementById('pf_description').value.trim(),
+      workPhotos: photosList,
+      work_photos: photosList,
+      certifications: certsList,
+      documents_submitted: certsList,
+      videoDemos: videosList,
+      rating: existing?.rating || 5.0,
+      verificationStatus: existing?.verificationStatus || 'Pending DC Review',
+      registeredAt: existing?.registeredAt || new Date().toISOString(),
+      updatedAt: new Date().toISOString()
+    };
+    saveProviderProfile(data);
+
+    // Synchronize to shared local DC verification queue
+    try {
+      const localVers = JSON.parse(localStorage.getItem('bgk_dc_verifications') || '[]');
+      const newVer = {
+        id: existing?.verId || `ver_${Date.now()}`,
+        provider_id: data.providerId,
+        provider_name: data.name,
+        skill: data.skill,
+        category: data.category,
+        taluk: (data.location || 'Bagalkote').split(',')[0].trim(),
+        location: data.location,
+        price: data.price,
+        duration: data.duration,
+        language: data.language,
+        availability: data.availability,
+        description: data.description,
+        submitted_at: new Date().toISOString(),
+        status: 'PENDING',
+        documents_submitted: data.certifications,
+        certifications: data.certifications,
+        work_photos: data.workPhotos
+      };
+      const exIdx = localVers.findIndex(v => v.provider_id === data.providerId || v.provider_name === data.name);
+      if (exIdx >= 0) localVers[exIdx] = { ...localVers[exIdx], ...newVer, id: localVers[exIdx].id };
+      else localVers.unshift(newVer);
+      localStorage.setItem('bgk_dc_verifications', JSON.stringify(localVers));
+    } catch(err) {
+      console.warn('Local verification save err:', err);
+    }
+
+    // Send registration to backend DC queue
+    if (window.API && window.API.registerProvider) {
+      await API.registerProvider(data);
+    }
+
+    // Show success message with immediate navigation
+    const el = document.getElementById('providerContent');
+    el.innerHTML = `
+      <div style="text-align:center;padding:3rem;background:#F0FDF4;border:1px solid #BBF7D0;border-radius:20px;max-width:560px;margin:0 auto;box-shadow:0 10px 25px rgba(0,0,0,0.05);">
+        <div style="font-size:3.5rem;margin-bottom:1rem;">✅</div>
+        <h3 style="font-family:'Cinzel',serif;color:#166534;margin-bottom:0.5rem;">${isEdit ? 'Profile & Proofs Updated!' : 'Registration & Proofs Submitted!'}</h3>
+        <p style="color:#14532D;font-size:0.92rem;line-height:1.6;">Your experience application and work proofs have been queued for <strong>District Commissioner (DC) Portal verification</strong> with status: <span style="background:#FEF3C7;color:#92400E;padding:0.2rem 0.6rem;border-radius:99px;font-weight:700;font-size:0.8rem;">PENDING DC REVIEW</span>.</p>
+        <p style="color:#64748B;font-size:0.85rem;margin-top:0.75rem;">Provider ID: <strong style="color:#16a34a;font-family:monospace;font-size:1rem;">${data.providerId}</strong></p>
+        
+        <div style="display:flex;justify-content:center;margin-top:1.75rem;">
+          <button onclick="renderProviderDashboard(getProviderProfile())" class="btn btn-primary" style="padding:0.85rem 2.2rem;font-size:0.95rem;">View Provider Dashboard →</button>
+        </div>
+      </div>`;
+  }
+
+  window.handleDeviceFileUpload = function(inputEl, type) {
+    const files = Array.from(inputEl.files);
+    if (!files || files.length === 0) return;
+
+    const targetInput = document.getElementById(`pf_${type}`);
+    const previewDiv = document.getElementById(`preview_${type}`);
+
+    let existingVals = targetInput.value ? targetInput.value.split(',').map(s => s.trim()).filter(Boolean) : [];
+
+    files.forEach(file => {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const dataUrl = e.target.result;
+        const fileVal = dataUrl.length < 3000000 ? dataUrl : file.name;
+        existingVals.push(fileVal);
+        targetInput.value = existingVals.join(', ');
+
+        if (previewDiv) {
+          const badge = document.createElement('div');
+          badge.style.cssText = 'display:inline-flex;align-items:center;gap:0.5rem;background:#FFFFFF;border:1px solid #CBD5E1;border-radius:8px;padding:0.4rem 0.75rem;font-size:0.8rem;color:#0D1B2A;margin-top:0.4rem;box-shadow:0 2px 4px rgba(0,0,0,0.05);';
+          
+          if (type === 'work_photos') {
+            badge.innerHTML = `<img src="${dataUrl}" style="width:32px;height:32px;object-fit:cover;border-radius:4px;" alt="Work Image"> <span>${file.name}</span> <span style="color:#16A34A;font-weight:700;">✓ File Selected</span>`;
+          } else if (type === 'certifications') {
+            badge.innerHTML = `<span style="font-size:1.1rem;">📄</span> <span><strong>${file.name}</strong></span> <span style="color:#2563EB;font-size:0.75rem;font-weight:600;">(PDF)</span> <span style="color:#16A34A;font-weight:700;">✓ File Selected</span>`;
+          } else if (type === 'video_demos') {
+            badge.innerHTML = `<span style="font-size:1.1rem;">🎥</span> <span><strong>${file.name}</strong></span> <span style="color:#D97706;font-size:0.75rem;font-weight:600;">(Video)</span> <span style="color:#16A34A;font-weight:700;">✓ File Selected</span>`;
+          }
+          previewDiv.appendChild(badge);
+        }
+      };
+      reader.readAsDataURL(file);
+    });
+  };
+
+  // ── Init ──────────────────────────────────────────────────────────────────
+  document.addEventListener('DOMContentLoaded', () => {
+    const isLoggedOut = sessionStorage.getItem('bgk_provider_logged_out') === 'true';
+    const existing = getProviderProfile();
+    if (existing && !isLoggedOut) {
+      renderProviderDashboard(existing);
+    } else {
+      renderLoggedOutView(isLoggedOut ? 'You have logged out of your provider dashboard session.' : '');
+    }
+  });
+  // ── Logged Out & Switch Account View ──────────────────────────────────────
+  function renderLoggedOutView(statusMsg = '') {
+    const el = document.getElementById('providerContent');
+    const saved = getProviderProfile();
+
+    el.innerHTML = `
+      <div style="max-width:760px;margin:0 auto;">
+        ${statusMsg ? `
+          <div style="background:#FEF3C7;border:1px solid #FCD34D;color:#92400E;padding:0.85rem 1.25rem;border-radius:12px;font-size:0.88rem;font-weight:600;margin-bottom:1.75rem;display:flex;align-items:center;gap:0.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.03);">
+            <span style="font-size:1.1rem;">ℹ️</span>
+            <span>${statusMsg}</span>
+          </div>
+        ` : ''}
+
+        ${saved ? `
+          <!-- Existing Saved Profile Card -->
+          <div style="background:#FFFFFF;border:1.5px solid #CBD5E1;border-radius:18px;padding:1.5rem 1.75rem;box-shadow:0 4px 15px rgba(0,0,0,0.04);margin-bottom:2.5rem;">
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">
+              <div style="display:flex;align-items:center;gap:1.25rem;">
+                <div style="width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,#C85A32,#D4AF37);display:flex;align-items:center;justify-content:center;font-size:1.5rem;font-weight:700;color:#FFF;font-family:'Cinzel',serif;flex-shrink:0;">
+                  ${(saved.name||'P')[0].toUpperCase()}
+                </div>
+                <div>
+                  <span style="font-size:0.72rem;font-weight:800;color:#16a34a;text-transform:uppercase;letter-spacing:0.05em;">SAVED PROVIDER PROFILE</span>
+                  <h3 style="margin:0.15rem 0 0.25rem;font-size:1.2rem;color:#0D1B2A;font-family:'Cinzel',serif;">${saved.name}</h3>
+                  <div style="font-size:0.82rem;color:#475569;">
+                    Provider ID: <strong style="color:#C85A32;font-family:monospace;">${saved.providerId}</strong> · Skill: <strong>${saved.skill}</strong> · Status: <span style="font-weight:700;color:#16a34a;">${saved.verificationStatus || 'Pending'}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div style="display:flex;gap:0.6rem;flex-wrap:wrap;">
+                <button onclick="loginAsProvider('${saved.providerId}')" class="btn btn-primary" style="display:flex;align-items:center;gap:0.4rem;padding:0.65rem 1.25rem;font-size:0.9rem;">
+                  <span>🔓</span> <span>Log In to Dashboard</span>
+                </button>
+                <button onclick="deleteProviderProfile()" class="btn btn-outline" style="color:#DC2626;border-color:#F87171;background:#FEF2F2;font-weight:700;padding:0.65rem 1rem;font-size:0.85rem;display:flex;align-items:center;gap:0.4rem;">
+                  <span>🗑️</span> <span>Delete Profile</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        ` : ''}
+          <div style="text-align:center;margin-bottom:2.5rem;">
+            <span class="section-kicker">JOIN THE NETWORK</span>
+            <h2 style="font-family:'Cinzel',serif;font-size:1.4rem;color:#0D1B2A;margin:0.75rem 0 0.5rem;">Register as a Local Provider</h2>
+            <p style="color:#64748B;font-size:0.9rem;">Choose your provider type to get started</p>
+          </div>
+
+          <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.25rem;margin-bottom:2.5rem;">
+            ${[
+              ['🍲','Khanavali / Food','Food'],
+              ['🎨','Artisan / Craft','Crafts'],
+              ['🧵','Handloom Weaver','Crafts'],
+              ['🏛️','Heritage Guide','History'],
+              ['🎭','Cultural Performer','Culture'],
+              ['🏠','Homestay / Lodge','Culture']
+            ].map(([icon, label, cat]) => `
+              <div onclick="renderRegistrationForm(false)" style="cursor:pointer;background:#FFFFFF;border:1.5px solid #E2E8F0;border-radius:16px;padding:1.5rem;text-align:center;transition:all 0.2s;box-shadow:0 2px 10px rgba(0,0,0,0.05);"
+                onmouseover="this.style.borderColor='#C85A32';this.style.transform='translateY(-3px)'"
+                onmouseout="this.style.borderColor='#E2E8F0';this.style.transform='none'">
+                <div style="font-size:2.2rem;margin-bottom:0.6rem;">${icon}</div>
+                <strong style="font-size:0.88rem;color:#0D1B2A;font-family:'Outfit',sans-serif;">${label}</strong>
+              </div>`).join('')}
+          </div>
+
+          <div style="text-align:center;">
+            <button onclick="renderRegistrationForm(false)" class="btn btn-primary" style="padding:0.9rem 2.5rem;font-size:1rem;">
+              🚀 Start Registration
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  </script>
+  <!-- Heritage ಮಿತ್ರ Native Mobile & PWA Engine -->
+  <script src="/js/mobile-app.js"></script>
+</body>
+</html>

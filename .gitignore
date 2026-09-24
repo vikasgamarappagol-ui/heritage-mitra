@@ -1,0 +1,7 @@
+node_modules/
+.vercel/
+.env
+*.log
+scratchpad_*.md
+.DS_Store
+Thumbs.db

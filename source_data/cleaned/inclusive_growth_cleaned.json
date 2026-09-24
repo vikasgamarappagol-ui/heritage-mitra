@@ -1,0 +1,21 @@
+{
+  "dataset_name": "inclusive_growth_cleaned",
+  "cleaning_steps_applied": [
+    "Enforcement of strict DEMO_DATA labeling ('DEMO PROVIDER — NOT REAL') on all non-government entities",
+    "Institutional verification of official cooperatives (Ilkal Weavers Co-operative, Guledgudd Khana Co-operative)",
+    "Standardization of emergency numbers against official District Directory (1077, 112, 104, 1033, 08354-235077)",
+    "Physical accessibility field validation with explicit NOT_VERIFIED flags where data was unconfirmed",
+    "Tripartite skill relationship mapping: Tourist Interest ↔ Local Skill ↔ Local Provider ↔ Location ↔ Experience",
+    "Multilingual alignment across Kannada, English, and Hindi"
+  ],
+  "pillars_covered": [
+    "1. AI-Based Local Artisan Recommendation",
+    "2. AI-Based Local Business Promotion",
+    "3. Accessible Tourism Assistant",
+    "4. AI-Based Language Translation",
+    "5. AI-Based Tourist–Local Skill Matching",
+    "6. Women/Senior Tourist Safety Assistant"
+  ],
+  "data_retrieval_date": "2026-09-20T00:26:35+05:30",
+  "verification_status": "SOURCE_VERIFIED"
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "hm_kstdc_mayura_badami",
+    "name": "Hotel Mayura Chalukya (KSTDC)",
+    "category": "Government Heritage Tourist Home / Lodge",
+    "description": "Official tourist lodge run by Karnataka State Tourism Development Corporation. Situated in a quiet, green compound within walking distance of Badami town center and 1 km from the cave temples. Offers family suites, standard rooms, on-site dining, and 24-hour tourist front desk.",
+    "location": "Ramdurg Road, Badami, Bagalkote District, Karnataka 587201",
+    "room_count": 25,
+    "room_types": ["AC Deluxe", "Non-AC Standard", "Family Room"],
+    "amenities": ["Air conditioning", "Free on-site parking", "Attached restaurant", "Hot water (solar/geyser)", "Garden sitting area"],
+    "accessibility": "Ground floor rooms accessible without steps; wide corridors",
+    "tariff_range": "₹1,500 - ₹3,500 per night",
+    "contact_information": "Phone: 08357-220046 | Email: info@kstdc.co",
+    "source": "Karnataka State Tourism Development Corporation (KSTDC)",
+    "source_url": "https://karnatakatourism.org/tour-item/badami/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "hm_kudala_sangama_yatri_nivas",
+    "name": "Kudalasangama Yatri Nivas (Board Guest House)",
+    "category": "Statutory Pilgrim Guesthouse",
+    "description": "Government managed pilgrim accommodation campus located on the banks of the Krishna-Malaprabha confluence at Kudala Sangama. Clean, quiet, family-oriented rooms and community dormitories.",
+    "location": "Kudala Sangama, Hunagund Taluk, Bagalkote District, Karnataka 587118",
+    "room_count": 80,
+    "room_types": ["VIP Cottages", "Deluxe AC Rooms", "Non-AC Double Rooms", "Pilgrim Dormitory Beds"],
+    "amenities": ["Free Dasoha (meals)", "Ramp access", "Continuous water supply", "Lush gardens", "24/7 security"],
+    "accessibility": "Fully wheelchair accessible campus with ramps and ground-floor suites",
+    "tariff_range": "₹200 - ₹1,200 per night",
+    "contact_information": "Phone: 08351-268037 / 268036",
+    "source": "Kudalasangama Development Board",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "hm_demo_001",
+    "name": "DEMO PROVIDER — NOT REAL: Malaprabha Rural Farm Homestay (Illustrative Profile)",
+    "category": "Rural Agro-Homestay & Cultural Retreat",
+    "description": "DEMO PROVIDER — NOT REAL. Illustrative record designed to test rural agro-tourism and homestay booking logic in the Bagalkote inclusive tourism portal.",
+    "location": "Pattadakal Village Road, Badami Taluk, Bagalkote District [DEMO SPECIFICATION]",
+    "room_count": 4,
+    "room_types": ["Traditional Country Cottages"],
+    "amenities": ["Organic vegetarian meals", "Farm tour", "Kasuti embroidery demonstration"],
+    "accessibility": "Ground level cottages with mild doorstep thresholds",
+    "tariff_range": "₹2,000 per night including breakfast",
+    "contact_information": "VERIFICATION_REQUIRED (Demo profile for system testing)",
+    "source": "Synthesized demo record for schema specification and AI homestay matching engine evaluation",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "DEMO_DATA",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  }
+]

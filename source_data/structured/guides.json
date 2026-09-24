@@ -1,0 +1,34 @@
+[
+  {
+    "id": "gd_asi_monument_guides_badami",
+    "name": "ASI / Karnataka Tourism Approved Monument Guides Association Badami",
+    "category": "Official Heritage Guides Guild",
+    "description": "Official collective of authorized and badged tour guides trained and certified by the Archaeological Survey of India (ASI) and the Department of Tourism, Government of Karnataka. Specialized in Chalukyan rock-cut iconography, Sanskrit/Kannada epigraphy, and architectural history across Badami, Pattadakal, and Aihole.",
+    "location": "Ticket Counter Office, Badami Cave Temples & Pattadakal World Heritage Complex",
+    "guide_type": "Certified Government Monument Guides",
+    "languages": ["Kannada", "English", "Hindi", "Marathi", "Telugu"],
+    "certifications": ["ASI Licensed Regional Guide Badge", "Karnataka Tourism Department Guide Identity Card"],
+    "tariff_structure": "Standardized government approved guide fee card (₹500 to ₹1,500 depending on group size and duration)",
+    "contact_information": "Available on-site at ASI Ticket Counters, Badami Caves & Pattadakal Complex",
+    "source": "Archaeological Survey of India & Karnataka Tourism",
+    "source_url": "https://karnatakatourism.org/tour-item/badami/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "gd_demo_001",
+    "name": "DEMO PROVIDER — NOT REAL: Shri Ramesh K. (Illustrative Certified Guide)",
+    "category": "Individual Heritage & Trek Guide",
+    "description": "DEMO PROVIDER — NOT REAL. Illustrative profile designed to test the real-time AI guide recommendation and language-matching features in the inclusive tourism ecosystem.",
+    "location": "Badami, Bagalkote District [DEMO SPECIFICATION]",
+    "guide_type": "Heritage & Rock-Climbing Guide",
+    "languages": ["Kannada", "English", "Hindi", "French"],
+    "certifications": ["Department of Tourism Certified Tourist Guide [DEMO]"],
+    "tariff_structure": "₹1,000 per half day (Illustrative)",
+    "contact_information": "VERIFICATION_REQUIRED (Demo profile for system testing)",
+    "source": "Synthesized demo record for schema specification and AI guide matching engine evaluation",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "DEMO_DATA",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "project_title": "AI-Powered Inclusive Tourism Ecosystem for Bagalkote",
+  "multilingual_framework": {
+    "supported_languages": [
+      { "code": "kn", "name": "Kannada", "native_name": "ಕನ್ನಡ", "script": "Kannada", "is_primary_district_language": true },
+      { "code": "en", "name": "English", "native_name": "English", "script": "Latin", "is_international_language": true },
+      { "code": "hi", "name": "Hindi", "native_name": "हिन्दी", "script": "Devanagari", "is_national_language": true }
+    ],
+    "glossary": [
+      {
+        "term_id": "term_welcome",
+        "category": "Greeting",
+        "en": "Welcome to Bagalkote",
+        "kn": "ಬಾಗಲಕೋಟೆಗೆ ಸುಸ್ವಾಗತ",
+        "hi": "बागलकोट में आपका स्वागत है"
+      },
+      {
+        "term_id": "term_inclusive_growth",
+        "category": "Theme",
+        "en": "Inclusive Growth",
+        "kn": "ಸರ್ವರನ್ನೊಳಗೊಂಡ ಬೆಳವಣಿಗೆ",
+        "hi": "समावेशी विकास"
+      },
+      {
+        "term_id": "term_caves",
+        "category": "Tourism",
+        "en": "Rock-cut Cave Temples",
+        "kn": "ಬಂಡೆ ಕೊರೆದ ಗುಹಾ ದೇವಾಲಯಗಳು",
+        "hi": "शैल-उत्कीर्ण गुफा मंदिर"
+      },
+      {
+        "term_id": "term_unesco_site",
+        "category": "Heritage",
+        "en": "UNESCO World Heritage Site",
+        "kn": "ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆ ತಾಣ",
+        "hi": "यूनेस्को विश्व धरोहर स्थल"
+      },
+      {
+        "term_id": "term_handloom_saree",
+        "category": "Handicraft",
+        "en": "GI-Tagged Ilkal Saree",
+        "kn": "ಜಿಐ ಮಾನ್ಯತೆ ಪಡೆದ ಇಳಕಲ್ ಸೀರೆ",
+        "hi": "जीआई टैग प्राप्त इलकल साड़ी"
+      },
+      {
+        "term_id": "term_khana_fabric",
+        "category": "Handicraft",
+        "en": "Guledgudd Khana Blouse Fabric",
+        "kn": "ಗುಳೇದಗುಡ್ಡ ಖಣ ಬ್ಲೌಸ್ ಬಟ್ಟೆ",
+        "hi": "गुलेदगुड्डा खण ब्लाउज कपड़ा"
+      },
+      {
+        "term_id": "term_jolada_rotti",
+        "category": "Food",
+        "en": "Traditional Sorghum Flatbread (Jolada Rotti)",
+        "kn": "ಸಾಂಪ್ರದಾಯಿಕ ಜೋಳದ ರೊಟ್ಟಿ",
+        "hi": "पारंपरिक ज्वार की रोटी (जोलद रोट्टी)"
+      },
+      {
+        "term_id": "term_emergency_help",
+        "category": "Safety",
+        "en": "24x7 Emergency Assistance",
+        "kn": "೨೪x೭ ತುರ್ತು ಸಹಾಯವಾಣಿ",
+        "hi": "24x7 आपातकालीन सहायता"
+      },
+      {
+        "term_id": "term_wheelchair_access",
+        "category": "Accessibility",
+        "en": "Wheelchair Accessible",
+        "kn": "ಗಾಲಿಕುರ್ಚಿ ಪ್ರವೇಶಿಸಬಹುದಾದ",
+        "hi": "व्हीलचेयर सुलभ"
+      },
+      {
+        "term_id": "term_local_guide",
+        "category": "Services",
+        "en": "Certified Local Guide",
+        "kn": "ಪ್ರಮಾಣೀಕೃತ ಸ್ಥಳೀಯ ಮಾರ್ಗದರ್ಶಿ",
+        "hi": "प्रमाणित स्थानीय गाइड"
+      },
+      {
+        "term_id": "term_artisan_matching",
+        "category": "Inclusive Growth",
+        "en": "Artisan Skill Matching",
+        "kn": "ಕುಶಲಕರ್ಮಿ ಕೌಶಲ್ಯ ಹೊಂದಾಣಿಕೆ",
+        "hi": "कारीगर कौशल मिलान"
+      }
+    ],
+    "verification_status": "SOURCE_VERIFIED",
+    "source": "Government of Karnataka Multilingual Glossaries & Linguistic Standardization",
+    "source_url": "https://bagalkot.nic.in/",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "biz_kstdc_hotel_mayura_badami",
+    "name": "KSTDC Hotel Mayura Chalukya Badami",
+    "category": "Hospitality & Accommodation / Government Undertaking",
+    "description": "Official tourist accommodation operated by the Karnataka State Tourism Development Corporation (KSTDC). Set amidst landscaped gardens near the Badami Cave Temples, providing safe lodging, AC/non-AC rooms, an on-site restaurant serving local and Indian cuisine, and verified tourist information.",
+    "location": "Ramdurg Road, Badami, Bagalkote District, Karnataka 587201",
+    "services": ["Accommodation (AC & Non-AC Rooms)", "Restaurant & Bar", "Tourist Information Desk", "Sightseeing Coordination", "Wheelchair Accessible Ground Floor"],
+    "languages": ["Kannada", "English", "Hindi"],
+    "price_information": "₹1,500 to ₹3,500 per night (Indicative official tariff)",
+    "contact_information": "Phone: 08357-220046 | KSTDC Central Reservations: 080-43344334",
+    "source": "Department of Tourism, Government of Karnataka & KSTDC Official Directory",
+    "source_url": "https://karnatakatourism.org/tour-item/badami/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "biz_kudala_sangama_yatri_nivas",
+    "name": "Kudalasangama Development Board Yatri Nivas",
+    "category": "Pilgrim Hospitality / Government Board",
+    "description": "Official pilgrim and tourist accommodation operated by the statutory Kudalasangama Development Board, Government of Karnataka. Offers clean, affordable cottages, guest house rooms, dormitory facilities, and universal Dasoha dining for visitors to the river confluence and Aikya Mantapa.",
+    "location": "Kudala Sangama, Hunagund Taluk, Bagalkote District, Karnataka 587118",
+    "services": ["Pilgrim Lodging", "VIP Cottages", "Community Dormitories", "Free Dasoha (Midday/Evening meals)", "Auditorium & Cloakrooms"],
+    "languages": ["Kannada", "Hindi", "English"],
+    "price_information": "₹200 to ₹1,200 per night (Subsidized board rates)",
+    "contact_information": "Phone: 08351-268037 / 268036 | Kudalasangama Development Board",
+    "source": "Kudalasangama Development Board & Official Bagalkote District Portal",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "biz_ilkal_handloom_emporium",
+    "name": "Cauvery Handicrafts & Ilkal Weavers Sales Depot",
+    "category": "Retail & Artisan Handloom Store / State Apex",
+    "description": "Official government-backed sales outlet for authentic GI-tagged Ilkal sarees and Guledgudd Khana, certifying genuine handloom weaving against counterfeits and power-loom imitations.",
+    "location": "Main Road, Ilkal / Badami Town, Bagalkote District",
+    "services": ["Authentic GI Handloom Sales", "Silk Mark & Handloom Mark Certified Products", "Credit Card / UPI Payments", "Artisan Provenance Verification"],
+    "languages": ["Kannada", "Hindi", "English"],
+    "price_information": "Fixed official cooperative pricing (₹1,200 - ₹18,000)",
+    "contact_information": "Official District Handloom Department Liaison: 08354-235000",
+    "source": "Department of Handlooms and Textiles, Government of Karnataka",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "SOURCE_VERIFIED",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  },
+  {
+    "id": "biz_demo_001",
+    "name": "DEMO PROVIDER — NOT REAL: Agastya Heritage Homestay (Illustrative Profile)",
+    "category": "Homestay & Cultural Immersion",
+    "description": "DEMO PROVIDER — NOT REAL. Illustrative profile designed to validate the homestay onboarding pipeline and inclusive tourism host-guest matching algorithm.",
+    "location": "Near Agastya Lake, Badami, Bagalkote District [DEMO SPECIFICATION]",
+    "services": ["Heritage Room Stay", "Home-cooked North Karnataka Jolada Rotti Meals", "Guided Village Walk"],
+    "languages": ["Kannada", "English", "Hindi"],
+    "price_information": "₹1,800 per night (Illustrative)",
+    "contact_information": "VERIFICATION_REQUIRED (Demo profile for system testing)",
+    "source": "Synthesized demo record for schema specification and AI business promotion engine testing",
+    "source_url": "https://bagalkot.nic.in/en/tourism/",
+    "verification_status": "DEMO_DATA",
+    "retrieved_at": "2026-09-20T00:26:35+05:30"
+  }
+]

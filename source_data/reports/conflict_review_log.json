@@ -1,0 +1,32 @@
+[
+  {
+    "conflict_id": "CONF_001_TALUK_COUNT",
+    "entity": "Bagalkote District Administrative Subdivisions",
+    "discrepancy": "Historical district records listed 6 taluks (Bagalkote, Badami, Bilagi, Hunagund, Jamkhandi, Mudhol), while updated administrative reorganizations created 3 new taluks (Guledagudda, Rabkavi Banhatti, and Ilkal), bringing the current total to 9 taluks.",
+    "source_a": "Older census and legacy state government gazetteers (6 taluks)",
+    "source_b": "Karnataka Department of Revenue Notification & Current District Portal (9 taluks)",
+    "status": "RECONCILED",
+    "resolution_applied": "Adopted the current 9-taluk official administrative structure while preserving historical references in alternate fields.",
+    "flag": "CONFLICT_RESOLVED"
+  },
+  {
+    "conflict_id": "CONF_002_BADAMI_TO_PATTADAKAL_DISTANCE",
+    "entity": "Badami to Pattadakal Route Distance",
+    "discrepancy": "Source publications list the distance between Badami and Pattadakal as 22 km in some tourism brochures and 24 km in highway milestone listings.",
+    "source_a": "ASI / Karnataka Tourism Guidebook (22 km via Cholachagudda - Pattadakal Road)",
+    "source_b": "PWD Highway Milestone / State Highway 14 (24 km via Shivayogamandira bypass)",
+    "status": "RECONCILED",
+    "resolution_applied": "Noted 22 km as primary tourist route via Cholachagudda and 24 km via bypass.",
+    "flag": "CONFLICT_RESOLVED"
+  },
+  {
+    "conflict_id": "CONF_003_FACEBOOK_POST_DYNAMIC_WALL",
+    "entity": "Source 2 Timeline Posts",
+    "discrepancy": "Automated HTTP scraper cannot access timeline posts due to Facebook login barrier, though OpenGraph profile and follower metadata is fully accessible.",
+    "source_a": "Facebook Graph / Public Preview Header (1,169 followers, page confirmed)",
+    "source_b": "Automated fetcher (requires user cookie/token for timeline posts)",
+    "status": "PENDING_USER_IMPORT",
+    "resolution_applied": "Tagged source as MANUAL_IMPORT_REQUIRED and established dedicated JSON/file ingestion pipeline in /source_data/raw/manual_import/.",
+    "flag": "CONFLICT_REQUIRES_REVIEW"
+  }
+]
